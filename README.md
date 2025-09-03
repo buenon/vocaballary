@@ -1,69 +1,105 @@
-# React + TypeScript + Vite
+# VocaBall — A Kids Vocabulary Basketball Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+VocaBall is a fun, cartoon-style basketball game that helps kids practice English vocabulary. Each round shows an image at center court and three basketballs at the bottom with different words. Players swipe to shoot the ball labeled with the correct word. Correct shots score points. Misses count as strikes—after three strikes, the game ends. The app tracks the player’s personal best (high score) locally so they can try to beat it.
 
-Currently, two official plugins are available:
+## Audience
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Ages 6–10
+- Non–English speakers (beginner-level English vocabulary)
 
-## Expanding the ESLint configuration
+## Platform
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Mobile web app optimized for touch (phones and small tablets)
+- Primary interaction is swipe gesture; tap-and-flick also supported
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Visual & Feel
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- Cartoon basketball court and hoop
+- Arcade-like ball arc and feedback animations
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## Gameplay
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+1. An image appears at mid-court.
+2. Three basketballs at the bottom show different word labels.
+3. One label matches the image; its position is randomized each round.
+4. Player swipes a ball to shoot:
+   - Correct word → the shot scores; +1 point.
+   - Wrong word → a strike is recorded.
+5. The round advances immediately after a shot. After three strikes, the game ends.
+6. High score is stored on the device and shown to encourage replay.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Content & Language
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- Launch language: English only
+- Designed for easy future localization (copy isolated and structured)
+- Word list and image assets: to be defined
+- Categories (e.g., animals, food, objects): to be defined
+
+## Audio
+
+- Voice-over pronunciations for words at/near launch
+- Other sound effects can be added later
+
+## Data & Privacy
+
+- High score stored in localStorage
+- No analytics or tracking at this time
+- No monetization
+
+## Development
+
+### Tech Stack
+
+- React + TypeScript + Vite
+- React 19 with Fast Refresh
+- ESLint and TypeScript for code quality
+
+### Requirements
+
+- Node.js: v24.7.0 (as per `.nvmrc`)
+- Yarn 4 (project uses `"packageManager": "yarn@4.9.4"`)
+
+### Setup
+
+1. Use the correct Node version:
+   ```bash
+   nvm use
+   ```
+2. Install dependencies:
+   ```bash
+   yarn install
+   ```
+3. Start the dev server:
+   ```bash
+   yarn dev
+   ```
+   Open the printed URL (typically `http://localhost:5173`).
+
+### Scripts
+
+- `yarn dev`: Start Vite dev server with HMR.
+- `yarn build`: Type-check and build for production (`tsc -b && vite build`).
+- `yarn preview`: Preview the production build locally.
+- `yarn lint`: Run ESLint across the project.
+
+## Deployment
+
+- Intended target: GitHub Pages
+- Steps (basic):
+  1. Build the site: `yarn build` (outputs to `dist/`).
+  2. Publish `dist/` to GitHub Pages (e.g., via `gh-pages` branch or GitHub Actions).
+  3. If deploying to a subpath (e.g., `username.github.io/repo`), ensure Vite `base` is configured accordingly.
+
+## License
+
+TBD. If open-sourcing, choose a license (e.g., MIT). Otherwise, mark as proprietary.
+
+## Attribution
+
+- Emoji artworks from OpenMoji – the open-source emoji and icon project.
+- License: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+- Website: https://openmoji.org
+
+Note on assets
+- Original OpenMoji assets were downloaded from the official OpenMoji repository and are stored locally under `vendor/openmoji/` for pipeline use. They are excluded from source control (see `.gitignore`).
+- Curated copies used by the app live under `public/assets/svg/` and are committed.

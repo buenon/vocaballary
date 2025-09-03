@@ -1,0 +1,170 @@
+Project: VocaBall
+Type: Kids vocabulary basketball game (planning)
+
+Audience
+- Ages: 6–10
+- Profile: Non–English speakers; beginner English vocabulary
+
+Platforms
+- Mobile web app (phones/small tablets)
+- Touch-first (swipe to shoot); tap-and-flick allowed
+
+Gameplay
+- Each round shows one image at center court
+- Three balls at the bottom with different word labels
+- Exactly one correct label; randomized position per round
+- Player swipes a ball to shoot
+- Scoring: +1 for correct shot
+- Strikes: +1 strike for wrong shot; game ends at 3 strikes
+- Time limit: None (unlimited time per round)
+- Progression: Next round after each shot
+- High score: Stored locally; shown to user
+
+Visual/Feel
+- Cartoon court and hoop
+- Arcade-like ball arc and feedback animations (swish/miss)
+
+Audio
+- Voice-over pronunciations at/near launch
+- Additional SFX (swish/rim/crowd) later
+
+Content
+- Word list: TBD
+- Image assets: TBD
+- Categories (animals/food/objects/etc.): TBD
+
+Languages & Localization
+- Launch: English only
+- Architecture: Ready for easy localization later (copy isolated)
+
+Data & Privacy
+- Storage: localStorage for high score
+- Analytics: None for now
+- Monetization: None for now
+
+Accessibility
+- No specific a11y requirements for now
+
+Branding
+- Name: VocaBall
+- Style: Creative direction trusted to assistant (cartoonish, kid-friendly)
+
+Deployment
+- Target: GitHub Pages
+- Note: If subpath hosting, set Vite base accordingly when implemented
+
+Technical Stack (current repo)
+- React 19, React DOM 19
+- TypeScript ~5.8.3
+- Vite ^7.1.2
+- ESLint (typescript-eslint)
+- Node v24.7.0 (from .nvmrc)
+- Yarn 4.9.4 (packageManager)
+
+Repo State
+- Template: React + TypeScript + Vite starter
+- No game code yet (planning only)
+
+Out of Scope (for now)
+- Analytics/telemetry
+- Monetization (ads/IAP)
+- Advanced accessibility features
+
+Open TBDs (tracked for planning; not to include in README)
+- Final word lists and image asset sources/licensing
+- Initial category set at launch
+- Detailed animation/physics parameters
+- Voice-over sourcing (recordings vs TTS)
+- Visual design system (palette, fonts, logo)
+
+Assets (OpenMoji Hybrid Strategy)
+- Source: OpenMoji Color SVG pack (~4k SVGs)
+- License: CC BY-SA 4.0 (attribution + share-alike on modifications)
+- Strategy: Hybrid
+  - Keep full vendor pack untouched at vendor/openmoji/
+  - Curated subset copied to public/assets/svg/<category>/<slug>.svg with friendly names
+  - Manifest JSON maps word → unicode → category → paths → aliases
+- Scope: Target 2,000 kid-friendly nouns for v1
+- Categories (initial): Animals; Food & Drinks; Fruits & Vegetables; Household Items; School & Learning; Toys & Games; Clothing & Accessories; Nature & Plants; Weather; Vehicles & Transportation; Places & Buildings; Electronics & Tools; Colors & Shapes; Body Parts
+- Normalization: Ensure consistent viewBox; remove width/height; SVGO optimize; neutral variant when multiples exist (e.g., skin tones)
+- Deliverables: Curated folders; manifest; coverage report (missing words/suggested alternates); preview sheets for QA
+- Attribution: Include OpenMoji credit in README and in-app (About/Settings)
+
+Asset Pipeline TODOs
+- Plan OpenMoji hybrid asset pipeline and folder structure [pending]
+- Define category mapping and word selection guidelines [pending]
+- Curate 2K kid-friendly nouns from OpenMoji metadata [pending]
+- Build manifest mapping word→unicode→category→paths [pending]
+- Prepare vendor pack and curated subset with friendly names [pending]
+- Normalize/optimize SVGs (viewBox, SVGO) with QA checks [pending]
+- Produce coverage report and preview sheets for QA [pending]
+- Add attribution and licensing docs/screens for OpenMoji [pending]
+
+Assets — Detailed Hybrid Plan (OpenMoji)
+- Vendor location: vendor/openmoji/ (keep original ZIP contents and LICENSE/ATTRIBUTION)
+- Curated location: public/assets/svg/<category>/<slug>.svg (friendly names)
+- Manifest schema (JSON):
+  {
+    word: string,              // primary display word (lowercase)
+    aliases: string[],         // synonyms/alternate names
+    category: string,          // one of our categories
+    unicode: string,           // OpenMoji codepoint(s), e.g., "1F431"
+    source: "openmoji",       
+    vendorPath: string,        // path in vendor/openmoji
+    assetPath: string          // path in public/assets/svg/... (curated)
+  }
+- Naming rules (slugs):
+  - Lowercase, ASCII, hyphen-separated; strip punctuation/diacritics
+  - Prefer singular nouns (cat, apple, shoe)
+  - On collisions, append "-u<unicode>" (e.g., "apple-u1F34E")
+  - Prefer neutral variants (no skin tone/gender unless the word requires it)
+- SVG normalization (when we implement):
+  - Preserve original in vendor; curated copies may be optimized
+  - Ensure viewBox is present; remove width/height attributes; SVGO optimize with conservative plugins; no visual/style changes
+- Attribution & license handling:
+  - OpenMoji is CC BY-SA 4.0: https://creativecommons.org/licenses/by-sa/4.0/
+  - Required credit: "Emoji artworks from OpenMoji – the open-source emoji and icon project. License: CC BY-SA 4.0" with link to https://openmoji.org
+  - Add attribution in README and an in-app About/Settings screen
+  - Include OpenMoji LICENSE and attribution file in vendor/openmoji/
+  - ShareAlike consideration: our curated copies may count as derivatives; distribute derivative SVGs under CC BY-SA 4.0; keep originals intact
+
+Word selection guidelines (replaces exclusions)
+- Include: concrete, common, kid-friendly nouns seen in daily life (animals, foods, household/school objects, places, vehicles, simple weather, body parts, colors/shapes)
+- Exclude: abstract symbols, flags, UI icons, gestures/skin-tone/gender variants, adult/unsafe items, cultural/religious symbols, redundant variants, complex emotion faces
+- Keep nouns simple and singular; prefer the most generic variant
+
+Category Mapping (rules)
+- Animals: OpenMoji group/subgroup containing animals; include pets, farm, wild, sea, birds, insects (rename to kid-friendly nouns)
+- Food & Drinks: food/dish/beverage that are not fruits/vegetables (e.g., pizza, bread, milk)
+- Fruits & Vegetables: items tagged fruit/vegetable; keep distinct from prepared foods
+- Household Items: furniture, appliances, kitchen tools, cleaning items, bathroom objects
+- School & Learning: books, stationery (pencil, pen, ruler), backpack, globe, microscope, chalkboard
+- Toys & Games: toys, board games, blocks, kite, ball (avoid gambling items)
+- Clothing & Accessories: shirts, pants, shoes, hat, backpack, glasses
+- Nature & Plants: tree, leaf, flower, plant, rock, mountain, sun, moon (exclude weather-specific icons here)
+- Weather: cloud, rain, snow, thunder, rainbow, thermometer (weather context)
+- Vehicles & Transportation: car, bus, train, bicycle, airplane, boat, rocket (keep rocket if desired as vehicle)
+- Places & Buildings: house, school, hospital, store, park, bridge, castle
+- Electronics & Tools: phone, tablet, computer, camera, light bulb, hammer, wrench, screwdriver
+- Colors & Shapes: geometric shapes (square, circle, triangle) and color swatches (red circle, blue square) mapped to color words
+- Body Parts: eye, ear, nose, mouth, hand, foot, leg, arm (avoid specific gestures)
+
+Curation Strategy (2,000 targets)
+- Start with high-frequency noun lists for ages 6–10; map to OpenMoji names/tags
+- Prefer concrete, tangible objects seen in everyday life
+- Balance categories for coverage (e.g., 10–20% animals, 10–15% food, etc.)
+- Record misses (no good emoji match) in coverage report with suggested alternates
+
+QA Aids (deliver later)
+- coverage.json: selected, missing
+- manifest.json: final curated mapping
+- preview-grid.pdf/png: small tiles by category for quick review
+
+Next planning step
+- Define the initial shortlist per category (top 2,000 nouns) using OpenMoji metadata and kid-frequency lists; no fetching yet
+
+Manifest (compact keys reference)
+- w: word (singular, lowercase)
+- c: category (one of 14 categories)
+- u: unicode codepoint(s), e.g., "1F34E"
+- p: asset path under public/assets/svg/<category>/<slug>.svg
