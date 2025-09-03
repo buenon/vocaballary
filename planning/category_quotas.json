@@ -1,0 +1,24 @@
+{
+  "total": 2000,
+  "quotas": {
+    "Animals": 180,
+    "Food & Drinks": 150,
+    "Fruits & Vegetables": 200,
+    "Household Items": 200,
+    "School & Learning": 130,
+    "Toys & Games": 120,
+    "Clothing & Accessories": 150,
+    "Nature & Plants": 170,
+    "Weather": 60,
+    "Vehicles & Transportation": 140,
+    "Places & Buildings": 170,
+    "Electronics & Tools": 140,
+    "Colors & Shapes": 70,
+    "Body Parts": 120
+  },
+  "notes": [
+    "Quotas are targets and may shift slightly based on OpenMoji coverage.",
+    "Preference: concrete, everyday nouns for ages 6–10; avoid abstract symbols.",
+    "Exclude flags, gestures, complex UI icons, adult/unsafe items per context.txt."
+  ]
+}

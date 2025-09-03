@@ -1,0 +1,16 @@
+{
+  "Animals": ["cat", "dog", "cow", "horse", "sheep", "pig", "chicken", "duck", "goose", "turkey", "rabbit", "mouse", "rat", "hamster", "goat", "deer", "bear", "lion", "tiger", "elephant", "monkey", "giraffe", "zebra", "panda", "koala", "kangaroo", "camel", "hippopotamus", "rhinoceros", "fox", "wolf", "bat", "whale", "dolphin", "shark", "octopus", "crab", "lobster", "seal", "penguin", "eagle", "owl", "parrot", "peacock", "flamingo", "bee", "butterfly", "ant", "spider"],
+  "Food & Drinks": ["bread", "rice", "noodles", "pizza", "burger", "sandwich", "hot dog", "soup", "egg", "cheese", "milk", "water", "juice", "tea", "coffee", "yogurt", "butter", "jam", "honey", "chocolate", "cookie", "cake", "ice cream", "candy", "popcorn"],
+  "Fruits & Vegetables": ["apple", "banana", "orange", "lemon", "lime", "grapes", "pear", "peach", "cherry", "strawberry", "blueberry", "watermelon", "pineapple", "mango", "papaya", "kiwi", "tomato", "potato", "carrot", "cucumber", "broccoli", "cauliflower", "onion", "garlic", "pepper", "lettuce", "corn", "peas", "pumpkin", "eggplant"],
+  "Household Items": ["table", "chair", "sofa", "bed", "lamp", "light bulb", "clock", "mirror", "bookcase", "door", "window", "curtain", "carpet", "blanket", "pillow", "toilet", "bathtub", "sink", "shower", "broom", "mop", "bucket", "vacuum", "trash can", "fridge", "oven", "stove", "microwave", "kettle", "toaster", "pan", "pot", "spoon", "fork", "knife", "plate", "cup", "bottle"],
+  "School & Learning": ["book", "notebook", "pencil", "pen", "crayon", "marker", "eraser", "ruler", "glue", "scissors", "calculator", "backpack", "desk", "chair", "blackboard", "whiteboard", "globe", "microscope", "paintbrush"],
+  "Toys & Games": ["ball", "kite", "yo-yo", "doll", "teddy bear", "puzzle", "blocks", "train set", "toy car", "drum", "xylophone"],
+  "Clothing & Accessories": ["shirt", "pants", "shorts", "skirt", "dress", "jacket", "coat", "sweater", "shoes", "socks", "hat", "cap", "gloves", "scarf", "belt", "watch", "bag", "umbrella", "glasses"],
+  "Nature & Plants": ["tree", "bush", "flower", "rose", "sunflower", "tulip", "cactus", "leaf", "mushroom", "rock", "mountain", "river", "lake", "island", "desert", "volcano", "sun", "moon", "star", "rainbow"],
+  "Weather": ["cloud", "rain", "snow", "thunder", "wind", "fog", "tornado", "rainbow", "thermometer"],
+  "Vehicles & Transportation": ["car", "bus", "truck", "taxi", "motorcycle", "bicycle", "scooter", "train", "tram", "subway", "ship", "boat", "sailboat", "helicopter", "airplane", "rocket"],
+  "Places & Buildings": ["house", "apartment", "school", "hospital", "store", "market", "restaurant", "cafe", "library", "museum", "park", "playground", "bridge", "castle", "church", "temple", "mosque", "barn", "farm"],
+  "Electronics & Tools": ["phone", "tablet", "computer", "laptop", "camera", "headphones", "television", "remote", "keyboard", "mouse", "printer", "light bulb", "flashlight", "battery", "hammer", "wrench", "screwdriver", "saw", "drill"],
+  "Colors & Shapes": ["red", "blue", "green", "yellow", "orange", "purple", "pink", "black", "white", "brown", "gray", "circle", "square", "triangle", "rectangle", "star", "heart"],
+  "Body Parts": ["head", "face", "hair", "eye", "ear", "nose", "mouth", "tooth", "tongue", "hand", "finger", "thumb", "arm", "elbow", "shoulder", "leg", "knee", "foot", "toe"]
+}

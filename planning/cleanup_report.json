@@ -1,0 +1,5040 @@
+{
+  "removed": [
+    {
+      "reason": "redundant-variant",
+      "item": {
+        "word": "front-facing baby chick",
+        "cat": "Animals",
+        "code": "1F425",
+        "path": "animals/front-facing-baby-chick.svg"
+      }
+    }
+  ],
+  "renamed": [
+    {
+      "from": "guide-dog",
+      "to": "dog",
+      "code": "1F9AE",
+      "cat": "Animals"
+    },
+    {
+      "from": "service-dog",
+      "to": "dog",
+      "code": "1F415-200D-1F9BA",
+      "cat": "Animals"
+    },
+    {
+      "from": "water-buffalo",
+      "to": "buffalo",
+      "code": "1F403",
+      "cat": "Animals"
+    },
+    {
+      "from": "pig-nose",
+      "to": "nose",
+      "code": "1F43D",
+      "cat": "Animals"
+    },
+    {
+      "from": "two-hump-camel",
+      "to": "camel",
+      "code": "1F42B",
+      "cat": "Animals"
+    },
+    {
+      "from": "polar-bear",
+      "to": "bear",
+      "code": "1F43B-200D-2744-FE0F",
+      "cat": "Animals"
+    },
+    {
+      "from": "paw-prints",
+      "to": "prints",
+      "code": "1F43E",
+      "cat": "Animals"
+    },
+    {
+      "from": "hatching-chick",
+      "to": "chick",
+      "code": "1F423",
+      "cat": "Animals"
+    },
+    {
+      "from": "t-rex",
+      "to": "rex",
+      "code": "1F996",
+      "cat": "Animals"
+    },
+    {
+      "from": "spouting-whale",
+      "to": "whale",
+      "code": "1F433",
+      "cat": "Animals"
+    },
+    {
+      "from": "tropical-fish",
+      "to": "fish",
+      "code": "1F420",
+      "cat": "Animals"
+    },
+    {
+      "from": "spiral-shell",
+      "to": "shell",
+      "code": "1F41A",
+      "cat": "Animals"
+    },
+    {
+      "from": "lady-beetle",
+      "to": "ladybug",
+      "code": "1F41E",
+      "cat": "Animals"
+    },
+    {
+      "from": "spider-web",
+      "to": "web",
+      "code": "1F578",
+      "cat": "Animals"
+    },
+    {
+      "from": "baguette-bread",
+      "to": "bread",
+      "code": "1F956",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "cheese-wedge",
+      "to": "wedge",
+      "code": "1F9C0",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "meat-on-bone",
+      "to": "bone",
+      "code": "1F356",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "poultry-leg",
+      "to": "leg",
+      "code": "1F357",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "cut-of-meat",
+      "to": "meat",
+      "code": "1F969",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "french-fries",
+      "to": "fries",
+      "code": "1F35F",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "hot-dog",
+      "to": "dog",
+      "code": "1F32D",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "stuffed-flatbread",
+      "to": "flatbread",
+      "code": "1F959",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "shallow-pan-of-food",
+      "to": "food",
+      "code": "1F958",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "pot-of-food",
+      "to": "food",
+      "code": "1F372",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "bowl-with-spoon",
+      "to": "spoon",
+      "code": "1F963",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "canned-food",
+      "to": "food",
+      "code": "1F96B",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "bento-box",
+      "to": "box",
+      "code": "1F371",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "rice-cracker",
+      "to": "cracker",
+      "code": "1F358",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "rice-ball",
+      "to": "ball",
+      "code": "1F359",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "cooked-rice",
+      "to": "rice",
+      "code": "1F35A",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "curry-rice",
+      "to": "rice",
+      "code": "1F35B",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "steaming-bowl",
+      "to": "bowl",
+      "code": "1F35C",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "roasted-sweet-potato",
+      "to": "potato",
+      "code": "1F360",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "fried-shrimp",
+      "to": "shrimp",
+      "code": "1F364",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "fish-cake-with-swirl",
+      "to": "swirl",
+      "code": "1F365",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "moon-cake",
+      "to": "cake",
+      "code": "1F96E",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "fortune-cookie",
+      "to": "cookie",
+      "code": "1F960",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "takeout-box",
+      "to": "box",
+      "code": "1F961",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "soft-ice-cream",
+      "to": "cream",
+      "code": "1F366",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "shaved-ice",
+      "to": "ice",
+      "code": "1F367",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "ice-cream",
+      "to": "cream",
+      "code": "1F368",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "birthday-cake",
+      "to": "cake",
+      "code": "1F382",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "chocolate-bar",
+      "to": "bar",
+      "code": "1F36B",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "honey-pot",
+      "to": "pot",
+      "code": "1F36F",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "baby-bottle",
+      "to": "bottle",
+      "code": "1F37C",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "glass-of-milk",
+      "to": "milk",
+      "code": "1F95B",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "hot-beverage",
+      "to": "beverage",
+      "code": "2615",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "teacup-without-handle",
+      "to": "handle",
+      "code": "1F375",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "bottle-with-popping-cork",
+      "to": "cork",
+      "code": "1F37E",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "pouring-liquid",
+      "to": "liquid",
+      "code": "1FAD7",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "cup-with-straw",
+      "to": "straw",
+      "code": "1F964",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "bubble-tea",
+      "to": "tea",
+      "code": "1F9CB",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "beverage-box",
+      "to": "box",
+      "code": "1F9C3",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "fork-and-knife-with-plate",
+      "to": "plate",
+      "code": "1F37D",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "fork-and-knife",
+      "to": "knife",
+      "code": "1F374",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "kitchen-knife",
+      "to": "knife",
+      "code": "1F52A",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "kiwi-fruit",
+      "to": "fruit",
+      "code": "1F95D",
+      "cat": "Fruits & Vegetables"
+    },
+    {
+      "from": "ear-of-corn",
+      "to": "corn",
+      "code": "1F33D",
+      "cat": "Fruits & Vegetables"
+    },
+    {
+      "from": "hot-pepper",
+      "to": "pepper",
+      "code": "1F336",
+      "cat": "Fruits & Vegetables"
+    },
+    {
+      "from": "bell-pepper",
+      "to": "pepper",
+      "code": "1FAD1",
+      "cat": "Fruits & Vegetables"
+    },
+    {
+      "from": "leafy-green",
+      "to": "leafy",
+      "code": "1F96C",
+      "cat": "Fruits & Vegetables"
+    },
+    {
+      "from": "ginger-root",
+      "to": "root",
+      "code": "1FADA",
+      "cat": "Fruits & Vegetables"
+    },
+    {
+      "from": "pea-pod",
+      "to": "pod",
+      "code": "1FADB",
+      "cat": "Fruits & Vegetables"
+    },
+    {
+      "from": "root-vegetable",
+      "to": "vegetable",
+      "code": "1FADC",
+      "cat": "Fruits & Vegetables"
+    },
+    {
+      "from": "hourglass-done",
+      "to": "done",
+      "code": "231B",
+      "cat": "Household Items"
+    },
+    {
+      "from": "hourglass-not-done",
+      "to": "done",
+      "code": "23F3",
+      "cat": "Household Items"
+    },
+    {
+      "from": "alarm-clock",
+      "to": "clock",
+      "code": "23F0",
+      "cat": "Household Items"
+    },
+    {
+      "from": "timer-clock",
+      "to": "clock",
+      "code": "23F2",
+      "cat": "Household Items"
+    },
+    {
+      "from": "mantelpiece-clock",
+      "to": "clock",
+      "code": "1F570",
+      "cat": "Household Items"
+    },
+    {
+      "from": "twelve-o-clock",
+      "to": "clock",
+      "code": "1F55B",
+      "cat": "Household Items"
+    },
+    {
+      "from": "twelve-thirty",
+      "to": "thirty",
+      "code": "1F567",
+      "cat": "Household Items"
+    },
+    {
+      "from": "one-o-clock",
+      "to": "clock",
+      "code": "1F550",
+      "cat": "Household Items"
+    },
+    {
+      "from": "one-thirty",
+      "to": "thirty",
+      "code": "1F55C",
+      "cat": "Household Items"
+    },
+    {
+      "from": "two-o-clock",
+      "to": "clock",
+      "code": "1F551",
+      "cat": "Household Items"
+    },
+    {
+      "from": "two-thirty",
+      "to": "thirty",
+      "code": "1F55D",
+      "cat": "Household Items"
+    },
+    {
+      "from": "three-o-clock",
+      "to": "clock",
+      "code": "1F552",
+      "cat": "Household Items"
+    },
+    {
+      "from": "three-thirty",
+      "to": "thirty",
+      "code": "1F55E",
+      "cat": "Household Items"
+    },
+    {
+      "from": "four-o-clock",
+      "to": "clock",
+      "code": "1F553",
+      "cat": "Household Items"
+    },
+    {
+      "from": "four-thirty",
+      "to": "thirty",
+      "code": "1F55F",
+      "cat": "Household Items"
+    },
+    {
+      "from": "five-o-clock",
+      "to": "clock",
+      "code": "1F554",
+      "cat": "Household Items"
+    },
+    {
+      "from": "five-thirty",
+      "to": "thirty",
+      "code": "1F560",
+      "cat": "Household Items"
+    },
+    {
+      "from": "six-o-clock",
+      "to": "clock",
+      "code": "1F555",
+      "cat": "Household Items"
+    },
+    {
+      "from": "six-thirty",
+      "to": "thirty",
+      "code": "1F561",
+      "cat": "Household Items"
+    },
+    {
+      "from": "seven-o-clock",
+      "to": "clock",
+      "code": "1F556",
+      "cat": "Household Items"
+    },
+    {
+      "from": "seven-thirty",
+      "to": "thirty",
+      "code": "1F562",
+      "cat": "Household Items"
+    },
+    {
+      "from": "eight-o-clock",
+      "to": "clock",
+      "code": "1F557",
+      "cat": "Household Items"
+    },
+    {
+      "from": "eight-thirty",
+      "to": "thirty",
+      "code": "1F563",
+      "cat": "Household Items"
+    },
+    {
+      "from": "nine-o-clock",
+      "to": "clock",
+      "code": "1F558",
+      "cat": "Household Items"
+    },
+    {
+      "from": "nine-thirty",
+      "to": "thirty",
+      "code": "1F564",
+      "cat": "Household Items"
+    },
+    {
+      "from": "ten-o-clock",
+      "to": "clock",
+      "code": "1F559",
+      "cat": "Household Items"
+    },
+    {
+      "from": "ten-thirty",
+      "to": "thirty",
+      "code": "1F565",
+      "cat": "Household Items"
+    },
+    {
+      "from": "eleven-o-clock",
+      "to": "clock",
+      "code": "1F55A",
+      "cat": "Household Items"
+    },
+    {
+      "from": "eleven-thirty",
+      "to": "thirty",
+      "code": "1F566",
+      "cat": "Household Items"
+    },
+    {
+      "from": "e-mail",
+      "to": "mail",
+      "code": "1F4E7",
+      "cat": "Household Items"
+    },
+    {
+      "from": "incoming-envelope",
+      "to": "envelope",
+      "code": "1F4E8",
+      "cat": "Household Items"
+    },
+    {
+      "from": "envelope-with-arrow",
+      "to": "arrow",
+      "code": "1F4E9",
+      "cat": "Household Items"
+    },
+    {
+      "from": "outbox-tray",
+      "to": "tray",
+      "code": "1F4E4",
+      "cat": "Household Items"
+    },
+    {
+      "from": "inbox-tray",
+      "to": "tray",
+      "code": "1F4E5",
+      "cat": "Household Items"
+    },
+    {
+      "from": "closed-mailbox-with-raised-flag",
+      "to": "flag",
+      "code": "1F4EB",
+      "cat": "Household Items"
+    },
+    {
+      "from": "closed-mailbox-with-lowered-flag",
+      "to": "flag",
+      "code": "1F4EA",
+      "cat": "Household Items"
+    },
+    {
+      "from": "open-mailbox-with-raised-flag",
+      "to": "flag",
+      "code": "1F4EC",
+      "cat": "Household Items"
+    },
+    {
+      "from": "open-mailbox-with-lowered-flag",
+      "to": "flag",
+      "code": "1F4ED",
+      "cat": "Household Items"
+    },
+    {
+      "from": "ballot-box-with-ballot",
+      "to": "ballot",
+      "code": "1F5F3",
+      "cat": "Household Items"
+    },
+    {
+      "from": "locked-with-pen",
+      "to": "pen",
+      "code": "1F50F",
+      "cat": "Household Items"
+    },
+    {
+      "from": "locked-with-key",
+      "to": "key",
+      "code": "1F510",
+      "cat": "Household Items"
+    },
+    {
+      "from": "old-key",
+      "to": "key",
+      "code": "1F5DD",
+      "cat": "Household Items"
+    },
+    {
+      "from": "couch-and-lamp",
+      "to": "lamp",
+      "code": "1F6CB",
+      "cat": "Household Items"
+    },
+    {
+      "from": "mouse-trap",
+      "to": "trap",
+      "code": "1FAA4",
+      "cat": "Household Items"
+    },
+    {
+      "from": "lotion-bottle",
+      "to": "bottle",
+      "code": "1F9F4",
+      "cat": "Household Items"
+    },
+    {
+      "from": "safety-pin",
+      "to": "pin",
+      "code": "1F9F7",
+      "cat": "Household Items"
+    },
+    {
+      "from": "roll-of-paper",
+      "to": "paper",
+      "code": "1F9FB",
+      "cat": "Household Items"
+    },
+    {
+      "from": "fire-extinguisher",
+      "to": "extinguisher",
+      "code": "1F9EF",
+      "cat": "Household Items"
+    },
+    {
+      "from": "shopping-cart",
+      "to": "cart",
+      "code": "1F6D2",
+      "cat": "Household Items"
+    },
+    {
+      "from": "notebook-with-decorative-cover",
+      "to": "cover",
+      "code": "1F4D4",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "closed-book",
+      "to": "book",
+      "code": "1F4D5",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "open-book",
+      "to": "book",
+      "code": "1F4D6",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "page-with-curl",
+      "to": "curl",
+      "code": "1F4C3",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "page-facing-up",
+      "to": "up",
+      "code": "1F4C4",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "rolled-up-newspaper",
+      "to": "newspaper",
+      "code": "1F5DE",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "bookmark-tabs",
+      "to": "tabs",
+      "code": "1F4D1",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "fountain-pen",
+      "to": "pen",
+      "code": "1F58B",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "file-folder",
+      "to": "folder",
+      "code": "1F4C1",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "open-file-folder",
+      "to": "folder",
+      "code": "1F4C2",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "card-index-dividers",
+      "to": "dividers",
+      "code": "1F5C2",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "tear-off-calendar",
+      "to": "calendar",
+      "code": "1F4C6",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "spiral-notepad",
+      "to": "notepad",
+      "code": "1F5D2",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "spiral-calendar",
+      "to": "calendar",
+      "code": "1F5D3",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "card-index",
+      "to": "index",
+      "code": "1F4C7",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "chart-increasing",
+      "to": "increasing",
+      "code": "1F4C8",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "chart-decreasing",
+      "to": "decreasing",
+      "code": "1F4C9",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "bar-chart",
+      "to": "chart",
+      "code": "1F4CA",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "round-pushpin",
+      "to": "pushpin",
+      "code": "1F4CD",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "linked-paperclips",
+      "to": "paperclips",
+      "code": "1F587",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "straight-ruler",
+      "to": "ruler",
+      "code": "1F4CF",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "triangular-ruler",
+      "to": "ruler",
+      "code": "1F4D0",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "card-file-box",
+      "to": "box",
+      "code": "1F5C3",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "file-cabinet",
+      "to": "cabinet",
+      "code": "1F5C4",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "test-tube",
+      "to": "tube",
+      "code": "1F9EA",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "petri-dish",
+      "to": "dish",
+      "code": "1F9EB",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "satellite-antenna",
+      "to": "antenna",
+      "code": "1F4E1",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "jack-o-lantern",
+      "to": "lantern",
+      "code": "1F383",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "christmas-tree",
+      "to": "tree",
+      "code": "1F384",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "party-popper",
+      "to": "popper",
+      "code": "1F389",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "confetti-ball",
+      "to": "ball",
+      "code": "1F38A",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "tanabata-tree",
+      "to": "tree",
+      "code": "1F38B",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "pine-decoration",
+      "to": "decoration",
+      "code": "1F38D",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "japanese-dolls",
+      "to": "dolls",
+      "code": "1F38E",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "carp-streamer",
+      "to": "streamer",
+      "code": "1F38F",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "wind-chime",
+      "to": "chime",
+      "code": "1F390",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "moon-viewing-ceremony",
+      "to": "ceremony",
+      "code": "1F391",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "wrapped-gift",
+      "to": "gift",
+      "code": "1F381",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "reminder-ribbon",
+      "to": "ribbon",
+      "code": "1F397",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "admission-tickets",
+      "to": "tickets",
+      "code": "1F39F",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "military-medal",
+      "to": "medal",
+      "code": "1F396",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "sports-medal",
+      "to": "medal",
+      "code": "1F3C5",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "1st-place-medal",
+      "to": "medal",
+      "code": "1F947",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "2nd-place-medal",
+      "to": "medal",
+      "code": "1F948",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "3rd-place-medal",
+      "to": "medal",
+      "code": "1F949",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "soccer-ball",
+      "to": "ball",
+      "code": "26BD",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "american-football",
+      "to": "football",
+      "code": "1F3C8",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "rugby-football",
+      "to": "football",
+      "code": "1F3C9",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "flying-disc",
+      "to": "disc",
+      "code": "1F94F",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "cricket-game",
+      "to": "game",
+      "code": "1F3CF",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "field-hockey",
+      "to": "hockey",
+      "code": "1F3D1",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "ice-hockey",
+      "to": "hockey",
+      "code": "1F3D2",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "ping-pong",
+      "to": "pong",
+      "code": "1F3D3",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "boxing-glove",
+      "to": "glove",
+      "code": "1F94A",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "martial-arts-uniform",
+      "to": "uniform",
+      "code": "1F94B",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "goal-net",
+      "to": "net",
+      "code": "1F945",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "flag-in-hole",
+      "to": "hole",
+      "code": "26F3",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "ice-skate",
+      "to": "skate",
+      "code": "26F8",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "fishing-pole",
+      "to": "pole",
+      "code": "1F3A3",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "diving-mask",
+      "to": "mask",
+      "code": "1F93F",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "running-shirt",
+      "to": "shirt",
+      "code": "1F3BD",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "curling-stone",
+      "to": "stone",
+      "code": "1F94C",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "yo-yo",
+      "to": "yoyo",
+      "code": "1FA80",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "pool-8-ball",
+      "to": "eightball",
+      "code": "1F3B1",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "crystal-ball",
+      "to": "ball",
+      "code": "1F52E",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "magic-wand",
+      "to": "wand",
+      "code": "1FA84",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "video-game",
+      "to": "game",
+      "code": "1F3AE",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "slot-machine",
+      "to": "machine",
+      "code": "1F3B0",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "game-die",
+      "to": "die",
+      "code": "1F3B2",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "puzzle-piece",
+      "to": "puzzle",
+      "code": "1F9E9",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "teddy-bear",
+      "to": "teddy",
+      "code": "1F9F8",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "mirror-ball",
+      "to": "ball",
+      "code": "1FAA9",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "nesting-dolls",
+      "to": "dolls",
+      "code": "1FA86",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "spade-suit",
+      "to": "suit",
+      "code": "2660",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "heart-suit",
+      "to": "suit",
+      "code": "2665",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "diamond-suit",
+      "to": "suit",
+      "code": "2666",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "club-suit",
+      "to": "suit",
+      "code": "2663",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "chess-pawn",
+      "to": "pawn",
+      "code": "265F",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "mahjong-red-dragon",
+      "to": "dragon",
+      "code": "1F004",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "flower-playing-cards",
+      "to": "cards",
+      "code": "1F3B4",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "performing-arts",
+      "to": "arts",
+      "code": "1F3AD",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "framed-picture",
+      "to": "picture",
+      "code": "1F5BC",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "artist-palette",
+      "to": "palette",
+      "code": "1F3A8",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "sewing-needle",
+      "to": "needle",
+      "code": "1FAA1",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "lab-coat",
+      "to": "coat",
+      "code": "1F97C",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "safety-vest",
+      "to": "vest",
+      "code": "1F9BA",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "t-shirt",
+      "to": "shirt",
+      "code": "1F455",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "one-piece-swimsuit",
+      "to": "swimsuit",
+      "code": "1FA71",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "woman-s-clothes",
+      "to": "clothes",
+      "code": "1F45A",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "folding-hand-fan",
+      "to": "fan",
+      "code": "1FAAD",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "clutch-bag",
+      "to": "bag",
+      "code": "1F45D",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "shopping-bags",
+      "to": "bags",
+      "code": "1F6CD",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "thong-sandal",
+      "to": "sandal",
+      "code": "1FA74",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "man-s-shoe",
+      "to": "shoe",
+      "code": "1F45E",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "running-shoe",
+      "to": "shoe",
+      "code": "1F45F",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "hiking-boot",
+      "to": "boot",
+      "code": "1F97E",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "flat-shoe",
+      "to": "shoe",
+      "code": "1F97F",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "high-heeled-shoe",
+      "to": "shoe",
+      "code": "1F460",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "woman-s-sandal",
+      "to": "sandal",
+      "code": "1F461",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "ballet-shoes",
+      "to": "shoes",
+      "code": "1FA70",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "woman-s-boot",
+      "to": "boot",
+      "code": "1F462",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "hair-pick",
+      "to": "pick",
+      "code": "1FAAE",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "woman-s-hat",
+      "to": "hat",
+      "code": "1F452",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "top-hat",
+      "to": "hat",
+      "code": "1F3A9",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "graduation-cap",
+      "to": "cap",
+      "code": "1F393",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "billed-cap",
+      "to": "billed",
+      "code": "1F9E2",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "military-helmet",
+      "to": "helmet",
+      "code": "1FA96",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "rescue-worker-s-helmet",
+      "to": "helmet",
+      "code": "26D1",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "prayer-beads",
+      "to": "beads",
+      "code": "1F4FF",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "gem-stone",
+      "to": "stone",
+      "code": "1F48E",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "cherry-blossom",
+      "to": "blossom",
+      "code": "1F338",
+      "cat": "Nature & Plants"
+    },
+    {
+      "from": "wilted-flower",
+      "to": "flower",
+      "code": "1F940",
+      "cat": "Nature & Plants"
+    },
+    {
+      "from": "potted-plant",
+      "to": "plant",
+      "code": "1FAB4",
+      "cat": "Nature & Plants"
+    },
+    {
+      "from": "evergreen-tree",
+      "to": "tree",
+      "code": "1F332",
+      "cat": "Nature & Plants"
+    },
+    {
+      "from": "deciduous-tree",
+      "to": "tree",
+      "code": "1F333",
+      "cat": "Nature & Plants"
+    },
+    {
+      "from": "palm-tree",
+      "to": "tree",
+      "code": "1F334",
+      "cat": "Nature & Plants"
+    },
+    {
+      "from": "sheaf-of-rice",
+      "to": "rice",
+      "code": "1F33E",
+      "cat": "Nature & Plants"
+    },
+    {
+      "from": "four-leaf-clover",
+      "to": "clover",
+      "code": "1F340",
+      "cat": "Nature & Plants"
+    },
+    {
+      "from": "maple-leaf",
+      "to": "leaf",
+      "code": "1F341",
+      "cat": "Nature & Plants"
+    },
+    {
+      "from": "fallen-leaf",
+      "to": "leaf",
+      "code": "1F342",
+      "cat": "Nature & Plants"
+    },
+    {
+      "from": "leaf-fluttering-in-wind",
+      "to": "wind",
+      "code": "1F343",
+      "cat": "Nature & Plants"
+    },
+    {
+      "from": "empty-nest",
+      "to": "nest",
+      "code": "1FAB9",
+      "cat": "Nature & Plants"
+    },
+    {
+      "from": "nest-with-eggs",
+      "to": "eggs",
+      "code": "1FABA",
+      "cat": "Nature & Plants"
+    },
+    {
+      "from": "leafless-tree",
+      "to": "tree",
+      "code": "1FABE",
+      "cat": "Nature & Plants"
+    },
+    {
+      "from": "new-moon",
+      "to": "moon",
+      "code": "1F311",
+      "cat": "Weather"
+    },
+    {
+      "from": "waxing-crescent-moon",
+      "to": "moon",
+      "code": "1F312",
+      "cat": "Weather"
+    },
+    {
+      "from": "first-quarter-moon",
+      "to": "moon",
+      "code": "1F313",
+      "cat": "Weather"
+    },
+    {
+      "from": "waxing-gibbous-moon",
+      "to": "moon",
+      "code": "1F314",
+      "cat": "Weather"
+    },
+    {
+      "from": "full-moon",
+      "to": "moon",
+      "code": "1F315",
+      "cat": "Weather"
+    },
+    {
+      "from": "waning-gibbous-moon",
+      "to": "moon",
+      "code": "1F316",
+      "cat": "Weather"
+    },
+    {
+      "from": "last-quarter-moon",
+      "to": "moon",
+      "code": "1F317",
+      "cat": "Weather"
+    },
+    {
+      "from": "waning-crescent-moon",
+      "to": "moon",
+      "code": "1F318",
+      "cat": "Weather"
+    },
+    {
+      "from": "crescent-moon",
+      "to": "moon",
+      "code": "1F319",
+      "cat": "Weather"
+    },
+    {
+      "from": "sun-with-face",
+      "to": "face",
+      "code": "1F31E",
+      "cat": "Weather"
+    },
+    {
+      "from": "ringed-planet",
+      "to": "planet",
+      "code": "1FA90",
+      "cat": "Weather"
+    },
+    {
+      "from": "glowing-star",
+      "to": "star",
+      "code": "1F31F",
+      "cat": "Weather"
+    },
+    {
+      "from": "shooting-star",
+      "to": "star",
+      "code": "1F320",
+      "cat": "Weather"
+    },
+    {
+      "from": "milky-way",
+      "to": "way",
+      "code": "1F30C",
+      "cat": "Weather"
+    },
+    {
+      "from": "sun-behind-cloud",
+      "to": "cloud",
+      "code": "26C5",
+      "cat": "Weather"
+    },
+    {
+      "from": "cloud-with-lightning-and-rain",
+      "to": "rain",
+      "code": "26C8",
+      "cat": "Weather"
+    },
+    {
+      "from": "sun-behind-small-cloud",
+      "to": "cloud",
+      "code": "1F324",
+      "cat": "Weather"
+    },
+    {
+      "from": "sun-behind-large-cloud",
+      "to": "cloud",
+      "code": "1F325",
+      "cat": "Weather"
+    },
+    {
+      "from": "sun-behind-rain-cloud",
+      "to": "cloud",
+      "code": "1F326",
+      "cat": "Weather"
+    },
+    {
+      "from": "cloud-with-rain",
+      "to": "rain",
+      "code": "1F327",
+      "cat": "Weather"
+    },
+    {
+      "from": "cloud-with-snow",
+      "to": "snow",
+      "code": "1F328",
+      "cat": "Weather"
+    },
+    {
+      "from": "cloud-with-lightning",
+      "to": "lightning",
+      "code": "1F329",
+      "cat": "Weather"
+    },
+    {
+      "from": "wind-face",
+      "to": "face",
+      "code": "1F32C",
+      "cat": "Weather"
+    },
+    {
+      "from": "closed-umbrella",
+      "to": "umbrella",
+      "code": "1F302",
+      "cat": "Weather"
+    },
+    {
+      "from": "umbrella-with-rain-drops",
+      "to": "drops",
+      "code": "2614",
+      "cat": "Weather"
+    },
+    {
+      "from": "umbrella-on-ground",
+      "to": "ground",
+      "code": "26F1",
+      "cat": "Weather"
+    },
+    {
+      "from": "high-voltage",
+      "to": "voltage",
+      "code": "26A1",
+      "cat": "Weather"
+    },
+    {
+      "from": "snowman-without-snow",
+      "to": "snow",
+      "code": "26C4",
+      "cat": "Weather"
+    },
+    {
+      "from": "water-wave",
+      "to": "wave",
+      "code": "1F30A",
+      "cat": "Weather"
+    },
+    {
+      "from": "railway-car",
+      "to": "car",
+      "code": "1F683",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "high-speed-train",
+      "to": "train",
+      "code": "1F684",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "bullet-train",
+      "to": "train",
+      "code": "1F685",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "light-rail",
+      "to": "rail",
+      "code": "1F688",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "mountain-railway",
+      "to": "railway",
+      "code": "1F69E",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "tram-car",
+      "to": "car",
+      "code": "1F68B",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "oncoming-bus",
+      "to": "bus",
+      "code": "1F68D",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "fire-engine",
+      "to": "engine",
+      "code": "1F692",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "police-car",
+      "to": "car",
+      "code": "1F693",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "oncoming-police-car",
+      "to": "car",
+      "code": "1F694",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "oncoming-taxi",
+      "to": "taxi",
+      "code": "1F696",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "oncoming-automobile",
+      "to": "automobile",
+      "code": "1F698",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "sport-utility-vehicle",
+      "to": "vehicle",
+      "code": "1F699",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "pickup-truck",
+      "to": "truck",
+      "code": "1F6FB",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "delivery-truck",
+      "to": "truck",
+      "code": "1F69A",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "articulated-lorry",
+      "to": "lorry",
+      "code": "1F69B",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "racing-car",
+      "to": "car",
+      "code": "1F3CE",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "motor-scooter",
+      "to": "scooter",
+      "code": "1F6F5",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "manual-wheelchair",
+      "to": "wheelchair",
+      "code": "1F9BD",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "motorized-wheelchair",
+      "to": "wheelchair",
+      "code": "1F9BC",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "auto-rickshaw",
+      "to": "rickshaw",
+      "code": "1F6FA",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "kick-scooter",
+      "to": "scooter",
+      "code": "1F6F4",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "roller-skate",
+      "to": "skate",
+      "code": "1F6FC",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "bus-stop",
+      "to": "stop",
+      "code": "1F68F",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "railway-track",
+      "to": "track",
+      "code": "1F6E4",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "oil-drum",
+      "to": "drum",
+      "code": "1F6E2",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "fuel-pump",
+      "to": "pump",
+      "code": "26FD",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "police-car-light",
+      "to": "car",
+      "code": "1F6A8",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "horizontal-traffic-light",
+      "to": "traffic",
+      "code": "1F6A5",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "vertical-traffic-light",
+      "to": "traffic",
+      "code": "1F6A6",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "stop-sign",
+      "to": "sign",
+      "code": "1F6D1",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "ring-buoy",
+      "to": "buoy",
+      "code": "1F6DF",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "passenger-ship",
+      "to": "ship",
+      "code": "1F6F3",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "motor-boat",
+      "to": "boat",
+      "code": "1F6E5",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "small-airplane",
+      "to": "airplane",
+      "code": "1F6E9",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "airplane-departure",
+      "to": "departure",
+      "code": "1F6EB",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "airplane-arrival",
+      "to": "arrival",
+      "code": "1F6EC",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "suspension-railway",
+      "to": "railway",
+      "code": "1F69F",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "mountain-cableway",
+      "to": "cableway",
+      "code": "1F6A0",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "aerial-tramway",
+      "to": "tramway",
+      "code": "1F6A1",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "flying-saucer",
+      "to": "saucer",
+      "code": "1F6F8",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "globe-showing-europe-africa",
+      "to": "africa",
+      "code": "1F30D",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "globe-showing-americas",
+      "to": "americas",
+      "code": "1F30E",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "globe-showing-asia-australia",
+      "to": "australia",
+      "code": "1F30F",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "globe-with-meridians",
+      "to": "meridians",
+      "code": "1F310",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "world-map",
+      "to": "map",
+      "code": "1F5FA",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "map-of-japan",
+      "to": "japan",
+      "code": "1F5FE",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "snow-capped-mountain",
+      "to": "mountain",
+      "code": "1F3D4",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "mount-fuji",
+      "to": "fuji",
+      "code": "1F5FB",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "beach-with-umbrella",
+      "to": "umbrella",
+      "code": "1F3D6",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "desert-island",
+      "to": "island",
+      "code": "1F3DD",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "national-park",
+      "to": "park",
+      "code": "1F3DE",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "classical-building",
+      "to": "building",
+      "code": "1F3DB",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "building-construction",
+      "to": "construction",
+      "code": "1F3D7",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "derelict-house",
+      "to": "house",
+      "code": "1F3DA",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "house-with-garden",
+      "to": "garden",
+      "code": "1F3E1",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "office-building",
+      "to": "building",
+      "code": "1F3E2",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "japanese-post-office",
+      "to": "office",
+      "code": "1F3E3",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "post-office",
+      "to": "office",
+      "code": "1F3E4",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "love-hotel",
+      "to": "hotel",
+      "code": "1F3E9",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "convenience-store",
+      "to": "store",
+      "code": "1F3EA",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "department-store",
+      "to": "store",
+      "code": "1F3EC",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "japanese-castle",
+      "to": "castle",
+      "code": "1F3EF",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "tokyo-tower",
+      "to": "tower",
+      "code": "1F5FC",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "statue-of-liberty",
+      "to": "liberty",
+      "code": "1F5FD",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "night-with-stars",
+      "to": "stars",
+      "code": "1F303",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "sunrise-over-mountains",
+      "to": "mountains",
+      "code": "1F304",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "cityscape-at-dusk",
+      "to": "dusk",
+      "code": "1F306",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "bridge-at-night",
+      "to": "night",
+      "code": "1F309",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "hot-springs",
+      "to": "springs",
+      "code": "2668",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "carousel-horse",
+      "to": "horse",
+      "code": "1F3A0",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "playground-slide",
+      "to": "slide",
+      "code": "1F6DD",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "ferris-wheel",
+      "to": "wheel",
+      "code": "1F3A1",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "roller-coaster",
+      "to": "coaster",
+      "code": "1F3A2",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "barber-pole",
+      "to": "pole",
+      "code": "1F488",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "circus-tent",
+      "to": "tent",
+      "code": "1F3AA",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "muted-speaker",
+      "to": "speaker",
+      "code": "1F507",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "speaker-low-volume",
+      "to": "volume",
+      "code": "1F508",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "speaker-medium-volume",
+      "to": "volume",
+      "code": "1F509",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "speaker-high-volume",
+      "to": "volume",
+      "code": "1F50A",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "postal-horn",
+      "to": "horn",
+      "code": "1F4EF",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "bell-with-slash",
+      "to": "slash",
+      "code": "1F515",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "mobile-phone",
+      "to": "phone",
+      "code": "1F4F1",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "mobile-phone-with-arrow",
+      "to": "arrow",
+      "code": "1F4F2",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "telephone-receiver",
+      "to": "receiver",
+      "code": "1F4DE",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "fax-machine",
+      "to": "machine",
+      "code": "1F4E0",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "low-battery",
+      "to": "battery",
+      "code": "1FAAB",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "electric-plug",
+      "to": "plug",
+      "code": "1F50C",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "desktop-computer",
+      "to": "computer",
+      "code": "1F5A5",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "computer-mouse",
+      "to": "mouse",
+      "code": "1F5B1",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "computer-disk",
+      "to": "disk",
+      "code": "1F4BD",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "floppy-disk",
+      "to": "disk",
+      "code": "1F4BE",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "optical-disk",
+      "to": "disk",
+      "code": "1F4BF",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "movie-camera",
+      "to": "camera",
+      "code": "1F3A5",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "film-frames",
+      "to": "frames",
+      "code": "1F39E",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "film-projector",
+      "to": "projector",
+      "code": "1F4FD",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "clapper-board",
+      "to": "board",
+      "code": "1F3AC",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "camera-with-flash",
+      "to": "flash",
+      "code": "1F4F8",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "video-camera",
+      "to": "camera",
+      "code": "1F4F9",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "magnifying-glass-tilted-left",
+      "to": "left",
+      "code": "1F50D",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "magnifying-glass-tilted-right",
+      "to": "right",
+      "code": "1F50E",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "light-bulb",
+      "to": "bulb",
+      "code": "1F4A1",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "paper-lantern",
+      "to": "lantern",
+      "code": "1F3EE",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "diya-lamp",
+      "to": "lamp",
+      "code": "1FA94",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "hammer-and-pick",
+      "to": "pick",
+      "code": "2692",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "hammer-and-wrench",
+      "to": "wrench",
+      "code": "1F6E0",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "carpentry-saw",
+      "to": "saw",
+      "code": "1FA9A",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "nut-and-bolt",
+      "to": "bolt",
+      "code": "1F529",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "balance-scale",
+      "to": "scale",
+      "code": "2696",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "broken-chain",
+      "to": "chain",
+      "code": "26D3-FE0F-200D-1F4A5",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "adhesive-bandage",
+      "to": "bandage",
+      "code": "1FA79",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "x-ray",
+      "to": "ray",
+      "code": "1FA7B",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "large-square",
+      "to": "square",
+      "code": "2B1B",
+      "cat": "Colors & Shapes"
+    },
+    {
+      "from": "medium-square",
+      "to": "square",
+      "code": "25FC",
+      "cat": "Colors & Shapes"
+    },
+    {
+      "from": "medium-small-square",
+      "to": "square",
+      "code": "25FE",
+      "cat": "Colors & Shapes"
+    },
+    {
+      "from": "small-square",
+      "to": "square",
+      "code": "25AA",
+      "cat": "Colors & Shapes"
+    },
+    {
+      "from": "large-orange-diamond",
+      "to": "diamond",
+      "code": "1F536",
+      "cat": "Colors & Shapes"
+    },
+    {
+      "from": "large-blue-diamond",
+      "to": "diamond",
+      "code": "1F537",
+      "cat": "Colors & Shapes"
+    },
+    {
+      "from": "small-orange-diamond",
+      "to": "diamond",
+      "code": "1F538",
+      "cat": "Colors & Shapes"
+    },
+    {
+      "from": "small-blue-diamond",
+      "to": "diamond",
+      "code": "1F539",
+      "cat": "Colors & Shapes"
+    },
+    {
+      "from": "triangle-pointed-up",
+      "to": "up",
+      "code": "1F53A",
+      "cat": "Colors & Shapes"
+    },
+    {
+      "from": "triangle-pointed-down",
+      "to": "down",
+      "code": "1F53B",
+      "cat": "Colors & Shapes"
+    },
+    {
+      "from": "diamond-with-a-dot",
+      "to": "dot",
+      "code": "1F4A0",
+      "cat": "Colors & Shapes"
+    },
+    {
+      "from": "radio-button",
+      "to": "button",
+      "code": "1F518",
+      "cat": "Colors & Shapes"
+    },
+    {
+      "from": "square-button",
+      "to": "button",
+      "code": "1F533",
+      "cat": "Colors & Shapes"
+    },
+    {
+      "from": "flexed-biceps",
+      "to": "biceps",
+      "code": "1F4AA",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "flexed-biceps-light-skin-tone",
+      "to": "tone",
+      "code": "1F4AA-1F3FB",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "flexed-biceps-medium-light-skin-tone",
+      "to": "tone",
+      "code": "1F4AA-1F3FC",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "flexed-biceps-medium-skin-tone",
+      "to": "tone",
+      "code": "1F4AA-1F3FD",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "flexed-biceps-medium-dark-skin-tone",
+      "to": "tone",
+      "code": "1F4AA-1F3FE",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "flexed-biceps-dark-skin-tone",
+      "to": "tone",
+      "code": "1F4AA-1F3FF",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "mechanical-arm",
+      "to": "arm",
+      "code": "1F9BE",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "mechanical-leg",
+      "to": "leg",
+      "code": "1F9BF",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "leg-light-skin-tone",
+      "to": "tone",
+      "code": "1F9B5-1F3FB",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "leg-medium-light-skin-tone",
+      "to": "tone",
+      "code": "1F9B5-1F3FC",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "leg-medium-skin-tone",
+      "to": "tone",
+      "code": "1F9B5-1F3FD",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "leg-medium-dark-skin-tone",
+      "to": "tone",
+      "code": "1F9B5-1F3FE",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "leg-dark-skin-tone",
+      "to": "tone",
+      "code": "1F9B5-1F3FF",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "foot-light-skin-tone",
+      "to": "tone",
+      "code": "1F9B6-1F3FB",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "foot-medium-light-skin-tone",
+      "to": "tone",
+      "code": "1F9B6-1F3FC",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "foot-medium-skin-tone",
+      "to": "tone",
+      "code": "1F9B6-1F3FD",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "foot-medium-dark-skin-tone",
+      "to": "tone",
+      "code": "1F9B6-1F3FE",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "foot-dark-skin-tone",
+      "to": "tone",
+      "code": "1F9B6-1F3FF",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "ear-light-skin-tone",
+      "to": "tone",
+      "code": "1F442-1F3FB",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "ear-medium-light-skin-tone",
+      "to": "tone",
+      "code": "1F442-1F3FC",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "ear-medium-skin-tone",
+      "to": "tone",
+      "code": "1F442-1F3FD",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "ear-medium-dark-skin-tone",
+      "to": "tone",
+      "code": "1F442-1F3FE",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "ear-dark-skin-tone",
+      "to": "tone",
+      "code": "1F442-1F3FF",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "ear-with-hearing-aid",
+      "to": "aid",
+      "code": "1F9BB",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "ear-with-hearing-aid-light-skin-tone",
+      "to": "tone",
+      "code": "1F9BB-1F3FB",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "ear-with-hearing-aid-medium-light-skin-tone",
+      "to": "tone",
+      "code": "1F9BB-1F3FC",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "ear-with-hearing-aid-medium-skin-tone",
+      "to": "tone",
+      "code": "1F9BB-1F3FD",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "ear-with-hearing-aid-medium-dark-skin-tone",
+      "to": "tone",
+      "code": "1F9BB-1F3FE",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "ear-with-hearing-aid-dark-skin-tone",
+      "to": "tone",
+      "code": "1F9BB-1F3FF",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "nose-light-skin-tone",
+      "to": "tone",
+      "code": "1F443-1F3FB",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "nose-medium-light-skin-tone",
+      "to": "tone",
+      "code": "1F443-1F3FC",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "nose-medium-skin-tone",
+      "to": "tone",
+      "code": "1F443-1F3FD",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "nose-medium-dark-skin-tone",
+      "to": "tone",
+      "code": "1F443-1F3FE",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "nose-dark-skin-tone",
+      "to": "tone",
+      "code": "1F443-1F3FF",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "anatomical-heart",
+      "to": "heart",
+      "code": "1FAC0",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "biting-lip",
+      "to": "lip",
+      "code": "1FAE6",
+      "cat": "Body Parts"
+    }
+  ],
+  "wordChanged": [
+    {
+      "from": "guide dog",
+      "to": "dog",
+      "code": "1F9AE",
+      "cat": "Animals"
+    },
+    {
+      "from": "service dog",
+      "to": "dog",
+      "code": "1F415-200D-1F9BA",
+      "cat": "Animals"
+    },
+    {
+      "from": "water buffalo",
+      "to": "buffalo",
+      "code": "1F403",
+      "cat": "Animals"
+    },
+    {
+      "from": "pig nose",
+      "to": "nose",
+      "code": "1F43D",
+      "cat": "Animals"
+    },
+    {
+      "from": "two-hump camel",
+      "to": "camel",
+      "code": "1F42B",
+      "cat": "Animals"
+    },
+    {
+      "from": "polar bear",
+      "to": "bear",
+      "code": "1F43B-200D-2744-FE0F",
+      "cat": "Animals"
+    },
+    {
+      "from": "paw prints",
+      "to": "prints",
+      "code": "1F43E",
+      "cat": "Animals"
+    },
+    {
+      "from": "hatching chick",
+      "to": "chick",
+      "code": "1F423",
+      "cat": "Animals"
+    },
+    {
+      "from": "spouting whale",
+      "to": "whale",
+      "code": "1F433",
+      "cat": "Animals"
+    },
+    {
+      "from": "tropical fish",
+      "to": "fish",
+      "code": "1F420",
+      "cat": "Animals"
+    },
+    {
+      "from": "spiral shell",
+      "to": "shell",
+      "code": "1F41A",
+      "cat": "Animals"
+    },
+    {
+      "from": "lady beetle",
+      "to": "ladybug",
+      "code": "1F41E",
+      "cat": "Animals"
+    },
+    {
+      "from": "spider web",
+      "to": "web",
+      "code": "1F578",
+      "cat": "Animals"
+    },
+    {
+      "from": "baguette bread",
+      "to": "bread",
+      "code": "1F956",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "cheese wedge",
+      "to": "wedge",
+      "code": "1F9C0",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "meat on bone",
+      "to": "bone",
+      "code": "1F356",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "poultry leg",
+      "to": "leg",
+      "code": "1F357",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "cut of meat",
+      "to": "meat",
+      "code": "1F969",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "french fries",
+      "to": "fries",
+      "code": "1F35F",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "hot dog",
+      "to": "dog",
+      "code": "1F32D",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "stuffed flatbread",
+      "to": "flatbread",
+      "code": "1F959",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "shallow pan of food",
+      "to": "food",
+      "code": "1F958",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "pot of food",
+      "to": "food",
+      "code": "1F372",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "bowl with spoon",
+      "to": "spoon",
+      "code": "1F963",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "canned food",
+      "to": "food",
+      "code": "1F96B",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "bento box",
+      "to": "box",
+      "code": "1F371",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "rice cracker",
+      "to": "cracker",
+      "code": "1F358",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "rice ball",
+      "to": "ball",
+      "code": "1F359",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "cooked rice",
+      "to": "rice",
+      "code": "1F35A",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "curry rice",
+      "to": "rice",
+      "code": "1F35B",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "steaming bowl",
+      "to": "bowl",
+      "code": "1F35C",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "roasted sweet potato",
+      "to": "potato",
+      "code": "1F360",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "fried shrimp",
+      "to": "shrimp",
+      "code": "1F364",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "fish cake with swirl",
+      "to": "swirl",
+      "code": "1F365",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "moon cake",
+      "to": "cake",
+      "code": "1F96E",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "fortune cookie",
+      "to": "cookie",
+      "code": "1F960",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "takeout box",
+      "to": "box",
+      "code": "1F961",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "soft ice cream",
+      "to": "cream",
+      "code": "1F366",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "shaved ice",
+      "to": "ice",
+      "code": "1F367",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "ice cream",
+      "to": "cream",
+      "code": "1F368",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "birthday cake",
+      "to": "cake",
+      "code": "1F382",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "chocolate bar",
+      "to": "bar",
+      "code": "1F36B",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "honey pot",
+      "to": "pot",
+      "code": "1F36F",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "baby bottle",
+      "to": "bottle",
+      "code": "1F37C",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "glass of milk",
+      "to": "milk",
+      "code": "1F95B",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "hot beverage",
+      "to": "beverage",
+      "code": "2615",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "teacup without handle",
+      "to": "handle",
+      "code": "1F375",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "bottle with popping cork",
+      "to": "cork",
+      "code": "1F37E",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "pouring liquid",
+      "to": "liquid",
+      "code": "1FAD7",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "cup with straw",
+      "to": "straw",
+      "code": "1F964",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "bubble tea",
+      "to": "tea",
+      "code": "1F9CB",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "beverage box",
+      "to": "box",
+      "code": "1F9C3",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "fork and knife with plate",
+      "to": "plate",
+      "code": "1F37D",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "fork and knife",
+      "to": "knife",
+      "code": "1F374",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "kitchen knife",
+      "to": "knife",
+      "code": "1F52A",
+      "cat": "Food & Drinks"
+    },
+    {
+      "from": "kiwi fruit",
+      "to": "fruit",
+      "code": "1F95D",
+      "cat": "Fruits & Vegetables"
+    },
+    {
+      "from": "ear of corn",
+      "to": "corn",
+      "code": "1F33D",
+      "cat": "Fruits & Vegetables"
+    },
+    {
+      "from": "hot pepper",
+      "to": "pepper",
+      "code": "1F336",
+      "cat": "Fruits & Vegetables"
+    },
+    {
+      "from": "bell pepper",
+      "to": "pepper",
+      "code": "1FAD1",
+      "cat": "Fruits & Vegetables"
+    },
+    {
+      "from": "leafy green",
+      "to": "leafy",
+      "code": "1F96C",
+      "cat": "Fruits & Vegetables"
+    },
+    {
+      "from": "ginger root",
+      "to": "root",
+      "code": "1FADA",
+      "cat": "Fruits & Vegetables"
+    },
+    {
+      "from": "pea pod",
+      "to": "pod",
+      "code": "1FADB",
+      "cat": "Fruits & Vegetables"
+    },
+    {
+      "from": "root vegetable",
+      "to": "vegetable",
+      "code": "1FADC",
+      "cat": "Fruits & Vegetables"
+    },
+    {
+      "from": "hourglass done",
+      "to": "done",
+      "code": "231B",
+      "cat": "Household Items"
+    },
+    {
+      "from": "hourglass not done",
+      "to": "done",
+      "code": "23F3",
+      "cat": "Household Items"
+    },
+    {
+      "from": "alarm clock",
+      "to": "clock",
+      "code": "23F0",
+      "cat": "Household Items"
+    },
+    {
+      "from": "timer clock",
+      "to": "clock",
+      "code": "23F2",
+      "cat": "Household Items"
+    },
+    {
+      "from": "mantelpiece clock",
+      "to": "clock",
+      "code": "1F570",
+      "cat": "Household Items"
+    },
+    {
+      "from": "twelve o’clock",
+      "to": "o’clock",
+      "code": "1F55B",
+      "cat": "Household Items"
+    },
+    {
+      "from": "one o’clock",
+      "to": "o’clock",
+      "code": "1F550",
+      "cat": "Household Items"
+    },
+    {
+      "from": "two o’clock",
+      "to": "o’clock",
+      "code": "1F551",
+      "cat": "Household Items"
+    },
+    {
+      "from": "three o’clock",
+      "to": "o’clock",
+      "code": "1F552",
+      "cat": "Household Items"
+    },
+    {
+      "from": "four o’clock",
+      "to": "o’clock",
+      "code": "1F553",
+      "cat": "Household Items"
+    },
+    {
+      "from": "five o’clock",
+      "to": "o’clock",
+      "code": "1F554",
+      "cat": "Household Items"
+    },
+    {
+      "from": "six o’clock",
+      "to": "o’clock",
+      "code": "1F555",
+      "cat": "Household Items"
+    },
+    {
+      "from": "seven o’clock",
+      "to": "o’clock",
+      "code": "1F556",
+      "cat": "Household Items"
+    },
+    {
+      "from": "eight o’clock",
+      "to": "o’clock",
+      "code": "1F557",
+      "cat": "Household Items"
+    },
+    {
+      "from": "nine o’clock",
+      "to": "o’clock",
+      "code": "1F558",
+      "cat": "Household Items"
+    },
+    {
+      "from": "ten o’clock",
+      "to": "o’clock",
+      "code": "1F559",
+      "cat": "Household Items"
+    },
+    {
+      "from": "eleven o’clock",
+      "to": "o’clock",
+      "code": "1F55A",
+      "cat": "Household Items"
+    },
+    {
+      "from": "incoming envelope",
+      "to": "envelope",
+      "code": "1F4E8",
+      "cat": "Household Items"
+    },
+    {
+      "from": "envelope with arrow",
+      "to": "arrow",
+      "code": "1F4E9",
+      "cat": "Household Items"
+    },
+    {
+      "from": "outbox tray",
+      "to": "tray",
+      "code": "1F4E4",
+      "cat": "Household Items"
+    },
+    {
+      "from": "inbox tray",
+      "to": "tray",
+      "code": "1F4E5",
+      "cat": "Household Items"
+    },
+    {
+      "from": "closed mailbox with raised flag",
+      "to": "flag",
+      "code": "1F4EB",
+      "cat": "Household Items"
+    },
+    {
+      "from": "closed mailbox with lowered flag",
+      "to": "flag",
+      "code": "1F4EA",
+      "cat": "Household Items"
+    },
+    {
+      "from": "open mailbox with raised flag",
+      "to": "flag",
+      "code": "1F4EC",
+      "cat": "Household Items"
+    },
+    {
+      "from": "open mailbox with lowered flag",
+      "to": "flag",
+      "code": "1F4ED",
+      "cat": "Household Items"
+    },
+    {
+      "from": "ballot box with ballot",
+      "to": "ballot",
+      "code": "1F5F3",
+      "cat": "Household Items"
+    },
+    {
+      "from": "locked with pen",
+      "to": "pen",
+      "code": "1F50F",
+      "cat": "Household Items"
+    },
+    {
+      "from": "locked with key",
+      "to": "key",
+      "code": "1F510",
+      "cat": "Household Items"
+    },
+    {
+      "from": "old key",
+      "to": "key",
+      "code": "1F5DD",
+      "cat": "Household Items"
+    },
+    {
+      "from": "couch and lamp",
+      "to": "lamp",
+      "code": "1F6CB",
+      "cat": "Household Items"
+    },
+    {
+      "from": "mouse trap",
+      "to": "trap",
+      "code": "1FAA4",
+      "cat": "Household Items"
+    },
+    {
+      "from": "lotion bottle",
+      "to": "bottle",
+      "code": "1F9F4",
+      "cat": "Household Items"
+    },
+    {
+      "from": "safety pin",
+      "to": "pin",
+      "code": "1F9F7",
+      "cat": "Household Items"
+    },
+    {
+      "from": "roll of paper",
+      "to": "paper",
+      "code": "1F9FB",
+      "cat": "Household Items"
+    },
+    {
+      "from": "fire extinguisher",
+      "to": "extinguisher",
+      "code": "1F9EF",
+      "cat": "Household Items"
+    },
+    {
+      "from": "shopping cart",
+      "to": "cart",
+      "code": "1F6D2",
+      "cat": "Household Items"
+    },
+    {
+      "from": "notebook with decorative cover",
+      "to": "cover",
+      "code": "1F4D4",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "closed book",
+      "to": "book",
+      "code": "1F4D5",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "open book",
+      "to": "book",
+      "code": "1F4D6",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "page with curl",
+      "to": "curl",
+      "code": "1F4C3",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "page facing up",
+      "to": "up",
+      "code": "1F4C4",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "rolled-up newspaper",
+      "to": "newspaper",
+      "code": "1F5DE",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "bookmark tabs",
+      "to": "tabs",
+      "code": "1F4D1",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "fountain pen",
+      "to": "pen",
+      "code": "1F58B",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "file folder",
+      "to": "folder",
+      "code": "1F4C1",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "open file folder",
+      "to": "folder",
+      "code": "1F4C2",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "card index dividers",
+      "to": "dividers",
+      "code": "1F5C2",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "tear-off calendar",
+      "to": "calendar",
+      "code": "1F4C6",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "spiral notepad",
+      "to": "notepad",
+      "code": "1F5D2",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "spiral calendar",
+      "to": "calendar",
+      "code": "1F5D3",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "card index",
+      "to": "index",
+      "code": "1F4C7",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "chart increasing",
+      "to": "increasing",
+      "code": "1F4C8",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "chart decreasing",
+      "to": "decreasing",
+      "code": "1F4C9",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "bar chart",
+      "to": "chart",
+      "code": "1F4CA",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "round pushpin",
+      "to": "pushpin",
+      "code": "1F4CD",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "linked paperclips",
+      "to": "paperclips",
+      "code": "1F587",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "straight ruler",
+      "to": "ruler",
+      "code": "1F4CF",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "triangular ruler",
+      "to": "ruler",
+      "code": "1F4D0",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "card file box",
+      "to": "box",
+      "code": "1F5C3",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "file cabinet",
+      "to": "cabinet",
+      "code": "1F5C4",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "test tube",
+      "to": "tube",
+      "code": "1F9EA",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "petri dish",
+      "to": "dish",
+      "code": "1F9EB",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "satellite antenna",
+      "to": "antenna",
+      "code": "1F4E1",
+      "cat": "School & Learning"
+    },
+    {
+      "from": "christmas tree",
+      "to": "tree",
+      "code": "1F384",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "party popper",
+      "to": "popper",
+      "code": "1F389",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "confetti ball",
+      "to": "ball",
+      "code": "1F38A",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "tanabata tree",
+      "to": "tree",
+      "code": "1F38B",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "pine decoration",
+      "to": "decoration",
+      "code": "1F38D",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "japanese dolls",
+      "to": "dolls",
+      "code": "1F38E",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "carp streamer",
+      "to": "streamer",
+      "code": "1F38F",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "wind chime",
+      "to": "chime",
+      "code": "1F390",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "moon viewing ceremony",
+      "to": "ceremony",
+      "code": "1F391",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "wrapped gift",
+      "to": "gift",
+      "code": "1F381",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "reminder ribbon",
+      "to": "ribbon",
+      "code": "1F397",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "admission tickets",
+      "to": "tickets",
+      "code": "1F39F",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "military medal",
+      "to": "medal",
+      "code": "1F396",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "sports medal",
+      "to": "medal",
+      "code": "1F3C5",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "1st place medal",
+      "to": "medal",
+      "code": "1F947",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "2nd place medal",
+      "to": "medal",
+      "code": "1F948",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "3rd place medal",
+      "to": "medal",
+      "code": "1F949",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "soccer ball",
+      "to": "ball",
+      "code": "26BD",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "american football",
+      "to": "football",
+      "code": "1F3C8",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "rugby football",
+      "to": "football",
+      "code": "1F3C9",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "flying disc",
+      "to": "disc",
+      "code": "1F94F",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "cricket game",
+      "to": "game",
+      "code": "1F3CF",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "field hockey",
+      "to": "hockey",
+      "code": "1F3D1",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "ice hockey",
+      "to": "hockey",
+      "code": "1F3D2",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "ping pong",
+      "to": "pong",
+      "code": "1F3D3",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "boxing glove",
+      "to": "glove",
+      "code": "1F94A",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "martial arts uniform",
+      "to": "uniform",
+      "code": "1F94B",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "goal net",
+      "to": "net",
+      "code": "1F945",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "flag in hole",
+      "to": "hole",
+      "code": "26F3",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "ice skate",
+      "to": "skate",
+      "code": "26F8",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "fishing pole",
+      "to": "pole",
+      "code": "1F3A3",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "diving mask",
+      "to": "mask",
+      "code": "1F93F",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "running shirt",
+      "to": "shirt",
+      "code": "1F3BD",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "curling stone",
+      "to": "stone",
+      "code": "1F94C",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "yo-yo",
+      "to": "yoyo",
+      "code": "1FA80",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "pool 8 ball",
+      "to": "eightball",
+      "code": "1F3B1",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "crystal ball",
+      "to": "ball",
+      "code": "1F52E",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "magic wand",
+      "to": "wand",
+      "code": "1FA84",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "video game",
+      "to": "game",
+      "code": "1F3AE",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "slot machine",
+      "to": "machine",
+      "code": "1F3B0",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "game die",
+      "to": "die",
+      "code": "1F3B2",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "puzzle piece",
+      "to": "puzzle",
+      "code": "1F9E9",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "teddy bear",
+      "to": "teddy",
+      "code": "1F9F8",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "mirror ball",
+      "to": "ball",
+      "code": "1FAA9",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "nesting dolls",
+      "to": "dolls",
+      "code": "1FA86",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "spade suit",
+      "to": "suit",
+      "code": "2660",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "heart suit",
+      "to": "suit",
+      "code": "2665",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "diamond suit",
+      "to": "suit",
+      "code": "2666",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "club suit",
+      "to": "suit",
+      "code": "2663",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "chess pawn",
+      "to": "pawn",
+      "code": "265F",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "mahjong red dragon",
+      "to": "dragon",
+      "code": "1F004",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "flower playing cards",
+      "to": "cards",
+      "code": "1F3B4",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "performing arts",
+      "to": "arts",
+      "code": "1F3AD",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "framed picture",
+      "to": "picture",
+      "code": "1F5BC",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "artist palette",
+      "to": "palette",
+      "code": "1F3A8",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "sewing needle",
+      "to": "needle",
+      "code": "1FAA1",
+      "cat": "Toys & Games"
+    },
+    {
+      "from": "lab coat",
+      "to": "coat",
+      "code": "1F97C",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "safety vest",
+      "to": "vest",
+      "code": "1F9BA",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "one-piece swimsuit",
+      "to": "swimsuit",
+      "code": "1FA71",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "woman’s clothes",
+      "to": "clothes",
+      "code": "1F45A",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "folding hand fan",
+      "to": "fan",
+      "code": "1FAAD",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "clutch bag",
+      "to": "bag",
+      "code": "1F45D",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "shopping bags",
+      "to": "bags",
+      "code": "1F6CD",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "thong sandal",
+      "to": "sandal",
+      "code": "1FA74",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "man’s shoe",
+      "to": "shoe",
+      "code": "1F45E",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "running shoe",
+      "to": "shoe",
+      "code": "1F45F",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "hiking boot",
+      "to": "boot",
+      "code": "1F97E",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "flat shoe",
+      "to": "shoe",
+      "code": "1F97F",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "high-heeled shoe",
+      "to": "shoe",
+      "code": "1F460",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "woman’s sandal",
+      "to": "sandal",
+      "code": "1F461",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "ballet shoes",
+      "to": "shoes",
+      "code": "1FA70",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "woman’s boot",
+      "to": "boot",
+      "code": "1F462",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "hair pick",
+      "to": "pick",
+      "code": "1FAAE",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "woman’s hat",
+      "to": "hat",
+      "code": "1F452",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "top hat",
+      "to": "hat",
+      "code": "1F3A9",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "graduation cap",
+      "to": "cap",
+      "code": "1F393",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "billed cap",
+      "to": "billed",
+      "code": "1F9E2",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "military helmet",
+      "to": "helmet",
+      "code": "1FA96",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "rescue worker’s helmet",
+      "to": "helmet",
+      "code": "26D1",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "prayer beads",
+      "to": "beads",
+      "code": "1F4FF",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "gem stone",
+      "to": "stone",
+      "code": "1F48E",
+      "cat": "Clothing & Accessories"
+    },
+    {
+      "from": "cherry blossom",
+      "to": "blossom",
+      "code": "1F338",
+      "cat": "Nature & Plants"
+    },
+    {
+      "from": "wilted flower",
+      "to": "flower",
+      "code": "1F940",
+      "cat": "Nature & Plants"
+    },
+    {
+      "from": "potted plant",
+      "to": "plant",
+      "code": "1FAB4",
+      "cat": "Nature & Plants"
+    },
+    {
+      "from": "evergreen tree",
+      "to": "tree",
+      "code": "1F332",
+      "cat": "Nature & Plants"
+    },
+    {
+      "from": "deciduous tree",
+      "to": "tree",
+      "code": "1F333",
+      "cat": "Nature & Plants"
+    },
+    {
+      "from": "palm tree",
+      "to": "tree",
+      "code": "1F334",
+      "cat": "Nature & Plants"
+    },
+    {
+      "from": "sheaf of rice",
+      "to": "rice",
+      "code": "1F33E",
+      "cat": "Nature & Plants"
+    },
+    {
+      "from": "four leaf clover",
+      "to": "clover",
+      "code": "1F340",
+      "cat": "Nature & Plants"
+    },
+    {
+      "from": "maple leaf",
+      "to": "leaf",
+      "code": "1F341",
+      "cat": "Nature & Plants"
+    },
+    {
+      "from": "fallen leaf",
+      "to": "leaf",
+      "code": "1F342",
+      "cat": "Nature & Plants"
+    },
+    {
+      "from": "leaf fluttering in wind",
+      "to": "wind",
+      "code": "1F343",
+      "cat": "Nature & Plants"
+    },
+    {
+      "from": "empty nest",
+      "to": "nest",
+      "code": "1FAB9",
+      "cat": "Nature & Plants"
+    },
+    {
+      "from": "nest with eggs",
+      "to": "eggs",
+      "code": "1FABA",
+      "cat": "Nature & Plants"
+    },
+    {
+      "from": "leafless tree",
+      "to": "tree",
+      "code": "1FABE",
+      "cat": "Nature & Plants"
+    },
+    {
+      "from": "new moon",
+      "to": "moon",
+      "code": "1F311",
+      "cat": "Weather"
+    },
+    {
+      "from": "waxing crescent moon",
+      "to": "moon",
+      "code": "1F312",
+      "cat": "Weather"
+    },
+    {
+      "from": "first quarter moon",
+      "to": "moon",
+      "code": "1F313",
+      "cat": "Weather"
+    },
+    {
+      "from": "waxing gibbous moon",
+      "to": "moon",
+      "code": "1F314",
+      "cat": "Weather"
+    },
+    {
+      "from": "full moon",
+      "to": "moon",
+      "code": "1F315",
+      "cat": "Weather"
+    },
+    {
+      "from": "waning gibbous moon",
+      "to": "moon",
+      "code": "1F316",
+      "cat": "Weather"
+    },
+    {
+      "from": "last quarter moon",
+      "to": "moon",
+      "code": "1F317",
+      "cat": "Weather"
+    },
+    {
+      "from": "waning crescent moon",
+      "to": "moon",
+      "code": "1F318",
+      "cat": "Weather"
+    },
+    {
+      "from": "crescent moon",
+      "to": "moon",
+      "code": "1F319",
+      "cat": "Weather"
+    },
+    {
+      "from": "sun with face",
+      "to": "face",
+      "code": "1F31E",
+      "cat": "Weather"
+    },
+    {
+      "from": "ringed planet",
+      "to": "planet",
+      "code": "1FA90",
+      "cat": "Weather"
+    },
+    {
+      "from": "glowing star",
+      "to": "star",
+      "code": "1F31F",
+      "cat": "Weather"
+    },
+    {
+      "from": "shooting star",
+      "to": "star",
+      "code": "1F320",
+      "cat": "Weather"
+    },
+    {
+      "from": "milky way",
+      "to": "way",
+      "code": "1F30C",
+      "cat": "Weather"
+    },
+    {
+      "from": "sun behind cloud",
+      "to": "cloud",
+      "code": "26C5",
+      "cat": "Weather"
+    },
+    {
+      "from": "cloud with lightning and rain",
+      "to": "rain",
+      "code": "26C8",
+      "cat": "Weather"
+    },
+    {
+      "from": "sun behind small cloud",
+      "to": "cloud",
+      "code": "1F324",
+      "cat": "Weather"
+    },
+    {
+      "from": "sun behind large cloud",
+      "to": "cloud",
+      "code": "1F325",
+      "cat": "Weather"
+    },
+    {
+      "from": "sun behind rain cloud",
+      "to": "cloud",
+      "code": "1F326",
+      "cat": "Weather"
+    },
+    {
+      "from": "cloud with rain",
+      "to": "rain",
+      "code": "1F327",
+      "cat": "Weather"
+    },
+    {
+      "from": "cloud with snow",
+      "to": "snow",
+      "code": "1F328",
+      "cat": "Weather"
+    },
+    {
+      "from": "cloud with lightning",
+      "to": "lightning",
+      "code": "1F329",
+      "cat": "Weather"
+    },
+    {
+      "from": "wind face",
+      "to": "face",
+      "code": "1F32C",
+      "cat": "Weather"
+    },
+    {
+      "from": "closed umbrella",
+      "to": "umbrella",
+      "code": "1F302",
+      "cat": "Weather"
+    },
+    {
+      "from": "umbrella with rain drops",
+      "to": "drops",
+      "code": "2614",
+      "cat": "Weather"
+    },
+    {
+      "from": "umbrella on ground",
+      "to": "ground",
+      "code": "26F1",
+      "cat": "Weather"
+    },
+    {
+      "from": "high voltage",
+      "to": "voltage",
+      "code": "26A1",
+      "cat": "Weather"
+    },
+    {
+      "from": "snowman without snow",
+      "to": "snow",
+      "code": "26C4",
+      "cat": "Weather"
+    },
+    {
+      "from": "water wave",
+      "to": "wave",
+      "code": "1F30A",
+      "cat": "Weather"
+    },
+    {
+      "from": "railway car",
+      "to": "car",
+      "code": "1F683",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "high-speed train",
+      "to": "train",
+      "code": "1F684",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "bullet train",
+      "to": "train",
+      "code": "1F685",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "light rail",
+      "to": "rail",
+      "code": "1F688",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "mountain railway",
+      "to": "railway",
+      "code": "1F69E",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "tram car",
+      "to": "car",
+      "code": "1F68B",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "oncoming bus",
+      "to": "bus",
+      "code": "1F68D",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "fire engine",
+      "to": "engine",
+      "code": "1F692",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "police car",
+      "to": "car",
+      "code": "1F693",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "oncoming police car",
+      "to": "car",
+      "code": "1F694",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "oncoming taxi",
+      "to": "taxi",
+      "code": "1F696",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "oncoming automobile",
+      "to": "automobile",
+      "code": "1F698",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "sport utility vehicle",
+      "to": "vehicle",
+      "code": "1F699",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "pickup truck",
+      "to": "truck",
+      "code": "1F6FB",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "delivery truck",
+      "to": "truck",
+      "code": "1F69A",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "articulated lorry",
+      "to": "lorry",
+      "code": "1F69B",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "racing car",
+      "to": "car",
+      "code": "1F3CE",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "motor scooter",
+      "to": "scooter",
+      "code": "1F6F5",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "manual wheelchair",
+      "to": "wheelchair",
+      "code": "1F9BD",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "motorized wheelchair",
+      "to": "wheelchair",
+      "code": "1F9BC",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "auto rickshaw",
+      "to": "rickshaw",
+      "code": "1F6FA",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "kick scooter",
+      "to": "scooter",
+      "code": "1F6F4",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "roller skate",
+      "to": "skate",
+      "code": "1F6FC",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "bus stop",
+      "to": "stop",
+      "code": "1F68F",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "railway track",
+      "to": "track",
+      "code": "1F6E4",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "oil drum",
+      "to": "drum",
+      "code": "1F6E2",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "fuel pump",
+      "to": "pump",
+      "code": "26FD",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "police car light",
+      "to": "car",
+      "code": "1F6A8",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "horizontal traffic light",
+      "to": "traffic",
+      "code": "1F6A5",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "vertical traffic light",
+      "to": "traffic",
+      "code": "1F6A6",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "stop sign",
+      "to": "sign",
+      "code": "1F6D1",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "ring buoy",
+      "to": "buoy",
+      "code": "1F6DF",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "passenger ship",
+      "to": "ship",
+      "code": "1F6F3",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "motor boat",
+      "to": "boat",
+      "code": "1F6E5",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "small airplane",
+      "to": "airplane",
+      "code": "1F6E9",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "airplane departure",
+      "to": "departure",
+      "code": "1F6EB",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "airplane arrival",
+      "to": "arrival",
+      "code": "1F6EC",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "suspension railway",
+      "to": "railway",
+      "code": "1F69F",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "mountain cableway",
+      "to": "cableway",
+      "code": "1F6A0",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "aerial tramway",
+      "to": "tramway",
+      "code": "1F6A1",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "flying saucer",
+      "to": "saucer",
+      "code": "1F6F8",
+      "cat": "Vehicles & Transportation"
+    },
+    {
+      "from": "globe showing europe-africa",
+      "to": "europe-africa",
+      "code": "1F30D",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "globe showing americas",
+      "to": "americas",
+      "code": "1F30E",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "globe showing asia-australia",
+      "to": "asia-australia",
+      "code": "1F30F",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "globe with meridians",
+      "to": "meridians",
+      "code": "1F310",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "world map",
+      "to": "map",
+      "code": "1F5FA",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "map of japan",
+      "to": "japan",
+      "code": "1F5FE",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "snow-capped mountain",
+      "to": "mountain",
+      "code": "1F3D4",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "mount fuji",
+      "to": "fuji",
+      "code": "1F5FB",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "beach with umbrella",
+      "to": "umbrella",
+      "code": "1F3D6",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "desert island",
+      "to": "island",
+      "code": "1F3DD",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "national park",
+      "to": "park",
+      "code": "1F3DE",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "classical building",
+      "to": "building",
+      "code": "1F3DB",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "building construction",
+      "to": "construction",
+      "code": "1F3D7",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "derelict house",
+      "to": "house",
+      "code": "1F3DA",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "house with garden",
+      "to": "garden",
+      "code": "1F3E1",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "office building",
+      "to": "building",
+      "code": "1F3E2",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "japanese post office",
+      "to": "office",
+      "code": "1F3E3",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "post office",
+      "to": "office",
+      "code": "1F3E4",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "love hotel",
+      "to": "hotel",
+      "code": "1F3E9",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "convenience store",
+      "to": "store",
+      "code": "1F3EA",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "department store",
+      "to": "store",
+      "code": "1F3EC",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "japanese castle",
+      "to": "castle",
+      "code": "1F3EF",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "tokyo tower",
+      "to": "tower",
+      "code": "1F5FC",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "statue of liberty",
+      "to": "liberty",
+      "code": "1F5FD",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "night with stars",
+      "to": "stars",
+      "code": "1F303",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "sunrise over mountains",
+      "to": "mountains",
+      "code": "1F304",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "cityscape at dusk",
+      "to": "dusk",
+      "code": "1F306",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "bridge at night",
+      "to": "night",
+      "code": "1F309",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "hot springs",
+      "to": "springs",
+      "code": "2668",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "carousel horse",
+      "to": "horse",
+      "code": "1F3A0",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "playground slide",
+      "to": "slide",
+      "code": "1F6DD",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "ferris wheel",
+      "to": "wheel",
+      "code": "1F3A1",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "roller coaster",
+      "to": "coaster",
+      "code": "1F3A2",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "barber pole",
+      "to": "pole",
+      "code": "1F488",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "circus tent",
+      "to": "tent",
+      "code": "1F3AA",
+      "cat": "Places & Buildings"
+    },
+    {
+      "from": "muted speaker",
+      "to": "speaker",
+      "code": "1F507",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "speaker low volume",
+      "to": "volume",
+      "code": "1F508",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "speaker medium volume",
+      "to": "volume",
+      "code": "1F509",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "speaker high volume",
+      "to": "volume",
+      "code": "1F50A",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "postal horn",
+      "to": "horn",
+      "code": "1F4EF",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "bell with slash",
+      "to": "slash",
+      "code": "1F515",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "mobile phone",
+      "to": "phone",
+      "code": "1F4F1",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "mobile phone with arrow",
+      "to": "arrow",
+      "code": "1F4F2",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "telephone receiver",
+      "to": "receiver",
+      "code": "1F4DE",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "fax machine",
+      "to": "machine",
+      "code": "1F4E0",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "low battery",
+      "to": "battery",
+      "code": "1FAAB",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "electric plug",
+      "to": "plug",
+      "code": "1F50C",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "desktop computer",
+      "to": "computer",
+      "code": "1F5A5",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "computer mouse",
+      "to": "mouse",
+      "code": "1F5B1",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "computer disk",
+      "to": "disk",
+      "code": "1F4BD",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "floppy disk",
+      "to": "disk",
+      "code": "1F4BE",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "optical disk",
+      "to": "disk",
+      "code": "1F4BF",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "movie camera",
+      "to": "camera",
+      "code": "1F3A5",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "film frames",
+      "to": "frames",
+      "code": "1F39E",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "film projector",
+      "to": "projector",
+      "code": "1F4FD",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "clapper board",
+      "to": "board",
+      "code": "1F3AC",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "camera with flash",
+      "to": "flash",
+      "code": "1F4F8",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "video camera",
+      "to": "camera",
+      "code": "1F4F9",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "magnifying glass tilted left",
+      "to": "left",
+      "code": "1F50D",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "magnifying glass tilted right",
+      "to": "right",
+      "code": "1F50E",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "light bulb",
+      "to": "bulb",
+      "code": "1F4A1",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "paper lantern",
+      "to": "lantern",
+      "code": "1F3EE",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "diya lamp",
+      "to": "lamp",
+      "code": "1FA94",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "hammer and pick",
+      "to": "pick",
+      "code": "2692",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "hammer and wrench",
+      "to": "wrench",
+      "code": "1F6E0",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "carpentry saw",
+      "to": "saw",
+      "code": "1FA9A",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "nut and bolt",
+      "to": "bolt",
+      "code": "1F529",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "balance scale",
+      "to": "scale",
+      "code": "2696",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "broken chain",
+      "to": "chain",
+      "code": "26D3-FE0F-200D-1F4A5",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "adhesive bandage",
+      "to": "bandage",
+      "code": "1FA79",
+      "cat": "Electronics & Tools"
+    },
+    {
+      "from": "large square",
+      "to": "square",
+      "code": "2B1B",
+      "cat": "Colors & Shapes"
+    },
+    {
+      "from": "medium square",
+      "to": "square",
+      "code": "25FC",
+      "cat": "Colors & Shapes"
+    },
+    {
+      "from": "medium-small square",
+      "to": "square",
+      "code": "25FE",
+      "cat": "Colors & Shapes"
+    },
+    {
+      "from": "small square",
+      "to": "square",
+      "code": "25AA",
+      "cat": "Colors & Shapes"
+    },
+    {
+      "from": "large orange diamond",
+      "to": "diamond",
+      "code": "1F536",
+      "cat": "Colors & Shapes"
+    },
+    {
+      "from": "large blue diamond",
+      "to": "diamond",
+      "code": "1F537",
+      "cat": "Colors & Shapes"
+    },
+    {
+      "from": "small orange diamond",
+      "to": "diamond",
+      "code": "1F538",
+      "cat": "Colors & Shapes"
+    },
+    {
+      "from": "small blue diamond",
+      "to": "diamond",
+      "code": "1F539",
+      "cat": "Colors & Shapes"
+    },
+    {
+      "from": "triangle pointed up",
+      "to": "up",
+      "code": "1F53A",
+      "cat": "Colors & Shapes"
+    },
+    {
+      "from": "triangle pointed down",
+      "to": "down",
+      "code": "1F53B",
+      "cat": "Colors & Shapes"
+    },
+    {
+      "from": "diamond with a dot",
+      "to": "dot",
+      "code": "1F4A0",
+      "cat": "Colors & Shapes"
+    },
+    {
+      "from": "radio button",
+      "to": "button",
+      "code": "1F518",
+      "cat": "Colors & Shapes"
+    },
+    {
+      "from": "square button",
+      "to": "button",
+      "code": "1F533",
+      "cat": "Colors & Shapes"
+    },
+    {
+      "from": "flexed biceps",
+      "to": "biceps",
+      "code": "1F4AA",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "flexed biceps: light skin tone",
+      "to": "tone",
+      "code": "1F4AA-1F3FB",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "flexed biceps: medium-light skin tone",
+      "to": "tone",
+      "code": "1F4AA-1F3FC",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "flexed biceps: medium skin tone",
+      "to": "tone",
+      "code": "1F4AA-1F3FD",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "flexed biceps: medium-dark skin tone",
+      "to": "tone",
+      "code": "1F4AA-1F3FE",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "flexed biceps: dark skin tone",
+      "to": "tone",
+      "code": "1F4AA-1F3FF",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "mechanical arm",
+      "to": "arm",
+      "code": "1F9BE",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "mechanical leg",
+      "to": "leg",
+      "code": "1F9BF",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "leg: light skin tone",
+      "to": "tone",
+      "code": "1F9B5-1F3FB",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "leg: medium-light skin tone",
+      "to": "tone",
+      "code": "1F9B5-1F3FC",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "leg: medium skin tone",
+      "to": "tone",
+      "code": "1F9B5-1F3FD",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "leg: medium-dark skin tone",
+      "to": "tone",
+      "code": "1F9B5-1F3FE",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "leg: dark skin tone",
+      "to": "tone",
+      "code": "1F9B5-1F3FF",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "foot: light skin tone",
+      "to": "tone",
+      "code": "1F9B6-1F3FB",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "foot: medium-light skin tone",
+      "to": "tone",
+      "code": "1F9B6-1F3FC",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "foot: medium skin tone",
+      "to": "tone",
+      "code": "1F9B6-1F3FD",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "foot: medium-dark skin tone",
+      "to": "tone",
+      "code": "1F9B6-1F3FE",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "foot: dark skin tone",
+      "to": "tone",
+      "code": "1F9B6-1F3FF",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "ear: light skin tone",
+      "to": "tone",
+      "code": "1F442-1F3FB",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "ear: medium-light skin tone",
+      "to": "tone",
+      "code": "1F442-1F3FC",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "ear: medium skin tone",
+      "to": "tone",
+      "code": "1F442-1F3FD",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "ear: medium-dark skin tone",
+      "to": "tone",
+      "code": "1F442-1F3FE",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "ear: dark skin tone",
+      "to": "tone",
+      "code": "1F442-1F3FF",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "ear with hearing aid",
+      "to": "aid",
+      "code": "1F9BB",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "ear with hearing aid: light skin tone",
+      "to": "tone",
+      "code": "1F9BB-1F3FB",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "ear with hearing aid: medium-light skin tone",
+      "to": "tone",
+      "code": "1F9BB-1F3FC",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "ear with hearing aid: medium skin tone",
+      "to": "tone",
+      "code": "1F9BB-1F3FD",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "ear with hearing aid: medium-dark skin tone",
+      "to": "tone",
+      "code": "1F9BB-1F3FE",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "ear with hearing aid: dark skin tone",
+      "to": "tone",
+      "code": "1F9BB-1F3FF",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "nose: light skin tone",
+      "to": "tone",
+      "code": "1F443-1F3FB",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "nose: medium-light skin tone",
+      "to": "tone",
+      "code": "1F443-1F3FC",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "nose: medium skin tone",
+      "to": "tone",
+      "code": "1F443-1F3FD",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "nose: medium-dark skin tone",
+      "to": "tone",
+      "code": "1F443-1F3FE",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "nose: dark skin tone",
+      "to": "tone",
+      "code": "1F443-1F3FF",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "anatomical heart",
+      "to": "heart",
+      "code": "1FAC0",
+      "cat": "Body Parts"
+    },
+    {
+      "from": "biting lip",
+      "to": "lip",
+      "code": "1FAE6",
+      "cat": "Body Parts"
+    }
+  ],
+  "skipped": []
+}
