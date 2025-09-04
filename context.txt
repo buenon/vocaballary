@@ -168,3 +168,19 @@ Manifest (compact keys reference)
 - c: category (one of 14 categories)
 - u: unicode codepoint(s), e.g., "1F34E"
 - p: asset path under public/assets/svg/<category>/<slug>.svg
+
+Front-end Architecture & Styling Guidelines
+- Mobile-first: Design for ~360–480px widths first; scale up gracefully.
+- Components: Small, focused, and reusable; one responsibility per component.
+- Each component should be in it's own folder.
+- State: Keep local UI state close to components; elevate only when shared.
+- Styling: Use styled-components; colocate styles with components; prefer semantic names.
+- Theming: Centralize colors/spacing in :root CSS vars or a theme object for future theming.
+- Layout: Use a top-level Layout component responsible for background and safe-area paddings.
+- Animations: Prefer CSS keyframes for simple loops; isolate animation styles in subcomponents.
+- Assets: Use vector/SVG whenever possible; raster only for large backgrounds.
+- Performance: Avoid unnecessary re-renders; memoize heavy components; lazy-load non-critical assets.
+- Accessibility (baseline): Meaningful aria-labels for interactive SVGs; sufficient contrast.
+- Naming: Use clear, singular words for asset slugs and labels.
+- Files: One component per file; index.ts barrel exports only when helpful.
+- Testing: Visual/manual sanity checks per feature; later add unit tests for logic.
