@@ -1,21 +1,23 @@
-import styled from "styled-components";
 import { HoopProvider } from "../../contexts/HoopContext";
 import BasketballBoard from "../BasketballBoard/BasketballBoard";
+import HUD from "../HUD/HUD";
 import Layout from "../Layout/Layout";
-
-const CourtLayer = styled.div`
-  position: relative;
-  width: 100%;
-  height: 100%;
-`;
+import * as S from "./Game.styled";
+import GameRunner from "./GameRunner";
 
 export default function Game() {
+  const highScore = 0;
+  const score = 0;
+  const strikes = 0;
+
   return (
     <HoopProvider>
       <Layout>
-        <CourtLayer>
+        <S.CourtLayer>
+          <HUD score={score} strikes={strikes} highScore={highScore} />
           <BasketballBoard />
-        </CourtLayer>
+          <GameRunner />
+        </S.CourtLayer>
       </Layout>
     </HoopProvider>
   );

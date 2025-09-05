@@ -11,7 +11,7 @@ Platforms
 
 Gameplay
 - Each round shows one image at center court
-- Three balls at the bottom with different word labels
+- Two balls at the bottom with different word labels
 - Exactly one correct label; randomized position per round
 - Player swipes a ball to shoot
 - Scoring: +1 for correct shot
