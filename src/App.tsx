@@ -1,9 +1,7 @@
+import Game from "./components/Game/Game";
+
 function App() {
-  return (
-    <div className="app-root">
-      VocaBall
-    </div>
-  )
+  return <Game />;
 }
 
 export default App;
