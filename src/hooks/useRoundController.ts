@@ -9,7 +9,10 @@ function pickRandom<T>(arr: readonly T[], excludeIndex?: number): [T, number] {
   return [arr[idx], idx];
 }
 
-export function useRoundController(items: WordItem[]): Round | null {
+export function useRoundController(
+  items: WordItem[],
+  seed: number
+): Round | null {
   return useMemo(() => {
     if (!items || items.length < 2) return null;
     const [target, tIdx] = pickRandom(items);
@@ -24,5 +27,5 @@ export function useRoundController(items: WordItem[]): Round | null {
       options: options as any,
       correctIndex: correctIndex as 0 | 1,
     };
-  }, [items]);
+  }, [items, seed]);
 }

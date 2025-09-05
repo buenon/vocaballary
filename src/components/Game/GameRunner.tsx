@@ -1,28 +1,17 @@
-import { useEffect, useState } from "react";
-import { useRoundController } from "../../hooks/useRoundController";
-import type { WordItem } from "../../types";
+import { useGame } from "../../contexts/GameContext";
 import BallRack from "../BallRack/BallRack";
 import WordImage from "../WordImage/WordImage";
 import * as S from "./GameRunner.styled";
 
 export default function GameRunner() {
-  const [items, setItems] = useState<WordItem[]>([]);
-
-  useEffect(() => {
-    fetch("/assets/data/manifest.sample.json")
-      .then((r) => r.json())
-      .then((data) => setItems(Array.isArray(data) ? data : data.items || []))
-      .catch(() => setItems([]));
-  }, []);
-
-  const round = useRoundController(items);
+  const { round, answer, loading } = useGame();
 
   return round ? (
     <S.Wrapper>
       <WordImage item={round.target} />
-      <BallRack options={round.options} />
+      <BallRack options={round.options} onSelectIndex={answer} />
     </S.Wrapper>
-  ) : (
+  ) : loading ? (
     "Loading..."
-  );
+  ) : null;
 }

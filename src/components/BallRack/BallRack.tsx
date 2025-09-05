@@ -4,13 +4,26 @@ import * as S from "./BallRack.styled";
 
 type BallRackProps = {
   options: [WordItem, WordItem];
+  onSelectIndex?: (index: 0 | 1) => void;
 };
 
-export default function BallRack({ options }: BallRackProps) {
+export default function BallRack({ options, onSelectIndex }: BallRackProps) {
   return (
     <S.Rack>
-      <Ball word={options[0]} xPercent={30} />
-      <Ball word={options[1]} xPercent={70} />
+      <Ball
+        word={options[0]}
+        xPercent={30}
+        onClick={() => {
+          onSelectIndex?.(0);
+        }}
+      />
+      <Ball
+        word={options[1]}
+        xPercent={70}
+        onClick={() => {
+          onSelectIndex?.(1);
+        }}
+      />
     </S.Rack>
   );
 }
