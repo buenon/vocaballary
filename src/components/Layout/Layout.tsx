@@ -1,11 +1,4 @@
-import type { PropsWithChildren } from "react";
 import styled from "styled-components";
-
-type LayoutProps = PropsWithChildren<{
-  backgroundSrc?: string;
-}>;
-
-const DEFAULT_BG = "/assets/background.png";
 
 const Root = styled.div`
   position: relative;
@@ -48,14 +41,11 @@ const Content = styled.div`
   padding: 16px;
 `;
 
-export default function Layout({
-  children,
-  backgroundSrc = DEFAULT_BG,
-}: LayoutProps) {
+export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <Root>
       <Frame>
-        <BgImg src={backgroundSrc} alt="" />
+        <BgImg src="/assets/background.png" alt="" />
         <Content>{children}</Content>
       </Frame>
     </Root>
