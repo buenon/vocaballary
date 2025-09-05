@@ -2,8 +2,9 @@ import styled from "styled-components";
 
 export const Root = styled.div`
   position: relative;
-  width: 30%;
+  width: 50%;
   aspect-ratio: 1 / 1;
+  container-type: inline-size;
 `;
 
 export const Layer = styled.div`
@@ -27,8 +28,13 @@ export const Img = styled.img`
 export const Label = styled.div`
   font-weight: 700;
   color: white;
-  font-size: clamp(12px, 3.2vw, 48px);
-  padding: clamp(4px, 1.2vw, 12px);
+  font-size: clamp(16px, 18cqw, 36px);
+  padding: clamp(4px, 4cqw, 12px);
   background: rgba(0, 0, 0, 0.7);
   border-radius: 8px;
+  max-width: 90%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 `;

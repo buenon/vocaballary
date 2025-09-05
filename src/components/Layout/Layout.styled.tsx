@@ -39,4 +39,5 @@ export const Content = styled.div`
   flex-direction: column;
   align-items: center;
   padding: 16px;
+  container-type: inline-size;
 `;
