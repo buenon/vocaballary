@@ -2,9 +2,9 @@ import { useCallback, useEffect, useState } from "react";
 import styled, { css, keyframes } from "styled-components";
 import { useHoop } from "../../contexts/HoopContext";
 
-const Wrapper = styled.div`
+const HoopWrapper = styled.div`
   position: relative;
-  top: 80%;
+  top: 70%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,7 +12,8 @@ const Wrapper = styled.div`
 
 const swooshKeyframes = keyframes`
   0% { transform: scaleY(1); }
-  25% { transform: scaleY(0.25); }
+  15% { transform: scaleY(1.3); }
+  35% { transform: scaleY(0.35); }
   50% { transform: scaleY(1.15); }
   65% { transform: scaleY(0.95); }
   80% { transform: scaleY(1.05); }
@@ -20,13 +21,25 @@ const swooshKeyframes = keyframes`
   100% { transform: scaleY(1); }
 `;
 
-const NetTop = styled.img`
+const HoopImg = styled.img`
+  position: absolute;
+  top: 0;
+  left: 0;
   display: block;
   user-select: none;
   pointer-events: none;
 `;
 
-const NetBottom = styled.img<{ $animating: boolean }>`
+const NetWrapper = styled.div`
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`;
+
+const NetImg = styled.img<{ $animating: boolean }>`
   display: block;
   user-select: none;
   pointer-events: none;
@@ -54,14 +67,17 @@ export default function Hoop() {
   }, [swooshKey]);
 
   return (
-    <Wrapper>
-      <NetTop src="/assets/net-top.png" alt="hoop top" />
-      <NetBottom
-        src="/assets/net-bottom.png"
-        alt="hoop net"
-        $animating={isAnimating}
-        onAnimationEnd={() => setIsAnimating(false)}
-      />
-    </Wrapper>
+    <HoopWrapper>
+      <HoopImg src="/assets/hoop.png" alt="hoop" />
+      <NetWrapper>
+        <img src="/assets/net-top.png" alt="net top" />
+        <NetImg
+          src="/assets/net-bottom.png"
+          alt="net bottom"
+          $animating={isAnimating}
+          onAnimationEnd={() => setIsAnimating(false)}
+        />
+      </NetWrapper>
+    </HoopWrapper>
   );
 }

@@ -18,7 +18,7 @@ const BoardRoot = styled.div`
 const InnerRect = styled.div`
   position: absolute;
   left: 50%;
-  bottom: 5%;
+  bottom: 15%;
   transform: translateX(-50%);
   width: 40%;
   height: 50%;
