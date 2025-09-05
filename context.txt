@@ -184,3 +184,19 @@ Front-end Architecture & Styling Guidelines
 - Naming: Use clear, singular words for asset slugs and labels.
 - Files: One component per file; index.ts barrel exports only when helpful.
 - Testing: Visual/manual sanity checks per feature; later add unit tests for logic.
+
+Implementation Status (update after each item)
+- Layout & background pillarboxing: completed
+- Responsive stage and content container: completed
+- Basketball board, hoop, animated net: completed
+- Component folder structure + .styled split: completed
+- Container-based responsive sizing (cqw): completed
+- HUD and ball labels sizing adjustments: completed
+- Word image sizing tuned for mobile: completed
+- Sample manifest and round controller wiring: completed
+- Game assembly (HUD + board + runner): completed (basic)
+- Drag/flick mechanics and hit judging: pending
+- Score/strikes state + game over overlay: pending
+- High score persistence: pending
+- Audio (voice-over and SFX): pending
+- OpenMoji pipeline and full manifest: pending
