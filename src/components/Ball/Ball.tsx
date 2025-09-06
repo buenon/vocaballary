@@ -75,7 +75,7 @@ export default function Ball({
           const arcY = dy * e + peak * (1 - (2 * p - 1) ** 2);
           const y = startOffset.y + arcY;
           if (rimWidth) {
-            const targetScale = Math.min(1, (rimWidth * 0.85) / ballRect.width);
+            const targetScale = Math.min(1, (rimWidth * 0.7) / ballRect.width);
             const s = 1 - (1 - targetScale) * e;
             setScale(s);
           }

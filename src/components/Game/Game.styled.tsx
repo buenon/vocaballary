@@ -13,27 +13,21 @@ export const CourtLayer = styled.div`
   min-width: 320px;
 `;
 
-export const HoopContainer = styled.div`
+export const HoopContainer = styled.div<{
+  $top: number;
+  $left: number;
+  $width: number;
+}>`
   position: absolute;
-  /* Position hoop at the same location as it was inside the board */
-  /* Board is at gap position from HUD, so we calculate from there */
-  top: calc(
-    clamp(12px, 2.5cqw, 24px) + min(58%, 360px) * 7 / 12 * 0.15 +
-      min(58%, 360px) * 7 / 12 * 0.5 * 0.7
-  );
-  left: 50%;
+  top: ${(p) => p.$top}px;
+  left: ${(p) => p.$left}px;
+  width: ${(p) => p.$width}px;
   transform: translateX(-50%);
-  /* Width matches the InnerRect width (40% of board width) */
-  width: calc(min(58%, 360px) * 0.4);
   z-index: 5;
   pointer-events: none;
 `;
 
 export const WordImageContainer = styled.div`
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   z-index: 2;
   /* Center the word image in the court area */
   margin-top: -20px; /* Slight adjustment to center better */
@@ -45,9 +39,9 @@ export const BallContainer = styled.div<{ $xPercent: number }>`
   left: ${(p) => p.$xPercent}%;
   transform: translateX(-50%);
   z-index: 3; /* Behind the net */
-  /* Give the container a proper size for the ball to reference */
-  width: clamp(160px, 32cqw, 220px);
-  height: clamp(160px, 32cqw, 220px);
+  /* Give the container a responsive size that scales with both width and height */
+  width: clamp(120px, 25vmin, 200px);
+  height: clamp(120px, 25vmin, 200px);
 `;
 
 export const LoadingText = styled.div`
@@ -58,4 +52,12 @@ export const LoadingText = styled.div`
   font-size: 18px;
   color: #333;
   z-index: 10;
+`;
+
+export const HoopFiller = styled.div`
+  height: 10%;
+`;
+
+export const BallRack = styled.div`
+  height: 24%;
 `;

@@ -1,3 +1,4 @@
+import { useLayoutEffect, useRef, useState } from "react";
 import { GameContext } from "../../contexts/GameContext";
 import { HoopProvider } from "../../contexts/HoopContext";
 import { useGameEngine } from "../../hooks/useGameEngine";
@@ -13,6 +14,51 @@ import GameOver from "./GameOver";
 export default function Game() {
   const engine = useGameEngine();
   const { round, answer, loading, gameOver } = engine;
+  const boardRef = useRef<HTMLDivElement>(null);
+  const [hoopPosition, setHoopPosition] = useState<{
+    top: number;
+    left: number;
+    width: number;
+  } | null>(null);
+
+  useLayoutEffect(() => {
+    const updateHoopPosition = () => {
+      if (!boardRef.current) return;
+
+      const boardRect = boardRef.current.getBoundingClientRect();
+      const courtLayerRect =
+        boardRef.current.parentElement?.getBoundingClientRect();
+
+      if (!courtLayerRect) return;
+
+      // Position hoop higher up from the bottom of the board
+      const hoopTop =
+        boardRect.bottom - courtLayerRect.top - boardRect.height * 0.3;
+      const hoopLeft =
+        boardRect.left + boardRect.width / 2 - courtLayerRect.left;
+      const hoopWidth = boardRect.width * 0.4; // 40% of board width (matches InnerRect)
+
+      setHoopPosition({
+        top: hoopTop,
+        left: hoopLeft,
+        width: hoopWidth,
+      });
+    };
+
+    updateHoopPosition();
+
+    const resizeObserver = new ResizeObserver(updateHoopPosition);
+    if (boardRef.current) {
+      resizeObserver.observe(boardRef.current);
+    }
+
+    window.addEventListener("resize", updateHoopPosition);
+
+    return () => {
+      resizeObserver.disconnect();
+      window.removeEventListener("resize", updateHoopPosition);
+    };
+  }, []);
 
   return (
     <HoopProvider>
@@ -24,15 +70,21 @@ export default function Game() {
               strikes={engine.strikes}
               highScore={engine.highScore}
             />
-            <BasketballBoard />
+            <BasketballBoard ref={boardRef} />
+            {hoopPosition && (
+              <S.HoopContainer
+                $top={hoopPosition.top}
+                $left={hoopPosition.left}
+                $width={hoopPosition.width}
+              >
+                <Hoop />
+              </S.HoopContainer>
+            )}
+            <S.HoopFiller />
             {round && (
               <>
-                <S.WordImageContainer>
-                  <WordImage item={round.target} />
-                </S.WordImageContainer>
-                <S.HoopContainer>
-                  <Hoop />
-                </S.HoopContainer>
+                <WordImage item={round.target} />
+                <S.BallRack />
                 <S.BallContainer $xPercent={20}>
                   <Ball
                     word={round.options[0]}

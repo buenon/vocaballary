@@ -44,10 +44,11 @@ export const Img = styled.img`
 export const Label = styled.div`
   font-weight: 700;
   color: white;
-  font-size: clamp(16px, 6vw, 28px);
-  padding: clamp(5px, 1.5vw, 12px);
+  /* Scale directly based on the ball container size using container queries */
+  font-size: clamp(14px, 12cqw, 24px);
+  padding: clamp(4px, 3cqw, 10px);
   background: rgba(0, 0, 0, 0.7);
-  border-radius: 10px;
+  border-radius: clamp(6px, 2cqw, 12px);
   max-width: 90%;
   text-align: center;
   white-space: nowrap;

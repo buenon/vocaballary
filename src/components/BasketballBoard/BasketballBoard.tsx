@@ -1,11 +1,16 @@
+import { forwardRef } from "react";
 import * as S from "./BasketballBoard.styled";
 
 type BoardProps = {};
 
-export default function BasketballBoard({}: BoardProps) {
+const BasketballBoard = forwardRef<HTMLDivElement, BoardProps>((_, ref) => {
   return (
-    <S.BoardRoot>
+    <S.BoardRoot ref={ref}>
       <S.InnerRect />
     </S.BoardRoot>
   );
-}
+});
+
+BasketballBoard.displayName = "BasketballBoard";
+
+export default BasketballBoard;
