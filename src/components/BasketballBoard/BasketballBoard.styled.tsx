@@ -8,6 +8,7 @@ export const BoardRoot = styled.div`
   border: 6px solid black;
   border-radius: 8px;
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.25);
+  z-index: 1;
 `;
 
 export const InnerRect = styled.div`

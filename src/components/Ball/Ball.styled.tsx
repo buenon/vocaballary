@@ -6,8 +6,8 @@ export const Root = styled.div<{
   $scale: number;
 }>`
   position: relative;
-  width: 50%;
-  aspect-ratio: 1 / 1;
+  width: 100%;
+  height: 100%;
   container-type: inline-size;
   touch-action: none;
   cursor: grab;
@@ -44,10 +44,10 @@ export const Img = styled.img`
 export const Label = styled.div`
   font-weight: 700;
   color: white;
-  font-size: clamp(16px, 18cqw, 36px);
-  padding: clamp(4px, 4cqw, 12px);
+  font-size: clamp(16px, 6vw, 28px);
+  padding: clamp(5px, 1.5vw, 12px);
   background: rgba(0, 0, 0, 0.7);
-  border-radius: 8px;
+  border-radius: 10px;
   max-width: 90%;
   text-align: center;
   white-space: nowrap;
