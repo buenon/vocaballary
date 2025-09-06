@@ -11,6 +11,10 @@ export const Root = styled.div<{ $dragX: number; $dragY: number }>`
     cursor: grabbing;
   }
   transform: translate(${(p) => p.$dragX}px, ${(p) => p.$dragY}px);
+  transition: transform 180ms ease;
+  &.dragging {
+    transition: none;
+  }
 `;
 
 export const Layer = styled.div`

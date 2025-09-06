@@ -13,10 +13,13 @@ export default function Ball({ word, xPercent, onRelease }: BallProps) {
   const [dragging, setDragging] = useState(false);
   const startRef = useRef<{ x: number; y: number } | null>(null);
   const [offset, setOffset] = useState({ x: 0, y: 0 });
+  const heightRef = useRef<number>(0);
 
   function onPointerDown(e: React.PointerEvent<HTMLDivElement>) {
     (e.target as HTMLElement).setPointerCapture(e.pointerId);
     startRef.current = { x: e.clientX, y: e.clientY };
+    const rect = rootRef.current?.getBoundingClientRect();
+    heightRef.current = rect?.height ?? 0;
     setDragging(true);
   }
 
@@ -29,9 +32,19 @@ export default function Ball({ word, xPercent, onRelease }: BallProps) {
 
   function endDrag() {
     setDragging(false);
-    setOffset({ x: 0, y: 0 });
-    startRef.current = null;
-    onRelease?.();
+    const releasedDy = offset.y;
+    const fraction = 0.5; // 50% of ball height
+    const thresholdPx = heightRef.current ? -heightRef.current * fraction : -50;
+    if (releasedDy <= thresholdPx) {
+      // Above threshold: accept selection
+      setOffset({ x: 0, y: 0 });
+      startRef.current = null;
+      onRelease?.();
+    } else {
+      // Below threshold: snap back
+      setOffset({ x: 0, y: 0 });
+      startRef.current = null;
+    }
   }
 
   function onPointerUp(e: React.PointerEvent<HTMLDivElement>) {
