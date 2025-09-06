@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import { GameContext } from "../../contexts/GameContext";
-import { HoopProvider } from "../../contexts/HoopContext";
+import { HoopProvider, useHoop } from "../../contexts/HoopContext";
 import { useGameEngine } from "../../hooks/useGameEngine";
 import { useHoopPositioning } from "../../hooks/useHoopPositioning";
 import Ball from "../Ball/Ball";
@@ -30,13 +30,20 @@ export default function Game() {
             />
             <BasketballBoard ref={boardRef} />
             {hoopPosition && (
-              <S.HoopContainer
-                $top={hoopPosition.top}
-                $left={hoopPosition.left}
-                $width={hoopPosition.width}
-              >
-                <Hoop />
-              </S.HoopContainer>
+              <>
+                <S.HoopBackContainer
+                  $top={hoopPosition.top}
+                  $left={hoopPosition.left}
+                  $width={hoopPosition.width}
+                >
+                  <img src="/assets/hoop-back.png" alt="hoop back" />
+                </S.HoopBackContainer>
+                <HoopZLayer
+                  $top={hoopPosition.top}
+                  $left={hoopPosition.left}
+                  $width={hoopPosition.width}
+                />
+              </>
             )}
             <S.HoopFiller />
             {round && (
@@ -73,5 +80,27 @@ export default function Game() {
         </Layout>
       </GameContext.Provider>
     </HoopProvider>
+  );
+}
+
+function HoopZLayer({
+  $top,
+  $left,
+  $width,
+}: {
+  $top: number;
+  $left: number;
+  $width: number;
+}) {
+  const { isSwishing } = useHoop();
+  return (
+    <S.HoopContainer
+      $top={$top}
+      $left={$left}
+      $width={$width}
+      $front={isSwishing}
+    >
+      <Hoop />
+    </S.HoopContainer>
   );
 }

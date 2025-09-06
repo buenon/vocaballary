@@ -13,7 +13,7 @@ export const CourtLayer = styled.div`
   min-width: 320px;
 `;
 
-export const HoopContainer = styled.div<{
+export const HoopBackContainer = styled.div<{
   $top: number;
   $left: number;
   $width: number;
@@ -23,12 +23,29 @@ export const HoopContainer = styled.div<{
   left: ${(p) => p.$left}px;
   width: ${(p) => p.$width}px;
   transform: translateX(-50%);
-  z-index: 5;
+  z-index: 1;
+`;
+
+export const HoopContainer = styled.div<{
+  $top: number;
+  $left: number;
+  $width: number;
+  $front?: boolean;
+}>`
+  position: absolute;
+  top: ${(p) => p.$top}px;
+  left: ${(p) => p.$left}px;
+  width: ${(p) => p.$width}px;
+  transform: translateX(-50%);
+  z-index: ${(p) => (p.$front ? 9 : 5)};
   pointer-events: none;
 `;
 
 export const WordImageContainer = styled.div`
   z-index: 2;
+  &.front {
+    z-index: 8; /* below hoop front (9) but above ball (7) */
+  }
   /* Center the word image in the court area */
   margin-top: -20px; /* Slight adjustment to center better */
 `;
@@ -38,7 +55,7 @@ export const BallContainer = styled.div<{ $xPercent: number }>`
   bottom: clamp(12px, 2.5cqw, 24px);
   left: ${(p) => p.$xPercent}%;
   transform: translateX(-50%);
-  z-index: 3; /* Behind the net */
+  z-index: 7; /* In front by default; hoop front can override during swish */
   /* Give the container a responsive size that scales with both width and height */
   width: clamp(120px, 25vmin, 200px);
   height: clamp(120px, 25vmin, 200px);

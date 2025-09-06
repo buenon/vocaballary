@@ -11,8 +11,9 @@ export function useBallAnimation(correct: boolean, onRelease?: () => void) {
   const FINALIZE_DELAY_MS = 1000; // delay after landing before resetting and answering
 
   // Correct shot drop parameters
-  const DROP_DURATION_MS = 150;
+  const DROP_DURATION_MS = 200;
   const DROP_END_BIAS_PX = 128; // positive lowers final made-shot position after net
+  const MADE_FALL_FINAL_Y_PERCENT = 0.3; // final screen Y for made shots as % from top
 
   // Miss/bounce parameters
   const MISS_RIM_HIT_Y_OFFSET = 40; // how deep the ball dips to hit rim visually
@@ -26,7 +27,14 @@ export function useBallAnimation(correct: boolean, onRelease?: () => void) {
   const startRef = useRef<{ x: number; y: number } | null>(null);
   const [offset, setOffset] = useState({ x: 0, y: 0 });
   const heightRef = useRef<number>(0);
-  const { rimCenter, rimWidth, netBottomY, swoosh } = useHoop();
+  const {
+    rimCenter,
+    rimWidth,
+    netBottomY,
+    swoosh,
+    setIsSwishing,
+    setIsCenterFront,
+  } = useHoop();
   const [scale, setScale] = useState(1);
   const [animating, setAnimating] = useState(false);
 
@@ -189,10 +197,17 @@ export function useBallAnimation(correct: boolean, onRelease?: () => void) {
               // Drop straight through the net to its bottom, then delay
               const br = rootRef.current.getBoundingClientRect();
               const currentCenterY = br.top + br.height / 2;
-              const dropDy = netBottomY - currentCenterY + DROP_END_BIAS_PX;
+              // Compute consistent final Y at a percentage of viewport height
+              const targetCenterY =
+                window.scrollY + window.innerHeight * MADE_FALL_FINAL_Y_PERCENT;
+              const dropDy = targetCenterY - currentCenterY + DROP_END_BIAS_PX;
               const dropStart = performance.now();
               const dropDur = DROP_DURATION_MS;
               const startY = y;
+              // Bring hoop front above the ball for visual pass-through
+              setIsSwishing(true);
+              // Bring center image to front as ball reaches the board
+              setIsCenterFront(true);
               function dropFrame(ts2: number) {
                 if (animTokenRef.current !== token) return; // stale frame
                 const p2 = Math.min(1, (ts2 - dropStart) / dropDur);
@@ -202,6 +217,12 @@ export function useBallAnimation(correct: boolean, onRelease?: () => void) {
                   animationRef.current = requestAnimationFrame(dropFrame);
                 } else {
                   swoosh();
+                  // Reset center image to back after made shot completes
+                  const doneId = window.setTimeout(
+                    () => setIsCenterFront(false),
+                    FINALIZE_DELAY_MS
+                  );
+                  timeoutsRef.current.push(doneId);
                   finalize();
                 }
               }
@@ -213,8 +234,11 @@ export function useBallAnimation(correct: boolean, onRelease?: () => void) {
                 setScale(1);
                 startRef.current = null;
                 setAnimating(false);
+                setIsCenterFront(false);
                 onRelease?.();
               };
+              // Bring center image to front as the ball reaches the rim area for misses as well
+              setIsCenterFront(true);
               animateRimBounceAndFall(x, y, missFinalize);
             }
             // Note: in a fuller impl we'd clear pending timers on unmount

@@ -5,11 +5,15 @@ import * as S from "./Hoop.styled";
 
 export default function Hoop() {
   const [isAnimating, setIsAnimating] = useState(false);
-  const { swooshKey, setRimCenter, setRimWidth, setNetBottomY } = useHoop();
+  const { swooshKey, setRimCenter, setRimWidth, setNetBottomY, setIsSwishing } =
+    useHoop();
 
   const triggerSwoosh = useCallback(() => {
     setIsAnimating(false);
-    requestAnimationFrame(() => setIsAnimating(true));
+    requestAnimationFrame(() => {
+      setIsAnimating(true);
+      setIsSwishing(true);
+    });
   }, []);
 
   useEffect(() => {
@@ -29,14 +33,17 @@ export default function Hoop() {
 
   return (
     <S.HoopWrapper ref={wrapperRef}>
-      <S.HoopImg src="/assets/hoop.png" alt="hoop" />
+      <S.HoopImg src="/assets/hoop-front.png" alt="hoop" />
       <S.NetWrapper>
         <img src="/assets/net-top.png" alt="net top" />
         <S.NetImg
           src="/assets/net-bottom.png"
           alt="net bottom"
           $animating={isAnimating}
-          onAnimationEnd={() => setIsAnimating(false)}
+          onAnimationEnd={() => {
+            setIsAnimating(false);
+            setIsSwishing(false);
+          }}
           ref={(el) => {
             if (!el) return;
             const rect = el.getBoundingClientRect();

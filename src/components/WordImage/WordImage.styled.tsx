@@ -6,6 +6,11 @@ export const Wrap = styled.div`
   align-items: center;
   justify-content: center;
   flex: 1;
+  position: relative;
+  z-index: 2; /* behind ball by default */
+  &.front {
+    z-index: 8; /* above ball (7), below hoop front (9) */
+  }
 `;
 
 export const Frame = styled.div`
