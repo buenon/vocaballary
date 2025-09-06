@@ -14,13 +14,18 @@ export const Root = styled.div<{
   &.dragging {
     cursor: grabbing;
   }
-  transform: translate(${(p) => p.$dragX}px, ${(p) => p.$dragY}px)
+  transform: translate3d(${(p) => p.$dragX}px, ${(p) => p.$dragY}px, 0)
     scale(${(p) => p.$scale});
   transition: transform 180ms ease, scale 180ms ease;
+  /* Avoid CSS transitions fighting scripted rAF animations */
+  &[data-animating="true"] {
+    transition: none;
+  }
   &.dragging {
     transition: none;
   }
   will-change: transform;
+  backface-visibility: hidden; /* Force GPU acceleration */
 `;
 
 export const Layer = styled.div`

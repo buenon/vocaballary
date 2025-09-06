@@ -19,6 +19,7 @@ export default function Ball({
     dragging,
     offset,
     scale,
+    animating,
     rootRef,
     onPointerDown,
     onPointerMove,
@@ -32,6 +33,7 @@ export default function Ball({
       $dragX={offset.x}
       $dragY={offset.y}
       $scale={scale}
+      data-animating={animating}
       data-x={xPercent}
       aria-label={word.w}
       role="button"
