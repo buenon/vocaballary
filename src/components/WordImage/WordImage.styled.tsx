@@ -17,6 +17,7 @@ export const Frame = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
   background: rgba(255, 255, 255, 0.85);
   border-radius: 12px;
   /* Bigger on phones, unchanged caps for tablets/desktop */
@@ -27,4 +28,12 @@ export const Frame = styled.div`
 export const Img = styled.img`
   width: 70%;
   height: 70%;
+`;
+
+export const SpinnerWrap = styled.div`
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;

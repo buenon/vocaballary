@@ -57,8 +57,9 @@ export const BallContainer = styled.div<{ $xPercent: number }>`
   transform: translateX(-50%);
   z-index: 7; /* In front by default; hoop front can override during swish */
   /* Give the container a responsive size that scales with both width and height */
-  width: clamp(120px, 25vmin, 200px);
-  height: clamp(120px, 25vmin, 200px);
+  /* Each ball ~30% of the game layout width, with sensible min/max */
+  width: clamp(120px, 30cqw, 200px);
+  height: clamp(120px, 30cqw, 200px);
 `;
 
 export const LoadingText = styled.div`

@@ -7,6 +7,7 @@ export const GameOverOverlay = styled.div`
   align-items: center;
   justify-content: center;
   padding: 16px;
+  z-index: 20;
 `;
 
 const pop = keyframes`
