@@ -1,14 +1,16 @@
+import { forwardRef } from "react";
 import * as S from "./BasketballBoard.styled";
-import Hoop from "./Hoop";
 
 type BoardProps = {};
 
-export default function BasketballBoard({}: BoardProps) {
+const BasketballBoard = forwardRef<HTMLDivElement, BoardProps>((_, ref) => {
   return (
-    <S.BoardRoot>
-      <S.InnerRect>
-        <Hoop />
-      </S.InnerRect>
+    <S.BoardRoot ref={ref}>
+      <S.InnerRect />
     </S.BoardRoot>
   );
-}
+});
+
+BasketballBoard.displayName = "BasketballBoard";
+
+export default BasketballBoard;

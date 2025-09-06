@@ -1,15 +1,22 @@
+import { useRef } from "react";
 import { GameContext } from "../../contexts/GameContext";
-import { HoopProvider } from "../../contexts/HoopContext";
+import { HoopProvider, useHoop } from "../../contexts/HoopContext";
 import { useGameEngine } from "../../hooks/useGameEngine";
+import { useHoopPositioning } from "../../hooks/useHoopPositioning";
+import Ball from "../Ball/Ball";
 import BasketballBoard from "../BasketballBoard/BasketballBoard";
+import Hoop from "../BasketballBoard/Hoop";
 import HUD from "../HUD/HUD";
 import Layout from "../Layout/Layout";
+import WordImage from "../WordImage/WordImage";
 import * as S from "./Game.styled";
 import GameOver from "./GameOver";
-import GameRunner from "./GameRunner";
 
 export default function Game() {
   const engine = useGameEngine();
+  const { round, answer, loading, gameOver } = engine;
+  const boardRef = useRef<HTMLDivElement>(null!);
+  const hoopPosition = useHoopPositioning(boardRef);
 
   return (
     <HoopProvider>
@@ -21,10 +28,48 @@ export default function Game() {
               strikes={engine.strikes}
               highScore={engine.highScore}
             />
-            <BasketballBoard />
-            {!engine.gameOver ? (
-              <GameRunner />
-            ) : (
+            <BasketballBoard ref={boardRef} />
+            {hoopPosition && (
+              <>
+                <S.HoopBackContainer
+                  $top={hoopPosition.top}
+                  $left={hoopPosition.left}
+                  $width={hoopPosition.width}
+                >
+                  <img src="/assets/hoop-back.png" alt="hoop back" />
+                </S.HoopBackContainer>
+                <HoopZLayer
+                  $top={hoopPosition.top}
+                  $left={hoopPosition.left}
+                  $width={hoopPosition.width}
+                />
+              </>
+            )}
+            <S.HoopFiller />
+            {round && (
+              <>
+                <WordImage item={round.target} />
+                <S.BallRack />
+                <S.BallContainer $xPercent={20}>
+                  <Ball
+                    word={round.options[0]}
+                    xPercent={20}
+                    correct={round.correctIndex === 0}
+                    onRelease={() => answer(0)}
+                  />
+                </S.BallContainer>
+                <S.BallContainer $xPercent={80}>
+                  <Ball
+                    word={round.options[1]}
+                    xPercent={80}
+                    correct={round.correctIndex === 1}
+                    onRelease={() => answer(1)}
+                  />
+                </S.BallContainer>
+              </>
+            )}
+            {loading && <S.LoadingText>Loading...</S.LoadingText>}
+            {gameOver && (
               <GameOver
                 score={engine.score}
                 best={engine.highScore}
@@ -35,5 +80,27 @@ export default function Game() {
         </Layout>
       </GameContext.Provider>
     </HoopProvider>
+  );
+}
+
+function HoopZLayer({
+  $top,
+  $left,
+  $width,
+}: {
+  $top: number;
+  $left: number;
+  $width: number;
+}) {
+  const { isSwishing } = useHoop();
+  return (
+    <S.HoopContainer
+      $top={$top}
+      $left={$left}
+      $width={$width}
+      $front={isSwishing}
+    >
+      <Hoop />
+    </S.HoopContainer>
   );
 }

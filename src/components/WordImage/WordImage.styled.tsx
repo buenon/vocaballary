@@ -6,6 +6,11 @@ export const Wrap = styled.div`
   align-items: center;
   justify-content: center;
   flex: 1;
+  position: relative;
+  z-index: 2; /* behind ball by default */
+  &.front {
+    z-index: 8; /* above ball (7), below hoop front (9) */
+  }
 `;
 
 export const Frame = styled.div`
@@ -15,7 +20,7 @@ export const Frame = styled.div`
   background: rgba(255, 255, 255, 0.85);
   border-radius: 12px;
   /* Bigger on phones, unchanged caps for tablets/desktop */
-  width: clamp(180px, 45cqw, 260px);
+  width: clamp(120px, 45cqw, 260px);
   aspect-ratio: 1 / 1;
 `;
 
