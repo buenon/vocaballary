@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
-export const Root = styled.div<{ $dragX: number; $dragY: number }>`
+export const Root = styled.div<{
+  $dragX: number;
+  $dragY: number;
+  $scale: number;
+}>`
   position: relative;
   width: 50%;
   aspect-ratio: 1 / 1;
@@ -10,11 +14,13 @@ export const Root = styled.div<{ $dragX: number; $dragY: number }>`
   &.dragging {
     cursor: grabbing;
   }
-  transform: translate(${(p) => p.$dragX}px, ${(p) => p.$dragY}px);
-  transition: transform 180ms ease;
+  transform: translate(${(p) => p.$dragX}px, ${(p) => p.$dragY}px)
+    scale(${(p) => p.$scale});
+  transition: transform 180ms ease, scale 180ms ease;
   &.dragging {
     transition: none;
   }
+  will-change: transform;
 `;
 
 export const Layer = styled.div`

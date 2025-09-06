@@ -9,7 +9,11 @@ export default function GameRunner() {
   return round ? (
     <S.Wrapper>
       <WordImage item={round.target} />
-      <BallRack options={round.options} onSelectIndex={answer} />
+      <BallRack
+        options={round.options}
+        correctIndex={round.correctIndex}
+        onSelectIndex={answer}
+      />
     </S.Wrapper>
   ) : loading ? (
     "Loading..."
