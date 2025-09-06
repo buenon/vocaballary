@@ -1,7 +1,8 @@
-import { useLayoutEffect, useRef, useState } from "react";
+import { useRef } from "react";
 import { GameContext } from "../../contexts/GameContext";
 import { HoopProvider } from "../../contexts/HoopContext";
 import { useGameEngine } from "../../hooks/useGameEngine";
+import { useHoopPositioning } from "../../hooks/useHoopPositioning";
 import Ball from "../Ball/Ball";
 import BasketballBoard from "../BasketballBoard/BasketballBoard";
 import Hoop from "../BasketballBoard/Hoop";
@@ -14,51 +15,8 @@ import GameOver from "./GameOver";
 export default function Game() {
   const engine = useGameEngine();
   const { round, answer, loading, gameOver } = engine;
-  const boardRef = useRef<HTMLDivElement>(null);
-  const [hoopPosition, setHoopPosition] = useState<{
-    top: number;
-    left: number;
-    width: number;
-  } | null>(null);
-
-  useLayoutEffect(() => {
-    const updateHoopPosition = () => {
-      if (!boardRef.current) return;
-
-      const boardRect = boardRef.current.getBoundingClientRect();
-      const courtLayerRect =
-        boardRef.current.parentElement?.getBoundingClientRect();
-
-      if (!courtLayerRect) return;
-
-      // Position hoop higher up from the bottom of the board
-      const hoopTop =
-        boardRect.bottom - courtLayerRect.top - boardRect.height * 0.3;
-      const hoopLeft =
-        boardRect.left + boardRect.width / 2 - courtLayerRect.left;
-      const hoopWidth = boardRect.width * 0.4; // 40% of board width (matches InnerRect)
-
-      setHoopPosition({
-        top: hoopTop,
-        left: hoopLeft,
-        width: hoopWidth,
-      });
-    };
-
-    updateHoopPosition();
-
-    const resizeObserver = new ResizeObserver(updateHoopPosition);
-    if (boardRef.current) {
-      resizeObserver.observe(boardRef.current);
-    }
-
-    window.addEventListener("resize", updateHoopPosition);
-
-    return () => {
-      resizeObserver.disconnect();
-      window.removeEventListener("resize", updateHoopPosition);
-    };
-  }, []);
+  const boardRef = useRef<HTMLDivElement>(null!);
+  const hoopPosition = useHoopPositioning(boardRef);
 
   return (
     <HoopProvider>
