@@ -1,4 +1,4 @@
-## VocaBall — Design & Implementation Plan
+## Vocaballary — Design & Implementation Plan
 
 ### Product goals
 

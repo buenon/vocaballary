@@ -1,4 +1,4 @@
-Project: VocaBall
+Project: Vocaballary
 Type: Kids vocabulary basketball game (planning)
 
 Audience
@@ -46,7 +46,7 @@ Accessibility
 - No specific a11y requirements for now
 
 Branding
-- Name: VocaBall
+- Name: Vocaballary
 - Style: Creative direction trusted to assistant (cartoonish, kid-friendly)
 
 Deployment

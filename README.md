@@ -1,6 +1,6 @@
-# VocaBall — A Kids Vocabulary Basketball Game
+# Vocaballary — A Kids Vocabulary Basketball Game
 
-VocaBall is a fun, cartoon-style basketball game that helps kids practice English vocabulary. Each round shows an image at center court and three basketballs at the bottom with different words. Players swipe to shoot the ball labeled with the correct word. Correct shots score points. Misses count as strikes—after three strikes, the game ends. The app tracks the player’s personal best (high score) locally so they can try to beat it.
+Vocaballary is a fun, cartoon-style basketball game that helps kids practice English vocabulary. Each round shows an image at center court and three basketballs at the bottom with different words. Players swipe to shoot the ball labeled with the correct word. Correct shots score points. Misses count as strikes—after three strikes, the game ends. The app tracks the player’s personal best (high score) locally so they can try to beat it.
 
 ## Audience
 
@@ -101,5 +101,6 @@ TBD. If open-sourcing, choose a license (e.g., MIT). Otherwise, mark as propriet
 - Website: https://openmoji.org
 
 Note on assets
+
 - Original OpenMoji assets were downloaded from the official OpenMoji repository and are stored locally under `vendor/openmoji/` for pipeline use. They are excluded from source control (see `.gitignore`).
 - Curated copies used by the app live under `public/assets/svg/` and are committed.

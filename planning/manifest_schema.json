@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "VocaBallAssetManifestCompact",
+  "title": "VocaballaryAssetManifestCompact",
   "type": "object",
   "required": ["version", "items"],
   "additionalProperties": false,
@@ -16,7 +16,10 @@
           "word": { "type": "string", "description": "word" },
           "cat": { "type": "string", "description": "category" },
           "code": { "type": "string", "description": "unicode codepoint(s)" },
-          "path": { "type": "string", "description": "asset path under public/assets/svg" }
+          "path": {
+            "type": "string",
+            "description": "asset path under public/assets/svg"
+          }
         }
       }
     }

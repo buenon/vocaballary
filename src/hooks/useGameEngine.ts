@@ -11,7 +11,7 @@ export function useGameEngine() {
   const [gameOver, setGameOver] = useState(false);
   const [highScore, setHighScore] = useState(() => {
     try {
-      const v = localStorage.getItem("vocaball:highScore");
+      const v = localStorage.getItem("vocaballary:highScore");
       return v ? parseInt(v, 10) || 0 : 0;
     } catch {
       return 0;
@@ -76,7 +76,7 @@ export function useGameEngine() {
       setHighScore((prev) => {
         const next = Math.max(prev, score);
         try {
-          localStorage.setItem("vocaball:highScore", String(next));
+          localStorage.setItem("vocaballary:highScore", String(next));
         } catch {}
         return next;
       });
