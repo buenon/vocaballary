@@ -13,14 +13,14 @@ export default function BallRack({ options, onSelectIndex }: BallRackProps) {
       <Ball
         word={options[0]}
         xPercent={30}
-        onClick={() => {
+        onRelease={() => {
           onSelectIndex?.(0);
         }}
       />
       <Ball
         word={options[1]}
         xPercent={70}
-        onClick={() => {
+        onRelease={() => {
           onSelectIndex?.(1);
         }}
       />

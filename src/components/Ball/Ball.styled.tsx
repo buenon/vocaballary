@@ -1,10 +1,16 @@
 import styled from "styled-components";
 
-export const Root = styled.div`
+export const Root = styled.div<{ $dragX: number; $dragY: number }>`
   position: relative;
   width: 50%;
   aspect-ratio: 1 / 1;
   container-type: inline-size;
+  touch-action: none;
+  cursor: grab;
+  &.dragging {
+    cursor: grabbing;
+  }
+  transform: translate(${(p) => p.$dragX}px, ${(p) => p.$dragY}px);
 `;
 
 export const Layer = styled.div`
