@@ -1,8 +1,8 @@
 export type WordItem = {
-  w: string;
-  c: string;
-  u?: string;
-  p: string; // public asset path
+  word: string;
+  cat: string;
+  code?: string;
+  path: string; // relative path under assets/svg
   aliases?: string[];
 };
 

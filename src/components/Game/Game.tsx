@@ -30,17 +30,17 @@ export default function Game() {
 
   // Preload the current round's target image
   useEffect(() => {
-    if (!round?.target?.p) return;
+    if (!round?.target?.path) return;
     setImageReady(false);
     const img = new Image();
     img.onload = () => setImageReady(true);
     img.onerror = () => setImageReady(true); // don't block if it fails
-    img.src = round.target.p;
+    img.src = round.target.path;
     return () => {
       img.onload = null;
       img.onerror = null;
     };
-  }, [round?.target?.p]);
+  }, [round?.target?.path]);
 
   // Preload static UI images used at initial render
   const staticAssets = useMemo(

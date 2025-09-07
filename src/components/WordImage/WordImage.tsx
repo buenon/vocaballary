@@ -41,8 +41,8 @@ export default function WordImage({ item }: Props) {
         )}
         <S.Img
           key={imgKey}
-          src={item.p}
-          alt={item.w}
+          src={item.path}
+          alt={item.word}
           style={imgLoading ? { visibility: "hidden" } : undefined}
           onLoad={() => setImgLoading(false)}
           onError={() => setImgLoading(false)}

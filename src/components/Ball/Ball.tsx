@@ -35,7 +35,7 @@ export default function Ball({
       $scale={scale}
       data-animating={animating}
       data-x={xPercent}
-      aria-label={word.w}
+      aria-label={word.word}
       role="button"
       tabIndex={0}
       onPointerDown={onPointerDown}
@@ -46,7 +46,7 @@ export default function Ball({
         <S.Img src={"/assets/basketball.svg"} alt="basketball" />
       </S.Layer>
       <S.Layer>
-        <S.Label>{word.w}</S.Label>
+        <S.Label>{word.word}</S.Label>
       </S.Layer>
     </S.Root>
   );

@@ -21,11 +21,40 @@ export function useGameEngine() {
   useEffect(() => {
     let cancelled = false;
     setLoading(true);
-    fetch("/assets/data/manifest.sample.json")
+    fetch("/assets/manifest.json")
       .then((r) => r.json())
       .then((data) => {
         if (cancelled) return;
-        setItems(Array.isArray(data) ? data : data.items || []);
+        const rawItems = Array.isArray(data) ? data : data.items || [];
+        // Normalize to WordItem shape { word, cat, path, code }
+        type RawItem = {
+          word: string;
+          cat?: string;
+          path: string;
+          code?: string;
+          aliases?: string[];
+        };
+        const isFullItem = (v: unknown): v is RawItem => {
+          if (!v || typeof v !== "object") return false;
+          const o = v as Record<string, unknown>;
+          return typeof o.word === "string" && typeof o.path === "string";
+        };
+        const normalized: WordItem[] = (rawItems as unknown[])
+          .map((it) => {
+            if (!isFullItem(it)) return null;
+            const absPath = it.path.startsWith("/")
+              ? it.path
+              : `/assets/svg/${it.path}`;
+            return {
+              word: it.word,
+              cat: (it.cat || "").toLowerCase(),
+              path: absPath,
+              code: it.code,
+              aliases: Array.isArray(it.aliases) ? it.aliases : undefined,
+            } as WordItem;
+          })
+          .filter((x): x is WordItem => x !== null);
+        setItems(normalized);
       })
       .catch(() => {
         if (cancelled) return;
@@ -77,7 +106,10 @@ export function useGameEngine() {
         const next = Math.max(prev, score);
         try {
           localStorage.setItem("vocaballary:highScore", String(next));
-        } catch {}
+        } catch {
+          // ignore storage write failures (e.g., private mode permissions)
+          void 0;
+        }
         return next;
       });
     }
