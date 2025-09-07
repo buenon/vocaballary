@@ -16,6 +16,10 @@ type SoundContextValue = {
   playMiss: () => void;
   musicEnabled: boolean;
   preloadSoundtrack: () => void;
+  musicMuted: boolean;
+  sfxMuted: boolean;
+  toggleMusicMuted: () => void;
+  toggleSfxMuted: () => void;
 };
 
 const SoundContext = createContext<SoundContextValue | null>(null);
@@ -28,6 +32,20 @@ export function SoundProvider({ children }: { children: React.ReactNode }) {
   const missRef = useRef<HTMLAudioElement | null>(null);
   const unlockAttachedRef = useRef(false);
   const unlockHandlerRef = useRef<(() => void) | null>(null);
+  const [musicMuted, setMusicMuted] = useState<boolean>(() => {
+    try {
+      return localStorage.getItem("vocaballary:musicMuted") === "1";
+    } catch {
+      return false;
+    }
+  });
+  const [sfxMuted, setSfxMuted] = useState<boolean>(() => {
+    try {
+      return localStorage.getItem("vocaballary:sfxMuted") === "1";
+    } catch {
+      return false;
+    }
+  });
 
   // Lazily create audio elements once
   useEffect(() => {
@@ -66,106 +84,110 @@ export function SoundProvider({ children }: { children: React.ReactNode }) {
     }
   }, []);
 
-  const startMusic = useCallback((options?: { mutedAutoplay?: boolean }) => {
-    const el = soundtrackRef.current;
-    if (!el) return;
-    // Do not attempt to start while page is hidden (avoids lock-screen start)
-    if (document.visibilityState !== "visible") {
-      const onceVisible = () => {
-        if (document.visibilityState === "visible") {
-          document.removeEventListener("visibilitychange", onceVisible);
-          startMusic(options);
-        }
-      };
-      document.addEventListener("visibilitychange", onceVisible);
-      return;
-    }
-    if (options?.mutedAutoplay) {
-      el.muted = true;
-    }
-    const tryPlay = () =>
-      el
-        .play()
-        .then(() => {
-          setMusicEnabled(true);
-          // remove unlock listeners if attached
-          if (unlockAttachedRef.current && unlockHandlerRef.current) {
-            const u = unlockHandlerRef.current;
-            window.removeEventListener("pointerdown", u, {
-              capture: true,
-            } as EventListenerOptions);
-            window.removeEventListener("mousedown", u, {
-              capture: true,
-            } as EventListenerOptions);
-            window.removeEventListener("touchstart", u, {
-              capture: true,
-            } as EventListenerOptions);
-            window.removeEventListener("keydown", u, {
-              capture: true,
-            } as EventListenerOptions);
-            unlockAttachedRef.current = false;
-            unlockHandlerRef.current = null;
+  const startMusic = useCallback(
+    (options?: { mutedAutoplay?: boolean }) => {
+      const el = soundtrackRef.current;
+      if (!el) return;
+      if (musicMuted) return;
+      // Do not attempt to start while page is hidden (avoids lock-screen start)
+      if (document.visibilityState !== "visible") {
+        const onceVisible = () => {
+          if (document.visibilityState === "visible") {
+            document.removeEventListener("visibilitychange", onceVisible);
+            startMusic(options);
           }
-          // If playing muted (from mutedAutoplay), attach a one-time unmute on first gesture
-          if (el.muted && !unlockAttachedRef.current) {
-            const unmute = () => {
-              el.muted = false;
-              window.removeEventListener("pointerdown", unmute, {
+        };
+        document.addEventListener("visibilitychange", onceVisible);
+        return;
+      }
+      if (options?.mutedAutoplay) {
+        el.muted = true;
+      }
+      const tryPlay = () =>
+        el
+          .play()
+          .then(() => {
+            setMusicEnabled(true);
+            // remove unlock listeners if attached
+            if (unlockAttachedRef.current && unlockHandlerRef.current) {
+              const u = unlockHandlerRef.current;
+              window.removeEventListener("pointerdown", u, {
                 capture: true,
               } as EventListenerOptions);
-              window.removeEventListener("mousedown", unmute, {
+              window.removeEventListener("mousedown", u, {
                 capture: true,
               } as EventListenerOptions);
-              window.removeEventListener("touchstart", unmute, {
+              window.removeEventListener("touchstart", u, {
                 capture: true,
               } as EventListenerOptions);
-              window.removeEventListener("keydown", unmute, {
+              window.removeEventListener("keydown", u, {
                 capture: true,
               } as EventListenerOptions);
               unlockAttachedRef.current = false;
               unlockHandlerRef.current = null;
-            };
-            unlockHandlerRef.current = unmute;
-            unlockAttachedRef.current = true;
-            window.addEventListener("pointerdown", unmute, {
-              capture: true,
-            } as EventListenerOptions);
-            window.addEventListener("mousedown", unmute, {
-              capture: true,
-            } as EventListenerOptions);
-            window.addEventListener("touchstart", unmute, {
-              capture: true,
-            } as EventListenerOptions);
-            window.addEventListener("keydown", unmute, {
-              capture: true,
-            } as EventListenerOptions);
-          }
-        })
-        .catch(() => {
-          // NotAllowedError until user gesture or other transient issue.
-          // Attach persistent unlock listeners to retry on every gesture until success.
-          if (!unlockAttachedRef.current) {
-            const unlock = () => {
-              tryPlay();
-            };
-            unlockHandlerRef.current = unlock;
-            unlockAttachedRef.current = true;
-            window.addEventListener("pointerdown", unlock, {
-              capture: true,
-            } as EventListenerOptions);
-            window.addEventListener("mousedown", unlock, {
-              capture: true,
-            } as EventListenerOptions);
-            window.addEventListener("touchstart", unlock, {
-              capture: true,
-            } as EventListenerOptions);
-            window.addEventListener("keydown", unlock, {
-              capture: true,
-            } as EventListenerOptions);
-          }
-        });
-    tryPlay();
-  }, []);
+            }
+            // If playing muted (from mutedAutoplay), attach a one-time unmute on first gesture
+            if (el.muted && !unlockAttachedRef.current) {
+              const unmute = () => {
+                el.muted = false;
+                window.removeEventListener("pointerdown", unmute, {
+                  capture: true,
+                } as EventListenerOptions);
+                window.removeEventListener("mousedown", unmute, {
+                  capture: true,
+                } as EventListenerOptions);
+                window.removeEventListener("touchstart", unmute, {
+                  capture: true,
+                } as EventListenerOptions);
+                window.removeEventListener("keydown", unmute, {
+                  capture: true,
+                } as EventListenerOptions);
+                unlockAttachedRef.current = false;
+                unlockHandlerRef.current = null;
+              };
+              unlockHandlerRef.current = unmute;
+              unlockAttachedRef.current = true;
+              window.addEventListener("pointerdown", unmute, {
+                capture: true,
+              } as EventListenerOptions);
+              window.addEventListener("mousedown", unmute, {
+                capture: true,
+              } as EventListenerOptions);
+              window.addEventListener("touchstart", unmute, {
+                capture: true,
+              } as EventListenerOptions);
+              window.addEventListener("keydown", unmute, {
+                capture: true,
+              } as EventListenerOptions);
+            }
+          })
+          .catch(() => {
+            // NotAllowedError until user gesture or other transient issue.
+            // Attach persistent unlock listeners to retry on every gesture until success.
+            if (!unlockAttachedRef.current) {
+              const unlock = () => {
+                tryPlay();
+              };
+              unlockHandlerRef.current = unlock;
+              unlockAttachedRef.current = true;
+              window.addEventListener("pointerdown", unlock, {
+                capture: true,
+              } as EventListenerOptions);
+              window.addEventListener("mousedown", unlock, {
+                capture: true,
+              } as EventListenerOptions);
+              window.addEventListener("touchstart", unlock, {
+                capture: true,
+              } as EventListenerOptions);
+              window.addEventListener("keydown", unlock, {
+                capture: true,
+              } as EventListenerOptions);
+            }
+          });
+      tryPlay();
+    },
+    [musicMuted]
+  );
 
   const stopMusic = useCallback(() => {
     const el = soundtrackRef.current;
@@ -181,6 +203,7 @@ export function SoundProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   const playScore = useCallback(() => {
+    if (sfxMuted) return;
     const el = scoreRef.current;
     if (!el) return;
     try {
@@ -190,9 +213,10 @@ export function SoundProvider({ children }: { children: React.ReactNode }) {
       void 0;
     }
     el.play().catch(() => {});
-  }, []);
+  }, [sfxMuted]);
 
   const playMiss = useCallback(() => {
+    if (sfxMuted) return;
     const el = missRef.current;
     if (!el) return;
     try {
@@ -202,7 +226,7 @@ export function SoundProvider({ children }: { children: React.ReactNode }) {
       void 0;
     }
     el.play().catch(() => {});
-  }, []);
+  }, [sfxMuted]);
 
   // Pause music when page hidden; resume when visible if enabled
   useEffect(() => {
@@ -212,26 +236,28 @@ export function SoundProvider({ children }: { children: React.ReactNode }) {
       if (document.visibilityState === "hidden") {
         s.pause();
       } else {
-        if (musicEnabled) {
+        if (musicEnabled && !musicMuted) {
           s.play().catch(() => {});
         } else {
           // Try to start again when returning to tab
           // (helps recover from prior NotAllowed or transient failures)
-          try {
-            s.play()
-              .then(() => setMusicEnabled(true))
-              .catch(() => {
-                // will be unlocked by user gesture listeners if present
-              });
-          } catch {
-            // ignore
+          if (!musicMuted) {
+            try {
+              s.play()
+                .then(() => setMusicEnabled(true))
+                .catch(() => {
+                  // will be unlocked by user gesture listeners if present
+                });
+            } catch {
+              // ignore
+            }
           }
         }
       }
     };
     document.addEventListener("visibilitychange", onVisibility);
     return () => document.removeEventListener("visibilitychange", onVisibility);
-  }, [musicEnabled]);
+  }, [musicEnabled, musicMuted]);
 
   const value = useMemo(
     () => ({
@@ -241,6 +267,50 @@ export function SoundProvider({ children }: { children: React.ReactNode }) {
       playMiss,
       musicEnabled,
       preloadSoundtrack,
+      musicMuted,
+      sfxMuted,
+      toggleMusicMuted: () => {
+        setMusicMuted((prev) => {
+          const next = !prev;
+          if (next) {
+            const el = soundtrackRef.current;
+            if (el) el.pause();
+          } else {
+            // On unmute, restart immediately
+            const el = soundtrackRef.current;
+            if (el) {
+              el.muted = false;
+              el.play()
+                .then(() => setMusicEnabled(true))
+                .catch(() => {
+                  // fallback to startMusic (adds unlock listeners/visibility handling)
+                  startMusic();
+                });
+            } else {
+              startMusic();
+            }
+          }
+          try {
+            localStorage.setItem("vocaballary:musicMuted", next ? "1" : "0");
+          } catch {
+            // ignore
+            void 0;
+          }
+          return next;
+        });
+      },
+      toggleSfxMuted: () => {
+        setSfxMuted((v) => {
+          const next = !v;
+          try {
+            localStorage.setItem("vocaballary:sfxMuted", next ? "1" : "0");
+          } catch {
+            // ignore
+            void 0;
+          }
+          return next;
+        });
+      },
     }),
     [
       startMusic,
@@ -249,6 +319,8 @@ export function SoundProvider({ children }: { children: React.ReactNode }) {
       playMiss,
       musicEnabled,
       preloadSoundtrack,
+      musicMuted,
+      sfxMuted,
     ]
   );
 

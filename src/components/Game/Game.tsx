@@ -84,6 +84,7 @@ export default function Game() {
             />
             <MusicStarterAfterStart active={!showSplash && initialSplashDone} />
             <S.CourtLayer>
+              <SoundControls />
               <HUD
                 score={engine.score}
                 strikes={engine.strikes}
@@ -168,15 +169,46 @@ function HoopZLayer({
 }
 
 function MusicStarterAfterStart({ active }: { active: boolean }) {
-  const { startMusic, preloadSoundtrack } = useSound();
+  const { startMusic, preloadSoundtrack, musicMuted } = useSound();
   const startedRef = useRef(false);
   useEffect(() => {
     preloadSoundtrack();
   }, [preloadSoundtrack]);
   useEffect(() => {
-    if (!active || startedRef.current) return;
+    if (!active || startedRef.current || musicMuted) return;
     startedRef.current = true;
     startMusic();
-  }, [active, startMusic]);
+  }, [active, startMusic, musicMuted]);
   return null;
+}
+
+function SoundControls() {
+  const { musicMuted, sfxMuted, toggleMusicMuted, toggleSfxMuted, startMusic } =
+    useSound();
+  return (
+    <S.SoundToggles>
+      <S.SoundBtn
+        onClick={() => {
+          const willBeMuted = !musicMuted;
+          toggleMusicMuted();
+          if (!willBeMuted) {
+            startMusic();
+          }
+        }}
+        data-off={musicMuted}
+        aria-pressed={musicMuted}
+        aria-label="Toggle music"
+      >
+        <img src="/assets/music.svg" alt="music" />
+      </S.SoundBtn>
+      <S.SoundBtn
+        onClick={toggleSfxMuted}
+        data-off={sfxMuted}
+        aria-pressed={sfxMuted}
+        aria-label="Toggle sound effects"
+      >
+        <img src="/assets/sfx.svg" alt="sfx" />
+      </S.SoundBtn>
+    </S.SoundToggles>
+  );
 }

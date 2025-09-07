@@ -79,3 +79,50 @@ export const HoopFiller = styled.div`
 export const BallRack = styled.div`
   height: 24%;
 `;
+
+export const SoundToggles = styled.div`
+  position: absolute;
+  top: clamp(60px, 9cqw, 100px);
+  right: clamp(8px, 2cqw, 16px);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  z-index: 11;
+`;
+
+export const SoundBtn = styled.button`
+  appearance: none;
+  border: none;
+  padding: 0;
+  width: clamp(36px, 7cqw, 56px);
+  height: clamp(36px, 7cqw, 56px);
+  border-radius: 10px;
+  background: #ffb703; /* game orange */
+  display: grid;
+  place-items: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  &:active {
+    transform: translateY(1px) scale(0.98);
+  }
+  img {
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
+    filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.2));
+  }
+  &[data-off="true"]::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      135deg,
+      transparent 45%,
+      rgba(0, 0, 0, 0.6) 50%,
+      transparent 55%
+    );
+    pointer-events: none;
+  }
+`;
