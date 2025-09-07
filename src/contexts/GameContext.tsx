@@ -4,6 +4,7 @@ import type { Round } from "../types";
 export type GameContextValue = {
   loading: boolean;
   round: Round | null;
+  roundSeed: number;
   score: number;
   strikes: number;
   highScore: number;

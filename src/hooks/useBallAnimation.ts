@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { useHoop } from "../contexts/HoopContext";
+import { useSound } from "../contexts/SoundContext";
 
 export function useBallAnimation(correct: boolean, onRelease?: () => void) {
   // Tunable animation parameters
@@ -9,6 +10,8 @@ export function useBallAnimation(correct: boolean, onRelease?: () => void) {
   const END_ABOVE_RIM_BALL_HEIGHT_FACTOR = 0.2; // end slightly above rim by ball height fraction
   const SCALE_TARGET_RIM_WIDTH_FACTOR = 0.7; // scale target size relative to rim width
   const FINALIZE_DELAY_MS = 1000; // delay after landing before resetting and answering
+  const SCORE_APPROACH_EARLY_MS = 300; // score SFX early timing during approach
+  const MISS_APPROACH_EARLY_MS = 300; // miss SFX early timing during approach
 
   // Correct shot drop parameters
   const DROP_DURATION_MS = 200;
@@ -34,7 +37,11 @@ export function useBallAnimation(correct: boolean, onRelease?: () => void) {
     swoosh,
     setIsSwishing,
     setIsCenterFront,
+    setResultHighlight,
   } = useHoop();
+  const { playScore, playMiss } = useSound();
+  const scoreSfxPlayedRef = useRef(false);
+  const missSfxPlayedRef = useRef(false);
   const [scale, setScale] = useState(1);
   const [animating, setAnimating] = useState(false);
 
@@ -77,6 +84,9 @@ export function useBallAnimation(correct: boolean, onRelease?: () => void) {
     animTokenRef.current += 1;
     const token = animTokenRef.current;
     cleanup();
+    // reset one-shot SFX guards for this throw
+    scoreSfxPlayedRef.current = false;
+    missSfxPlayedRef.current = false;
     setDragging(false);
     setAnimating(true);
     const releasedDy = offset.y;
@@ -178,6 +188,24 @@ export function useBallAnimation(correct: boolean, onRelease?: () => void) {
             setScale(s);
           }
           setOffset({ x, y });
+          // Fire SFX a bit before reaching the rim on approach
+          const earlyMs = correct
+            ? SCORE_APPROACH_EARLY_MS
+            : MISS_APPROACH_EARLY_MS;
+          const earlyThreshold = Math.max(0, 1 - earlyMs / duration);
+          if (p >= earlyThreshold) {
+            if (correct) {
+              if (!scoreSfxPlayedRef.current) {
+                playScore();
+                scoreSfxPlayedRef.current = true;
+              }
+            } else {
+              if (!missSfxPlayedRef.current) {
+                playMiss();
+                missSfxPlayedRef.current = true;
+              }
+            }
+          }
           if (p < 1) {
             animationRef.current = requestAnimationFrame(frame);
           } else {
@@ -217,6 +245,11 @@ export function useBallAnimation(correct: boolean, onRelease?: () => void) {
                   animationRef.current = requestAnimationFrame(dropFrame);
                 } else {
                   swoosh();
+                  if (!scoreSfxPlayedRef.current) {
+                    playScore();
+                    scoreSfxPlayedRef.current = true;
+                  }
+                  setResultHighlight("correct");
                   // Reset center image to back after made shot completes
                   const doneId = window.setTimeout(
                     () => setIsCenterFront(false),
@@ -239,6 +272,11 @@ export function useBallAnimation(correct: boolean, onRelease?: () => void) {
               };
               // Bring center image to front as the ball reaches the rim area for misses as well
               setIsCenterFront(true);
+              if (!missSfxPlayedRef.current) {
+                playMiss();
+                missSfxPlayedRef.current = true;
+              }
+              setResultHighlight("wrong");
               animateRimBounceAndFall(x, y, missFinalize);
             }
             // Note: in a fuller impl we'd clear pending timers on unmount

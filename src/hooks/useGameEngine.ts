@@ -87,6 +87,7 @@ export function useGameEngine() {
     // state
     loading,
     round,
+    roundSeed: roundKey,
     score,
     strikes,
     highScore,

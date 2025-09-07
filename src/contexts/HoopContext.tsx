@@ -13,6 +13,8 @@ type HoopContextValue = {
   setIsSwishing: (v: boolean) => void;
   isCenterFront: boolean;
   setIsCenterFront: (v: boolean) => void;
+  resultHighlight: "correct" | "wrong" | null;
+  setResultHighlight: (v: "correct" | "wrong" | null) => void;
   rimCenter: { x: number; y: number } | null;
   setRimCenter: (pt: { x: number; y: number } | null) => void;
   rimWidth: number | null;
@@ -28,6 +30,9 @@ export function HoopProvider({ children }: { children: React.ReactNode }) {
   const swoosh = useCallback(() => setSwooshKey((v) => v + 1), []);
   const [isSwishing, setIsSwishing] = useState(false);
   const [isCenterFront, setIsCenterFront] = useState(false);
+  const [resultHighlight, setResultHighlight] = useState<
+    "correct" | "wrong" | null
+  >(null);
   const [rimCenter, setRimCenter] = useState<{ x: number; y: number } | null>(
     null
   );
@@ -42,6 +47,8 @@ export function HoopProvider({ children }: { children: React.ReactNode }) {
       setIsSwishing,
       isCenterFront,
       setIsCenterFront,
+      resultHighlight,
+      setResultHighlight,
       rimCenter,
       setRimCenter,
       rimWidth,
@@ -54,6 +61,7 @@ export function HoopProvider({ children }: { children: React.ReactNode }) {
       swoosh,
       isSwishing,
       isCenterFront,
+      resultHighlight,
       rimCenter,
       rimWidth,
       netBottomY,

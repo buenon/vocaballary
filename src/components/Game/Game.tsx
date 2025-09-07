@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { GameContext } from "../../contexts/GameContext";
 import { HoopProvider, useHoop } from "../../contexts/HoopContext";
+import { SoundProvider, useSound } from "../../contexts/SoundContext";
 import { useGameEngine } from "../../hooks/useGameEngine";
 import { useHoopPositioning } from "../../hooks/useHoopPositioning";
 import { usePreloadImages } from "../../hooks/usePreloadImages";
@@ -25,6 +26,7 @@ export default function Game() {
   const mountAtRef = useRef<number>(Date.now());
   const [showSplash, setShowSplash] = useState(true);
   const [initialSplashDone, setInitialSplashDone] = useState(false);
+  const [readyToStart, setReadyToStart] = useState(false);
 
   // Preload the current round's target image
   useEffect(() => {
@@ -55,16 +57,13 @@ export default function Game() {
   );
   const { ready: staticReady } = usePreloadImages(staticAssets);
 
-  // Control splash visibility: hide after >= 2000ms AND resources ready
+  // Control splash readiness: after >= 2000ms AND resources ready
   useEffect(() => {
     const check = () => {
       const elapsed = Date.now() - mountAtRef.current;
       const resourcesReady = !loading && imageReady && staticReady;
       const shouldHide = elapsed >= 2000 && resourcesReady;
-      if (shouldHide) {
-        setShowSplash(false);
-        setInitialSplashDone(true);
-      }
+      setReadyToStart(shouldHide);
     };
     const id = window.setInterval(check, 50);
     return () => window.clearInterval(id);
@@ -72,66 +71,76 @@ export default function Game() {
 
   return (
     <HoopProvider>
-      <GameContext.Provider value={engine}>
-        <Layout>
-          <Splash visible={showSplash && !initialSplashDone} />
-          <S.CourtLayer>
-            <HUD
-              score={engine.score}
-              strikes={engine.strikes}
-              highScore={engine.highScore}
+      <SoundProvider>
+        <GameContext.Provider value={engine}>
+          <Layout>
+            <Splash
+              visible={showSplash && !initialSplashDone}
+              ready={readyToStart}
+              onStart={() => {
+                setShowSplash(false);
+                setInitialSplashDone(true);
+              }}
             />
-            <BasketballBoard ref={boardRef} />
-            {hoopPosition && (
-              <>
-                <S.HoopBackContainer
-                  $top={hoopPosition.top}
-                  $left={hoopPosition.left}
-                  $width={hoopPosition.width}
-                >
-                  <img src="/assets/hoop-back.png" alt="hoop back" />
-                </S.HoopBackContainer>
-                <HoopZLayer
-                  $top={hoopPosition.top}
-                  $left={hoopPosition.left}
-                  $width={hoopPosition.width}
-                />
-              </>
-            )}
-            <S.HoopFiller />
-            {round && (
-              <>
-                <WordImage item={round.target} />
-                <S.BallRack />
-                <S.BallContainer $xPercent={20}>
-                  <Ball
-                    word={round.options[0]}
-                    xPercent={20}
-                    correct={round.correctIndex === 0}
-                    onRelease={() => answer(0)}
-                  />
-                </S.BallContainer>
-                <S.BallContainer $xPercent={80}>
-                  <Ball
-                    word={round.options[1]}
-                    xPercent={80}
-                    correct={round.correctIndex === 1}
-                    onRelease={() => answer(1)}
-                  />
-                </S.BallContainer>
-              </>
-            )}
-            {loading && <S.LoadingText>Loading...</S.LoadingText>}
-            {gameOver && (
-              <GameOver
+            <MusicStarterAfterStart active={!showSplash && initialSplashDone} />
+            <S.CourtLayer>
+              <HUD
                 score={engine.score}
-                best={engine.highScore}
-                onRestart={engine.restart}
+                strikes={engine.strikes}
+                highScore={engine.highScore}
               />
-            )}
-          </S.CourtLayer>
-        </Layout>
-      </GameContext.Provider>
+              <BasketballBoard ref={boardRef} />
+              {hoopPosition && (
+                <>
+                  <S.HoopBackContainer
+                    $top={hoopPosition.top}
+                    $left={hoopPosition.left}
+                    $width={hoopPosition.width}
+                  >
+                    <img src="/assets/hoop-back.png" alt="hoop back" />
+                  </S.HoopBackContainer>
+                  <HoopZLayer
+                    $top={hoopPosition.top}
+                    $left={hoopPosition.left}
+                    $width={hoopPosition.width}
+                  />
+                </>
+              )}
+              <S.HoopFiller />
+              {round && (
+                <>
+                  <WordImage item={round.target} />
+                  <S.BallRack />
+                  <S.BallContainer $xPercent={20}>
+                    <Ball
+                      word={round.options[0]}
+                      xPercent={20}
+                      correct={round.correctIndex === 0}
+                      onRelease={() => answer(0)}
+                    />
+                  </S.BallContainer>
+                  <S.BallContainer $xPercent={80}>
+                    <Ball
+                      word={round.options[1]}
+                      xPercent={80}
+                      correct={round.correctIndex === 1}
+                      onRelease={() => answer(1)}
+                    />
+                  </S.BallContainer>
+                </>
+              )}
+              {loading && <S.LoadingText>Loading...</S.LoadingText>}
+              {gameOver && (
+                <GameOver
+                  score={engine.score}
+                  best={engine.highScore}
+                  onRestart={engine.restart}
+                />
+              )}
+            </S.CourtLayer>
+          </Layout>
+        </GameContext.Provider>
+      </SoundProvider>
     </HoopProvider>
   );
 }
@@ -156,4 +165,18 @@ function HoopZLayer({
       <Hoop />
     </S.HoopContainer>
   );
+}
+
+function MusicStarterAfterStart({ active }: { active: boolean }) {
+  const { startMusic, preloadSoundtrack } = useSound();
+  const startedRef = useRef(false);
+  useEffect(() => {
+    preloadSoundtrack();
+  }, [preloadSoundtrack]);
+  useEffect(() => {
+    if (!active || startedRef.current) return;
+    startedRef.current = true;
+    startMusic();
+  }, [active, startMusic]);
+  return null;
 }

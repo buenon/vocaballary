@@ -13,12 +13,17 @@ export const Wrap = styled.div`
   }
 `;
 
-export const Frame = styled.div`
+export const Frame = styled.div<{ $result?: "correct" | "wrong" | null }>`
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  background: rgba(255, 255, 255, 0.85);
+  background: ${({ $result }) =>
+    $result === "correct"
+      ? "rgba(46, 204, 113, 0.8)" // green
+      : $result === "wrong"
+      ? "rgba(231, 76, 60, 0.8)" // red
+      : "rgba(255, 255, 255, 0.85)"};
   border-radius: 12px;
   /* Bigger on phones, unchanged caps for tablets/desktop */
   width: clamp(120px, 45cqw, 260px);
