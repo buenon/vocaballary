@@ -1,14 +1,15 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
-import type { Round, WordItem } from "../types";
+import type { Round, WordItem, WordsDB } from "../types";
 import { useRoundController } from "./useRoundController";
 
 export function useGameEngine() {
-  const [items, setItems] = useState<WordItem[]>([]);
+  const [items, setItems] = useState<WordsDB>({});
   const [loading, setLoading] = useState(true);
   const [score, setScore] = useState(0);
   const [strikes, setStrikes] = useState(0);
   const [roundKey, setRoundKey] = useState(0);
   const [gameOver, setGameOver] = useState(false);
+  const [roundCat, setRoundCat] = useState("");
   const [highScore, setHighScore] = useState(() => {
     try {
       const v = localStorage.getItem("vocaballary:highScore");
@@ -26,23 +27,26 @@ export function useGameEngine() {
       .then((data) => {
         if (cancelled) return;
         const rawItems = Array.isArray(data) ? data : data.items || [];
-        const normalized: WordItem[] = (rawItems as string[])
-          .map((it) => {
+        const normalized: WordsDB = rawItems.reduce(
+          (acc: WordsDB, it: string) => {
             const parts = it.split("/");
             const word = parts[1].split(".")[0].replace("_", " ");
             const cat = parts[0];
-            return {
+            const item: WordItem = {
               word: word,
               cat: cat,
               path: `/assets/words/${it}`,
-            } as WordItem;
-          })
-          .filter((x): x is WordItem => x !== null);
+            };
+            acc[cat] = [...(acc[cat] || []), item];
+            return acc;
+          },
+          {}
+        );
         setItems(normalized);
       })
       .catch(() => {
         if (cancelled) return;
-        setItems([]);
+        setItems({});
       })
       .finally(() => {
         if (cancelled) return;
@@ -53,7 +57,13 @@ export function useGameEngine() {
     };
   }, []);
 
-  const round: Round | null = useRoundController(items, roundKey);
+  useEffect(() => {
+    const keys = Object.keys(items);
+    const randomIndex = Math.floor(Math.random() * keys.length);
+    setRoundCat(keys[randomIndex]);
+  }, [items, roundKey]);
+
+  const round: Round | null = useRoundController(items[roundCat], roundKey);
 
   const answer = useCallback(
     (index: 0 | 1) => {

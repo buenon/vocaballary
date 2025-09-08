@@ -13,8 +13,11 @@ export function useRoundController(
   items: WordItem[],
   seed: number
 ): Round | null {
-  return useMemo(() => {
-    if (!items || items.length < 2) return null;
+  return useMemo<Round | null>((): Round | null => {
+    if (!items || items.length < 2) {
+      return null;
+    }
+
     const [target, tIdx] = pickRandom(items);
     const [decoy] = pickRandom(items, tIdx);
     const correctIndex = Math.random() < 0.5 ? 0 : 1;
@@ -22,9 +25,10 @@ export function useRoundController(
       correctIndex === 0
         ? ([target, decoy] as const)
         : ([decoy, target] as const);
+
     return {
       target,
-      options: options as any,
+      options: options,
       correctIndex: correctIndex as 0 | 1,
     };
   }, [items, seed]);

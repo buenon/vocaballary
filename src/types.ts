@@ -4,8 +4,11 @@ export type WordItem = {
   path: string; // relative path under assets/svg
 };
 
+export type WordsDB = Record<string, WordItem[]>;
+export type RoundOptions = readonly [WordItem, WordItem];
+
 export type Round = {
   target: WordItem;
-  options: [WordItem, WordItem];
+  options: RoundOptions;
   correctIndex: 0 | 1;
 };
