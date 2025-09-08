@@ -11,7 +11,7 @@ export default function Splash({ visible, ready = false, onStart }: Props) {
   if (!visible) return null;
   return (
     <S.Overlay role="status" aria-live="polite" aria-busy={!ready}>
-      <S.Logo src="/assets/logo.png" alt="Vocaballary" />
+      <S.Logo src="/vocaballary/assets/logo.png" alt="Vocaballary" />
       {ready ? (
         <button
           onClick={onStart}

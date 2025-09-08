@@ -43,7 +43,7 @@ export default function Ball({
       onPointerUp={onPointerUp}
     >
       <S.Layer>
-        <S.Img src={"/assets/basketball.svg"} alt="basketball" />
+        <S.Img src={"/vocaballary/assets/basketball.svg"} alt="basketball" />
       </S.Layer>
       <S.Layer>
         <S.Label>{word.word.toUpperCase()}</S.Label>

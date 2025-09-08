@@ -33,11 +33,11 @@ export default function Hoop() {
 
   return (
     <S.HoopWrapper ref={wrapperRef}>
-      <S.HoopImg src="/assets/hoop-front.png" alt="hoop" />
+      <S.HoopImg src="/vocaballary/assets/hoop-front.png" alt="hoop" />
       <S.NetWrapper>
-        <img src="/assets/net-top.png" alt="net top" />
+        <img src="/vocaballary/assets/net-top.png" alt="net top" />
         <S.NetImg
-          src="/assets/net-bottom.png"
+          src="/vocaballary/assets/net-bottom.png"
           alt="net bottom"
           $animating={isAnimating}
           onAnimationEnd={() => {

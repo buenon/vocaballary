@@ -22,7 +22,7 @@ export function useGameEngine() {
   useEffect(() => {
     let cancelled = false;
     setLoading(true);
-    fetch("/assets/manifest.json")
+    fetch("/vocaballary/assets/manifest.json")
       .then((r) => r.json())
       .then((data) => {
         if (cancelled) return;
@@ -35,7 +35,7 @@ export function useGameEngine() {
             const item: WordItem = {
               word: word,
               cat: cat,
-              path: `/assets/words/${it}`,
+              path: `/vocaballary/assets/words/${it}`,
             };
             acc[cat] = [...(acc[cat] || []), item];
             return acc;

@@ -49,18 +49,18 @@ export function SoundProvider({ children }: { children: React.ReactNode }) {
 
   // Lazily create audio elements once
   useEffect(() => {
-    const soundtrack = new Audio("/assets/sound/soundtrack.mp3");
+    const soundtrack = new Audio("/vocaballary/assets/sound/soundtrack.mp3");
     soundtrack.loop = true;
     soundtrack.preload = "auto";
     soundtrack.volume = 0.8;
     soundtrackRef.current = soundtrack;
 
-    const score = new Audio("/assets/sound/score.mp3");
+    const score = new Audio("/vocaballary/assets/sound/score.mp3");
     score.preload = "auto";
     score.volume = 0.8;
     scoreRef.current = score;
 
-    const miss = new Audio("/assets/sound/miss.mp3");
+    const miss = new Audio("/vocaballary/assets/sound/miss.mp3");
     miss.preload = "auto";
     miss.volume = 0.8;
     missRef.current = miss;

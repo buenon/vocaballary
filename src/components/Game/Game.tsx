@@ -45,13 +45,13 @@ export default function Game() {
   // Preload static UI images used at initial render
   const staticAssets = useMemo(
     () => [
-      "/assets/background.png",
-      "/assets/hoop-back.png",
-      "/assets/hoop-front.png",
-      "/assets/net-top.png",
-      "/assets/net-bottom.png",
-      "/assets/basketball.svg",
-      "/assets/manifest.json",
+      "/vocaballary/assets/background.png",
+      "/vocaballary/assets/hoop-back.png",
+      "/vocaballary/assets/hoop-front.png",
+      "/vocaballary/assets/net-top.png",
+      "/vocaballary/assets/net-bottom.png",
+      "/vocaballary/assets/basketball.svg",
+      "/vocaballary/assets/manifest.json",
     ],
     []
   );
@@ -98,7 +98,10 @@ export default function Game() {
                     $left={hoopPosition.left}
                     $width={hoopPosition.width}
                   >
-                    <img src="/assets/hoop-back.png" alt="hoop back" />
+                    <img
+                      src="/vocaballary/assets/hoop-back.png"
+                      alt="hoop back"
+                    />
                   </S.HoopBackContainer>
                   <HoopZLayer
                     $top={hoopPosition.top}
@@ -199,7 +202,7 @@ function SoundControls() {
         aria-pressed={musicMuted}
         aria-label="Toggle music"
       >
-        <img src="/assets/music.svg" alt="music" />
+        <img src="/vocaballary/assets/music.svg" alt="music" />
       </S.SoundBtn>
       <S.SoundBtn
         onClick={toggleSfxMuted}
@@ -207,7 +210,7 @@ function SoundControls() {
         aria-pressed={sfxMuted}
         aria-label="Toggle sound effects"
       >
-        <img src="/assets/sfx.svg" alt="sfx" />
+        <img src="/vocaballary/assets/sfx.svg" alt="sfx" />
       </S.SoundBtn>
     </S.SoundToggles>
   );
