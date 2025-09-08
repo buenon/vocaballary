@@ -52,14 +52,14 @@ export const WordImageContainer = styled.div`
 
 export const BallContainer = styled.div<{ $xPercent: number }>`
   position: absolute;
-  bottom: clamp(12px, 2.5cqw, 24px);
+  bottom: clamp(16px, 3cqw, 28px);
   left: ${(p) => p.$xPercent}%;
   transform: translateX(-50%);
   z-index: 7; /* In front by default; hoop front can override during swish */
   /* Give the container a responsive size that scales with both width and height */
   /* Each ball ~30% of the game layout width, with sensible min/max */
-  width: clamp(120px, 30cqw, 200px);
-  height: clamp(120px, 30cqw, 200px);
+  width: clamp(140px, 55cqw, 240px);
+  height: clamp(140px, 55cqw, 240px);
 `;
 
 export const LoadingText = styled.div`
@@ -67,7 +67,7 @@ export const LoadingText = styled.div`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 18px;
+  font-size: clamp(18px, 5cqw, 28px);
   color: #333;
   z-index: 10;
 `;

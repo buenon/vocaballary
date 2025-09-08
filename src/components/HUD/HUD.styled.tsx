@@ -8,7 +8,7 @@ export const Bar = styled.div`
   color: white;
   font-weight: 700;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-  font-size: clamp(16px, 4.2cqw, 32px);
+  font-size: clamp(18px, 5cqw, 36px);
 `;
 
 export const Left = styled.div`

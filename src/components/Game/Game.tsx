@@ -112,7 +112,7 @@ export default function Game() {
                 <>
                   <WordImage item={round.target} />
                   <S.BallRack />
-                  <S.BallContainer $xPercent={20}>
+                  <S.BallContainer $xPercent={25}>
                     <Ball
                       word={round.options[0]}
                       xPercent={20}
@@ -120,7 +120,7 @@ export default function Game() {
                       onRelease={() => answer(0)}
                     />
                   </S.BallContainer>
-                  <S.BallContainer $xPercent={80}>
+                  <S.BallContainer $xPercent={75}>
                     <Ball
                       word={round.options[1]}
                       xPercent={80}

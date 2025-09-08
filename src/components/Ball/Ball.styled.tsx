@@ -50,10 +50,10 @@ export const Label = styled.div`
   font-weight: 700;
   color: white;
   /* Scale directly based on the ball container size using container queries */
-  font-size: clamp(14px, 12cqw, 24px);
-  padding: clamp(4px, 3cqw, 10px);
+  font-size: clamp(16px, 14cqw, 30px);
+  padding: clamp(6px, 4cqw, 12px);
   background: rgba(0, 0, 0, 0.7);
-  border-radius: clamp(6px, 2cqw, 12px);
+  border-radius: clamp(8px, 3cqw, 14px);
   max-width: 90%;
   text-align: center;
   white-space: nowrap;

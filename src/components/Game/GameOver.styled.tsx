@@ -24,7 +24,7 @@ export const GameOverCard = styled.div`
   width: min(92%, 420px);
   padding: 20px 20px 16px;
   text-align: center;
-  font-size: clamp(16px, 4cqw, 22px);
+  font-size: clamp(18px, 5cqw, 26px);
   animation: ${pop} 400ms ease-out;
 `;
 
@@ -53,7 +53,7 @@ export const ScorePill = styled.div`
 `;
 
 export const PlayAgainButton = styled.button`
-  font-size: clamp(16px, 4cqw, 22px);
+  font-size: clamp(18px, 5cqw, 26px);
   padding: 10px 18px;
   border-radius: 12px;
   border: none;

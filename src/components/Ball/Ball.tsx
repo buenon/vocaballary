@@ -46,7 +46,7 @@ export default function Ball({
         <S.Img src={"/assets/basketball.svg"} alt="basketball" />
       </S.Layer>
       <S.Layer>
-        <S.Label>{word.word}</S.Label>
+        <S.Label>{word.word.toUpperCase()}</S.Label>
       </S.Layer>
     </S.Root>
   );
