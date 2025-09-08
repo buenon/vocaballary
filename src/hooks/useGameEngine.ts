@@ -26,7 +26,7 @@ export function useGameEngine() {
       .then((r) => r.json())
       .then((data) => {
         if (cancelled) return;
-        const rawItems = Array.isArray(data) ? data : data.items || [];
+        const rawItems = Array.isArray(data.words) ? data.words : [];
         const normalized: WordsDB = rawItems.reduce(
           (acc: WordsDB, it: string) => {
             const parts = it.split("/");
