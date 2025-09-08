@@ -26,31 +26,15 @@ export function useGameEngine() {
       .then((data) => {
         if (cancelled) return;
         const rawItems = Array.isArray(data) ? data : data.items || [];
-        // Normalize to WordItem shape { word, cat, path, code }
-        type RawItem = {
-          word: string;
-          cat?: string;
-          path: string;
-          code?: string;
-          aliases?: string[];
-        };
-        const isFullItem = (v: unknown): v is RawItem => {
-          if (!v || typeof v !== "object") return false;
-          const o = v as Record<string, unknown>;
-          return typeof o.word === "string" && typeof o.path === "string";
-        };
-        const normalized: WordItem[] = (rawItems as unknown[])
+        const normalized: WordItem[] = (rawItems as string[])
           .map((it) => {
-            if (!isFullItem(it)) return null;
-            const absPath = it.path.startsWith("/")
-              ? it.path
-              : `/assets/svg/${it.path}`;
+            const parts = it.split("/");
+            const word = parts[1].split(".")[0].replace("_", " ");
+            const cat = parts[0];
             return {
-              word: it.word,
-              cat: (it.cat || "").toLowerCase(),
-              path: absPath,
-              code: it.code,
-              aliases: Array.isArray(it.aliases) ? it.aliases : undefined,
+              word: word,
+              cat: cat,
+              path: `/assets/words/${it}`,
             } as WordItem;
           })
           .filter((x): x is WordItem => x !== null);

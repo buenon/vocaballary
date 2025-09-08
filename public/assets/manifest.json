@@ -1,5009 +1,1063 @@
-{
-  "version": "1",
-  "items": [
-    {
-      "word": "monkey",
-      "cat": "Animals",
-      "code": "1F412",
-      "path": "animals/monkey.svg"
-    },
-    {
-      "word": "gorilla",
-      "cat": "Animals",
-      "code": "1F98D",
-      "path": "animals/gorilla.svg"
-    },
-    {
-      "word": "orangutan",
-      "cat": "Animals",
-      "code": "1F9A7",
-      "path": "animals/orangutan.svg"
-    },
-    {
-      "word": "dog",
-      "cat": "Animals",
-      "code": "1F415",
-      "path": "animals/dog.svg"
-    },
-    {
-      "word": "dog",
-      "cat": "Animals",
-      "code": "1F9AE",
-      "path": "animals/dog-u1f9ae.svg"
-    },
-    {
-      "word": "dog",
-      "cat": "Animals",
-      "code": "1F415-200D-1F9BA",
-      "path": "animals/dog-u1f415-200d-1f9ba.svg"
-    },
-    {
-      "word": "poodle",
-      "cat": "Animals",
-      "code": "1F429",
-      "path": "animals/poodle.svg"
-    },
-    {
-      "word": "wolf",
-      "cat": "Animals",
-      "code": "1F43A",
-      "path": "animals/wolf.svg"
-    },
-    {
-      "word": "fox",
-      "cat": "Animals",
-      "code": "1F98A",
-      "path": "animals/fox.svg"
-    },
-    {
-      "word": "raccoon",
-      "cat": "Animals",
-      "code": "1F99D",
-      "path": "animals/raccoon.svg"
-    },
-    {
-      "word": "cat",
-      "cat": "Animals",
-      "code": "1F408",
-      "path": "animals/cat.svg"
-    },
-    {
-      "word": "lion",
-      "cat": "Animals",
-      "code": "1F981",
-      "path": "animals/lion.svg"
-    },
-    {
-      "word": "tiger",
-      "cat": "Animals",
-      "code": "1F405",
-      "path": "animals/tiger.svg"
-    },
-    {
-      "word": "leopard",
-      "cat": "Animals",
-      "code": "1F406",
-      "path": "animals/leopard.svg"
-    },
-    {
-      "word": "moose",
-      "cat": "Animals",
-      "code": "1FACE",
-      "path": "animals/moose.svg"
-    },
-    {
-      "word": "donkey",
-      "cat": "Animals",
-      "code": "1FACF",
-      "path": "animals/donkey.svg"
-    },
-    {
-      "word": "horse",
-      "cat": "Animals",
-      "code": "1F40E",
-      "path": "animals/horse.svg"
-    },
-    {
-      "word": "unicorn",
-      "cat": "Animals",
-      "code": "1F984",
-      "path": "animals/unicorn.svg"
-    },
-    {
-      "word": "zebra",
-      "cat": "Animals",
-      "code": "1F993",
-      "path": "animals/zebra.svg"
-    },
-    {
-      "word": "deer",
-      "cat": "Animals",
-      "code": "1F98C",
-      "path": "animals/deer.svg"
-    },
-    {
-      "word": "bison",
-      "cat": "Animals",
-      "code": "1F9AC",
-      "path": "animals/bison.svg"
-    },
-    {
-      "word": "ox",
-      "cat": "Animals",
-      "code": "1F402",
-      "path": "animals/ox.svg"
-    },
-    {
-      "word": "buffalo",
-      "cat": "Animals",
-      "code": "1F403",
-      "path": "animals/buffalo.svg"
-    },
-    {
-      "word": "cow",
-      "cat": "Animals",
-      "code": "1F404",
-      "path": "animals/cow.svg"
-    },
-    {
-      "word": "pig",
-      "cat": "Animals",
-      "code": "1F416",
-      "path": "animals/pig.svg"
-    },
-    {
-      "word": "boar",
-      "cat": "Animals",
-      "code": "1F417",
-      "path": "animals/boar.svg"
-    },
-    {
-      "word": "nose",
-      "cat": "Animals",
-      "code": "1F43D",
-      "path": "animals/nose.svg"
-    },
-    {
-      "word": "ram",
-      "cat": "Animals",
-      "code": "1F40F",
-      "path": "animals/ram.svg"
-    },
-    {
-      "word": "ewe",
-      "cat": "Animals",
-      "code": "1F411",
-      "path": "animals/ewe.svg"
-    },
-    {
-      "word": "goat",
-      "cat": "Animals",
-      "code": "1F410",
-      "path": "animals/goat.svg"
-    },
-    {
-      "word": "camel",
-      "cat": "Animals",
-      "code": "1F42A",
-      "path": "animals/camel.svg"
-    },
-    {
-      "word": "camel",
-      "cat": "Animals",
-      "code": "1F42B",
-      "path": "animals/camel-u1f42b.svg"
-    },
-    {
-      "word": "llama",
-      "cat": "Animals",
-      "code": "1F999",
-      "path": "animals/llama.svg"
-    },
-    {
-      "word": "giraffe",
-      "cat": "Animals",
-      "code": "1F992",
-      "path": "animals/giraffe.svg"
-    },
-    {
-      "word": "elephant",
-      "cat": "Animals",
-      "code": "1F418",
-      "path": "animals/elephant.svg"
-    },
-    {
-      "word": "mammoth",
-      "cat": "Animals",
-      "code": "1F9A3",
-      "path": "animals/mammoth.svg"
-    },
-    {
-      "word": "rhinoceros",
-      "cat": "Animals",
-      "code": "1F98F",
-      "path": "animals/rhinoceros.svg"
-    },
-    {
-      "word": "hippopotamus",
-      "cat": "Animals",
-      "code": "1F99B",
-      "path": "animals/hippopotamus.svg"
-    },
-    {
-      "word": "mouse",
-      "cat": "Animals",
-      "code": "1F401",
-      "path": "animals/mouse.svg"
-    },
-    {
-      "word": "rat",
-      "cat": "Animals",
-      "code": "1F400",
-      "path": "animals/rat.svg"
-    },
-    {
-      "word": "hamster",
-      "cat": "Animals",
-      "code": "1F439",
-      "path": "animals/hamster.svg"
-    },
-    {
-      "word": "rabbit",
-      "cat": "Animals",
-      "code": "1F407",
-      "path": "animals/rabbit.svg"
-    },
-    {
-      "word": "chipmunk",
-      "cat": "Animals",
-      "code": "1F43F",
-      "path": "animals/chipmunk.svg"
-    },
-    {
-      "word": "beaver",
-      "cat": "Animals",
-      "code": "1F9AB",
-      "path": "animals/beaver.svg"
-    },
-    {
-      "word": "hedgehog",
-      "cat": "Animals",
-      "code": "1F994",
-      "path": "animals/hedgehog.svg"
-    },
-    {
-      "word": "bat",
-      "cat": "Animals",
-      "code": "1F987",
-      "path": "animals/bat.svg"
-    },
-    {
-      "word": "bear",
-      "cat": "Animals",
-      "code": "1F43B",
-      "path": "animals/bear.svg"
-    },
-    {
-      "word": "bear",
-      "cat": "Animals",
-      "code": "1F43B-200D-2744-FE0F",
-      "path": "animals/bear-u1f43b-200d-2744-fe0f.svg"
-    },
-    {
-      "word": "koala",
-      "cat": "Animals",
-      "code": "1F428",
-      "path": "animals/koala.svg"
-    },
-    {
-      "word": "panda",
-      "cat": "Animals",
-      "code": "1F43C",
-      "path": "animals/panda.svg"
-    },
-    {
-      "word": "sloth",
-      "cat": "Animals",
-      "code": "1F9A5",
-      "path": "animals/sloth.svg"
-    },
-    {
-      "word": "otter",
-      "cat": "Animals",
-      "code": "1F9A6",
-      "path": "animals/otter.svg"
-    },
-    {
-      "word": "skunk",
-      "cat": "Animals",
-      "code": "1F9A8",
-      "path": "animals/skunk.svg"
-    },
-    {
-      "word": "kangaroo",
-      "cat": "Animals",
-      "code": "1F998",
-      "path": "animals/kangaroo.svg"
-    },
-    {
-      "word": "badger",
-      "cat": "Animals",
-      "code": "1F9A1",
-      "path": "animals/badger.svg"
-    },
-    {
-      "word": "prints",
-      "cat": "Animals",
-      "code": "1F43E",
-      "path": "animals/prints.svg"
-    },
-    {
-      "word": "turkey",
-      "cat": "Animals",
-      "code": "1F983",
-      "path": "animals/turkey.svg"
-    },
-    {
-      "word": "chicken",
-      "cat": "Animals",
-      "code": "1F414",
-      "path": "animals/chicken.svg"
-    },
-    {
-      "word": "rooster",
-      "cat": "Animals",
-      "code": "1F413",
-      "path": "animals/rooster.svg"
-    },
-    {
-      "word": "chick",
-      "cat": "Animals",
-      "code": "1F423",
-      "path": "animals/chick-u1f423.svg"
-    },
-    {
-      "word": "chick",
-      "cat": "Animals",
-      "code": "1F424",
-      "path": "animals/chick.svg"
-    },
-    {
-      "word": "bird",
-      "cat": "Animals",
-      "code": "1F426",
-      "path": "animals/bird.svg"
-    },
-    {
-      "word": "penguin",
-      "cat": "Animals",
-      "code": "1F427",
-      "path": "animals/penguin.svg"
-    },
-    {
-      "word": "dove",
-      "cat": "Animals",
-      "code": "1F54A",
-      "path": "animals/dove.svg"
-    },
-    {
-      "word": "eagle",
-      "cat": "Animals",
-      "code": "1F985",
-      "path": "animals/eagle.svg"
-    },
-    {
-      "word": "duck",
-      "cat": "Animals",
-      "code": "1F986",
-      "path": "animals/duck.svg"
-    },
-    {
-      "word": "swan",
-      "cat": "Animals",
-      "code": "1F9A2",
-      "path": "animals/swan.svg"
-    },
-    {
-      "word": "owl",
-      "cat": "Animals",
-      "code": "1F989",
-      "path": "animals/owl.svg"
-    },
-    {
-      "word": "dodo",
-      "cat": "Animals",
-      "code": "1F9A4",
-      "path": "animals/dodo.svg"
-    },
-    {
-      "word": "feather",
-      "cat": "Animals",
-      "code": "1FAB6",
-      "path": "animals/feather.svg"
-    },
-    {
-      "word": "flamingo",
-      "cat": "Animals",
-      "code": "1F9A9",
-      "path": "animals/flamingo.svg"
-    },
-    {
-      "word": "peacock",
-      "cat": "Animals",
-      "code": "1F99A",
-      "path": "animals/peacock.svg"
-    },
-    {
-      "word": "parrot",
-      "cat": "Animals",
-      "code": "1F99C",
-      "path": "animals/parrot.svg"
-    },
-    {
-      "word": "wing",
-      "cat": "Animals",
-      "code": "1FABD",
-      "path": "animals/wing.svg"
-    },
-    {
-      "word": "goose",
-      "cat": "Animals",
-      "code": "1FABF",
-      "path": "animals/goose.svg"
-    },
-    {
-      "word": "phoenix",
-      "cat": "Animals",
-      "code": "1F426-200D-1F525",
-      "path": "animals/phoenix.svg"
-    },
-    {
-      "word": "frog",
-      "cat": "Animals",
-      "code": "1F438",
-      "path": "animals/frog.svg"
-    },
-    {
-      "word": "crocodile",
-      "cat": "Animals",
-      "code": "1F40A",
-      "path": "animals/crocodile.svg"
-    },
-    {
-      "word": "turtle",
-      "cat": "Animals",
-      "code": "1F422",
-      "path": "animals/turtle.svg"
-    },
-    {
-      "word": "lizard",
-      "cat": "Animals",
-      "code": "1F98E",
-      "path": "animals/lizard.svg"
-    },
-    {
-      "word": "snake",
-      "cat": "Animals",
-      "code": "1F40D",
-      "path": "animals/snake.svg"
-    },
-    {
-      "word": "dragon",
-      "cat": "Animals",
-      "code": "1F409",
-      "path": "animals/dragon.svg"
-    },
-    {
-      "word": "sauropod",
-      "cat": "Animals",
-      "code": "1F995",
-      "path": "animals/sauropod.svg"
-    },
-    {
-      "word": "t-rex",
-      "cat": "Animals",
-      "code": "1F996",
-      "path": "animals/rex.svg"
-    },
-    {
-      "word": "whale",
-      "cat": "Animals",
-      "code": "1F433",
-      "path": "animals/whale-u1f433.svg"
-    },
-    {
-      "word": "whale",
-      "cat": "Animals",
-      "code": "1F40B",
-      "path": "animals/whale.svg"
-    },
-    {
-      "word": "dolphin",
-      "cat": "Animals",
-      "code": "1F42C",
-      "path": "animals/dolphin.svg"
-    },
-    {
-      "word": "seal",
-      "cat": "Animals",
-      "code": "1F9AD",
-      "path": "animals/seal.svg"
-    },
-    {
-      "word": "fish",
-      "cat": "Animals",
-      "code": "1F41F",
-      "path": "animals/fish.svg"
-    },
-    {
-      "word": "fish",
-      "cat": "Animals",
-      "code": "1F420",
-      "path": "animals/fish-u1f420.svg"
-    },
-    {
-      "word": "blowfish",
-      "cat": "Animals",
-      "code": "1F421",
-      "path": "animals/blowfish.svg"
-    },
-    {
-      "word": "shark",
-      "cat": "Animals",
-      "code": "1F988",
-      "path": "animals/shark.svg"
-    },
-    {
-      "word": "octopus",
-      "cat": "Animals",
-      "code": "1F419",
-      "path": "animals/octopus.svg"
-    },
-    {
-      "word": "shell",
-      "cat": "Animals",
-      "code": "1F41A",
-      "path": "animals/shell.svg"
-    },
-    {
-      "word": "coral",
-      "cat": "Animals",
-      "code": "1FAB8",
-      "path": "animals/coral.svg"
-    },
-    {
-      "word": "jellyfish",
-      "cat": "Animals",
-      "code": "1FABC",
-      "path": "animals/jellyfish.svg"
-    },
-    {
-      "word": "crab",
-      "cat": "Animals",
-      "code": "1F980",
-      "path": "animals/crab.svg"
-    },
-    {
-      "word": "lobster",
-      "cat": "Animals",
-      "code": "1F99E",
-      "path": "animals/lobster.svg"
-    },
-    {
-      "word": "shrimp",
-      "cat": "Animals",
-      "code": "1F990",
-      "path": "animals/shrimp.svg"
-    },
-    {
-      "word": "squid",
-      "cat": "Animals",
-      "code": "1F991",
-      "path": "animals/squid.svg"
-    },
-    {
-      "word": "oyster",
-      "cat": "Animals",
-      "code": "1F9AA",
-      "path": "animals/oyster.svg"
-    },
-    {
-      "word": "snail",
-      "cat": "Animals",
-      "code": "1F40C",
-      "path": "animals/snail.svg"
-    },
-    {
-      "word": "butterfly",
-      "cat": "Animals",
-      "code": "1F98B",
-      "path": "animals/butterfly.svg"
-    },
-    {
-      "word": "bug",
-      "cat": "Animals",
-      "code": "1F41B",
-      "path": "animals/bug.svg"
-    },
-    {
-      "word": "ant",
-      "cat": "Animals",
-      "code": "1F41C",
-      "path": "animals/ant.svg"
-    },
-    {
-      "word": "honeybee",
-      "cat": "Animals",
-      "code": "1F41D",
-      "path": "animals/honeybee.svg"
-    },
-    {
-      "word": "beetle",
-      "cat": "Animals",
-      "code": "1FAB2",
-      "path": "animals/beetle.svg"
-    },
-    {
-      "word": "ladybug",
-      "cat": "Animals",
-      "code": "1F41E",
-      "path": "animals/ladybug.svg"
-    },
-    {
-      "word": "cricket",
-      "cat": "Animals",
-      "code": "1F997",
-      "path": "animals/cricket.svg"
-    },
-    {
-      "word": "cockroach",
-      "cat": "Animals",
-      "code": "1FAB3",
-      "path": "animals/cockroach.svg"
-    },
-    {
-      "word": "spider",
-      "cat": "Animals",
-      "code": "1F577",
-      "path": "animals/spider.svg"
-    },
-    {
-      "word": "web",
-      "cat": "Animals",
-      "code": "1F578",
-      "path": "animals/web.svg"
-    },
-    {
-      "word": "scorpion",
-      "cat": "Animals",
-      "code": "1F982",
-      "path": "animals/scorpion.svg"
-    },
-    {
-      "word": "mosquito",
-      "cat": "Animals",
-      "code": "1F99F",
-      "path": "animals/mosquito.svg"
-    },
-    {
-      "word": "fly",
-      "cat": "Animals",
-      "code": "1FAB0",
-      "path": "animals/fly.svg"
-    },
-    {
-      "word": "worm",
-      "cat": "Animals",
-      "code": "1FAB1",
-      "path": "animals/worm.svg"
-    },
-    {
-      "word": "microbe",
-      "cat": "Animals",
-      "code": "1F9A0",
-      "path": "animals/microbe.svg"
-    },
-    {
-      "word": "bread",
-      "cat": "Food & Drinks",
-      "code": "1F35E",
-      "path": "food-drinks/bread.svg"
-    },
-    {
-      "word": "croissant",
-      "cat": "Food & Drinks",
-      "code": "1F950",
-      "path": "food-drinks/croissant.svg"
-    },
-    {
-      "word": "bread",
-      "cat": "Food & Drinks",
-      "code": "1F956",
-      "path": "food-drinks/bread-u1f956.svg"
-    },
-    {
-      "word": "flatbread",
-      "cat": "Food & Drinks",
-      "code": "1FAD3",
-      "path": "food-drinks/flatbread.svg"
-    },
-    {
-      "word": "pretzel",
-      "cat": "Food & Drinks",
-      "code": "1F968",
-      "path": "food-drinks/pretzel.svg"
-    },
-    {
-      "word": "bagel",
-      "cat": "Food & Drinks",
-      "code": "1F96F",
-      "path": "food-drinks/bagel.svg"
-    },
-    {
-      "word": "pancakes",
-      "cat": "Food & Drinks",
-      "code": "1F95E",
-      "path": "food-drinks/pancakes.svg"
-    },
-    {
-      "word": "waffle",
-      "cat": "Food & Drinks",
-      "code": "1F9C7",
-      "path": "food-drinks/waffle.svg"
-    },
-    {
-      "word": "wedge",
-      "cat": "Food & Drinks",
-      "code": "1F9C0",
-      "path": "food-drinks/wedge.svg"
-    },
-    {
-      "word": "bone",
-      "cat": "Food & Drinks",
-      "code": "1F356",
-      "path": "food-drinks/bone.svg"
-    },
-    {
-      "word": "leg",
-      "cat": "Food & Drinks",
-      "code": "1F357",
-      "path": "food-drinks/leg.svg"
-    },
-    {
-      "word": "meat",
-      "cat": "Food & Drinks",
-      "code": "1F969",
-      "path": "food-drinks/meat.svg"
-    },
-    {
-      "word": "bacon",
-      "cat": "Food & Drinks",
-      "code": "1F953",
-      "path": "food-drinks/bacon.svg"
-    },
-    {
-      "word": "hamburger",
-      "cat": "Food & Drinks",
-      "code": "1F354",
-      "path": "food-drinks/hamburger.svg"
-    },
-    {
-      "word": "fries",
-      "cat": "Food & Drinks",
-      "code": "1F35F",
-      "path": "food-drinks/fries.svg"
-    },
-    {
-      "word": "pizza",
-      "cat": "Food & Drinks",
-      "code": "1F355",
-      "path": "food-drinks/pizza.svg"
-    },
-    {
-      "word": "dog",
-      "cat": "Food & Drinks",
-      "code": "1F32D",
-      "path": "food-drinks/dog.svg"
-    },
-    {
-      "word": "sandwich",
-      "cat": "Food & Drinks",
-      "code": "1F96A",
-      "path": "food-drinks/sandwich.svg"
-    },
-    {
-      "word": "taco",
-      "cat": "Food & Drinks",
-      "code": "1F32E",
-      "path": "food-drinks/taco.svg"
-    },
-    {
-      "word": "burrito",
-      "cat": "Food & Drinks",
-      "code": "1F32F",
-      "path": "food-drinks/burrito.svg"
-    },
-    {
-      "word": "tamale",
-      "cat": "Food & Drinks",
-      "code": "1FAD4",
-      "path": "food-drinks/tamale.svg"
-    },
-    {
-      "word": "flatbread",
-      "cat": "Food & Drinks",
-      "code": "1F959",
-      "path": "food-drinks/flatbread-u1f959.svg"
-    },
-    {
-      "word": "falafel",
-      "cat": "Food & Drinks",
-      "code": "1F9C6",
-      "path": "food-drinks/falafel.svg"
-    },
-    {
-      "word": "egg",
-      "cat": "Food & Drinks",
-      "code": "1F95A",
-      "path": "food-drinks/egg.svg"
-    },
-    {
-      "word": "cooking",
-      "cat": "Food & Drinks",
-      "code": "1F373",
-      "path": "food-drinks/cooking.svg"
-    },
-    {
-      "word": "food",
-      "cat": "Food & Drinks",
-      "code": "1F958",
-      "path": "food-drinks/food.svg"
-    },
-    {
-      "word": "food",
-      "cat": "Food & Drinks",
-      "code": "1F372",
-      "path": "food-drinks/food-u1f372.svg"
-    },
-    {
-      "word": "fondue",
-      "cat": "Food & Drinks",
-      "code": "1FAD5",
-      "path": "food-drinks/fondue.svg"
-    },
-    {
-      "word": "spoon",
-      "cat": "Food & Drinks",
-      "code": "1F963",
-      "path": "food-drinks/spoon-u1f963.svg"
-    },
-    {
-      "word": "salad",
-      "cat": "Food & Drinks",
-      "code": "1F957",
-      "path": "food-drinks/salad.svg"
-    },
-    {
-      "word": "popcorn",
-      "cat": "Food & Drinks",
-      "code": "1F37F",
-      "path": "food-drinks/popcorn.svg"
-    },
-    {
-      "word": "butter",
-      "cat": "Food & Drinks",
-      "code": "1F9C8",
-      "path": "food-drinks/butter.svg"
-    },
-    {
-      "word": "salt",
-      "cat": "Food & Drinks",
-      "code": "1F9C2",
-      "path": "food-drinks/salt.svg"
-    },
-    {
-      "word": "food",
-      "cat": "Food & Drinks",
-      "code": "1F96B",
-      "path": "food-drinks/food-u1f96b.svg"
-    },
-    {
-      "word": "box",
-      "cat": "Food & Drinks",
-      "code": "1F371",
-      "path": "food-drinks/box.svg"
-    },
-    {
-      "word": "cracker",
-      "cat": "Food & Drinks",
-      "code": "1F358",
-      "path": "food-drinks/cracker.svg"
-    },
-    {
-      "word": "ball",
-      "cat": "Food & Drinks",
-      "code": "1F359",
-      "path": "food-drinks/ball.svg"
-    },
-    {
-      "word": "rice",
-      "cat": "Food & Drinks",
-      "code": "1F35A",
-      "path": "food-drinks/rice.svg"
-    },
-    {
-      "word": "rice",
-      "cat": "Food & Drinks",
-      "code": "1F35B",
-      "path": "food-drinks/rice-u1f35b.svg"
-    },
-    {
-      "word": "bowl",
-      "cat": "Food & Drinks",
-      "code": "1F35C",
-      "path": "food-drinks/bowl.svg"
-    },
-    {
-      "word": "spaghetti",
-      "cat": "Food & Drinks",
-      "code": "1F35D",
-      "path": "food-drinks/spaghetti.svg"
-    },
-    {
-      "word": "potato",
-      "cat": "Food & Drinks",
-      "code": "1F360",
-      "path": "food-drinks/potato.svg"
-    },
-    {
-      "word": "oden",
-      "cat": "Food & Drinks",
-      "code": "1F362",
-      "path": "food-drinks/oden.svg"
-    },
-    {
-      "word": "sushi",
-      "cat": "Food & Drinks",
-      "code": "1F363",
-      "path": "food-drinks/sushi.svg"
-    },
-    {
-      "word": "shrimp",
-      "cat": "Food & Drinks",
-      "code": "1F364",
-      "path": "food-drinks/shrimp.svg"
-    },
-    {
-      "word": "swirl",
-      "cat": "Food & Drinks",
-      "code": "1F365",
-      "path": "food-drinks/swirl.svg"
-    },
-    {
-      "word": "cake",
-      "cat": "Food & Drinks",
-      "code": "1F96E",
-      "path": "food-drinks/cake.svg"
-    },
-    {
-      "word": "dango",
-      "cat": "Food & Drinks",
-      "code": "1F361",
-      "path": "food-drinks/dango.svg"
-    },
-    {
-      "word": "dumpling",
-      "cat": "Food & Drinks",
-      "code": "1F95F",
-      "path": "food-drinks/dumpling.svg"
-    },
-    {
-      "word": "cookie",
-      "cat": "Food & Drinks",
-      "code": "1F960",
-      "path": "food-drinks/cookie-u1f960.svg"
-    },
-    {
-      "word": "box",
-      "cat": "Food & Drinks",
-      "code": "1F961",
-      "path": "food-drinks/box-u1f961.svg"
-    },
-    {
-      "word": "cream",
-      "cat": "Food & Drinks",
-      "code": "1F366",
-      "path": "food-drinks/cream.svg"
-    },
-    {
-      "word": "ice",
-      "cat": "Food & Drinks",
-      "code": "1F367",
-      "path": "food-drinks/ice-u1f367.svg"
-    },
-    {
-      "word": "cream",
-      "cat": "Food & Drinks",
-      "code": "1F368",
-      "path": "food-drinks/cream-u1f368.svg"
-    },
-    {
-      "word": "doughnut",
-      "cat": "Food & Drinks",
-      "code": "1F369",
-      "path": "food-drinks/doughnut.svg"
-    },
-    {
-      "word": "cookie",
-      "cat": "Food & Drinks",
-      "code": "1F36A",
-      "path": "food-drinks/cookie.svg"
-    },
-    {
-      "word": "cake",
-      "cat": "Food & Drinks",
-      "code": "1F382",
-      "path": "food-drinks/cake-u1f382.svg"
-    },
-    {
-      "word": "shortcake",
-      "cat": "Food & Drinks",
-      "code": "1F370",
-      "path": "food-drinks/shortcake.svg"
-    },
-    {
-      "word": "cupcake",
-      "cat": "Food & Drinks",
-      "code": "1F9C1",
-      "path": "food-drinks/cupcake.svg"
-    },
-    {
-      "word": "pie",
-      "cat": "Food & Drinks",
-      "code": "1F967",
-      "path": "food-drinks/pie.svg"
-    },
-    {
-      "word": "bar",
-      "cat": "Food & Drinks",
-      "code": "1F36B",
-      "path": "food-drinks/bar.svg"
-    },
-    {
-      "word": "candy",
-      "cat": "Food & Drinks",
-      "code": "1F36C",
-      "path": "food-drinks/candy.svg"
-    },
-    {
-      "word": "lollipop",
-      "cat": "Food & Drinks",
-      "code": "1F36D",
-      "path": "food-drinks/lollipop.svg"
-    },
-    {
-      "word": "custard",
-      "cat": "Food & Drinks",
-      "code": "1F36E",
-      "path": "food-drinks/custard.svg"
-    },
-    {
-      "word": "pot",
-      "cat": "Food & Drinks",
-      "code": "1F36F",
-      "path": "food-drinks/pot.svg"
-    },
-    {
-      "word": "bottle",
-      "cat": "Food & Drinks",
-      "code": "1F37C",
-      "path": "food-drinks/bottle.svg"
-    },
-    {
-      "word": "milk",
-      "cat": "Food & Drinks",
-      "code": "1F95B",
-      "path": "food-drinks/milk.svg"
-    },
-    {
-      "word": "beverage",
-      "cat": "Food & Drinks",
-      "code": "2615",
-      "path": "food-drinks/beverage.svg"
-    },
-    {
-      "word": "teapot",
-      "cat": "Food & Drinks",
-      "code": "1FAD6",
-      "path": "food-drinks/teapot.svg"
-    },
-    {
-      "word": "handle",
-      "cat": "Food & Drinks",
-      "code": "1F375",
-      "path": "food-drinks/handle.svg"
-    },
-    {
-      "word": "cork",
-      "cat": "Food & Drinks",
-      "code": "1F37E",
-      "path": "food-drinks/cork.svg"
-    },
-    {
-      "word": "liquid",
-      "cat": "Food & Drinks",
-      "code": "1FAD7",
-      "path": "food-drinks/liquid.svg"
-    },
-    {
-      "word": "straw",
-      "cat": "Food & Drinks",
-      "code": "1F964",
-      "path": "food-drinks/straw.svg"
-    },
-    {
-      "word": "tea",
-      "cat": "Food & Drinks",
-      "code": "1F9CB",
-      "path": "food-drinks/tea.svg"
-    },
-    {
-      "word": "box",
-      "cat": "Food & Drinks",
-      "code": "1F9C3",
-      "path": "food-drinks/box-u1f9c3.svg"
-    },
-    {
-      "word": "mate",
-      "cat": "Food & Drinks",
-      "code": "1F9C9",
-      "path": "food-drinks/mate.svg"
-    },
-    {
-      "word": "ice",
-      "cat": "Food & Drinks",
-      "code": "1F9CA",
-      "path": "food-drinks/ice.svg"
-    },
-    {
-      "word": "chopsticks",
-      "cat": "Food & Drinks",
-      "code": "1F962",
-      "path": "food-drinks/chopsticks.svg"
-    },
-    {
-      "word": "plate",
-      "cat": "Food & Drinks",
-      "code": "1F37D",
-      "path": "food-drinks/plate.svg"
-    },
-    {
-      "word": "knife",
-      "cat": "Food & Drinks",
-      "code": "1F374",
-      "path": "food-drinks/knife.svg"
-    },
-    {
-      "word": "spoon",
-      "cat": "Food & Drinks",
-      "code": "1F944",
-      "path": "food-drinks/spoon.svg"
-    },
-    {
-      "word": "knife",
-      "cat": "Food & Drinks",
-      "code": "1F52A",
-      "path": "food-drinks/knife-u1f52a.svg"
-    },
-    {
-      "word": "jar",
-      "cat": "Food & Drinks",
-      "code": "1FAD9",
-      "path": "food-drinks/jar.svg"
-    },
-    {
-      "word": "amphora",
-      "cat": "Food & Drinks",
-      "code": "1F3FA",
-      "path": "food-drinks/amphora.svg"
-    },
-    {
-      "word": "grapes",
-      "cat": "Fruits & Vegetables",
-      "code": "1F347",
-      "path": "fruits-vegetables/grapes.svg"
-    },
-    {
-      "word": "melon",
-      "cat": "Fruits & Vegetables",
-      "code": "1F348",
-      "path": "fruits-vegetables/melon.svg"
-    },
-    {
-      "word": "watermelon",
-      "cat": "Fruits & Vegetables",
-      "code": "1F349",
-      "path": "fruits-vegetables/watermelon.svg"
-    },
-    {
-      "word": "tangerine",
-      "cat": "Fruits & Vegetables",
-      "code": "1F34A",
-      "path": "fruits-vegetables/tangerine.svg"
-    },
-    {
-      "word": "lemon",
-      "cat": "Fruits & Vegetables",
-      "code": "1F34B",
-      "path": "fruits-vegetables/lemon.svg"
-    },
-    {
-      "word": "lime",
-      "cat": "Fruits & Vegetables",
-      "code": "1F34B-200D-1F7E9",
-      "path": "fruits-vegetables/lime.svg"
-    },
-    {
-      "word": "banana",
-      "cat": "Fruits & Vegetables",
-      "code": "1F34C",
-      "path": "fruits-vegetables/banana.svg"
-    },
-    {
-      "word": "pineapple",
-      "cat": "Fruits & Vegetables",
-      "code": "1F34D",
-      "path": "fruits-vegetables/pineapple.svg"
-    },
-    {
-      "word": "mango",
-      "cat": "Fruits & Vegetables",
-      "code": "1F96D",
-      "path": "fruits-vegetables/mango.svg"
-    },
-    {
-      "word": "apple",
-      "cat": "Fruits & Vegetables",
-      "code": "1F34E",
-      "path": "fruits-vegetables/apple.svg"
-    },
-    {
-      "word": "pear",
-      "cat": "Fruits & Vegetables",
-      "code": "1F350",
-      "path": "fruits-vegetables/pear.svg"
-    },
-    {
-      "word": "peach",
-      "cat": "Fruits & Vegetables",
-      "code": "1F351",
-      "path": "fruits-vegetables/peach.svg"
-    },
-    {
-      "word": "cherries",
-      "cat": "Fruits & Vegetables",
-      "code": "1F352",
-      "path": "fruits-vegetables/cherries.svg"
-    },
-    {
-      "word": "strawberry",
-      "cat": "Fruits & Vegetables",
-      "code": "1F353",
-      "path": "fruits-vegetables/strawberry.svg"
-    },
-    {
-      "word": "blueberries",
-      "cat": "Fruits & Vegetables",
-      "code": "1FAD0",
-      "path": "fruits-vegetables/blueberries.svg"
-    },
-    {
-      "word": "fruit",
-      "cat": "Fruits & Vegetables",
-      "code": "1F95D",
-      "path": "fruits-vegetables/fruit.svg"
-    },
-    {
-      "word": "tomato",
-      "cat": "Fruits & Vegetables",
-      "code": "1F345",
-      "path": "fruits-vegetables/tomato.svg"
-    },
-    {
-      "word": "olive",
-      "cat": "Fruits & Vegetables",
-      "code": "1FAD2",
-      "path": "fruits-vegetables/olive.svg"
-    },
-    {
-      "word": "coconut",
-      "cat": "Fruits & Vegetables",
-      "code": "1F965",
-      "path": "fruits-vegetables/coconut.svg"
-    },
-    {
-      "word": "avocado",
-      "cat": "Fruits & Vegetables",
-      "code": "1F951",
-      "path": "fruits-vegetables/avocado.svg"
-    },
-    {
-      "word": "eggplant",
-      "cat": "Fruits & Vegetables",
-      "code": "1F346",
-      "path": "fruits-vegetables/eggplant.svg"
-    },
-    {
-      "word": "potato",
-      "cat": "Fruits & Vegetables",
-      "code": "1F954",
-      "path": "fruits-vegetables/potato.svg"
-    },
-    {
-      "word": "carrot",
-      "cat": "Fruits & Vegetables",
-      "code": "1F955",
-      "path": "fruits-vegetables/carrot.svg"
-    },
-    {
-      "word": "corn",
-      "cat": "Fruits & Vegetables",
-      "code": "1F33D",
-      "path": "fruits-vegetables/corn.svg"
-    },
-    {
-      "word": "pepper",
-      "cat": "Fruits & Vegetables",
-      "code": "1F336",
-      "path": "fruits-vegetables/pepper.svg"
-    },
-    {
-      "word": "pepper",
-      "cat": "Fruits & Vegetables",
-      "code": "1FAD1",
-      "path": "fruits-vegetables/pepper-u1fad1.svg"
-    },
-    {
-      "word": "cucumber",
-      "cat": "Fruits & Vegetables",
-      "code": "1F952",
-      "path": "fruits-vegetables/cucumber.svg"
-    },
-    {
-      "word": "leafy",
-      "cat": "Fruits & Vegetables",
-      "code": "1F96C",
-      "path": "fruits-vegetables/leafy.svg"
-    },
-    {
-      "word": "broccoli",
-      "cat": "Fruits & Vegetables",
-      "code": "1F966",
-      "path": "fruits-vegetables/broccoli.svg"
-    },
-    {
-      "word": "garlic",
-      "cat": "Fruits & Vegetables",
-      "code": "1F9C4",
-      "path": "fruits-vegetables/garlic.svg"
-    },
-    {
-      "word": "onion",
-      "cat": "Fruits & Vegetables",
-      "code": "1F9C5",
-      "path": "fruits-vegetables/onion.svg"
-    },
-    {
-      "word": "peanuts",
-      "cat": "Fruits & Vegetables",
-      "code": "1F95C",
-      "path": "fruits-vegetables/peanuts.svg"
-    },
-    {
-      "word": "beans",
-      "cat": "Fruits & Vegetables",
-      "code": "1FAD8",
-      "path": "fruits-vegetables/beans.svg"
-    },
-    {
-      "word": "chestnut",
-      "cat": "Fruits & Vegetables",
-      "code": "1F330",
-      "path": "fruits-vegetables/chestnut.svg"
-    },
-    {
-      "word": "root",
-      "cat": "Fruits & Vegetables",
-      "code": "1FADA",
-      "path": "fruits-vegetables/root.svg"
-    },
-    {
-      "word": "pod",
-      "cat": "Fruits & Vegetables",
-      "code": "1FADB",
-      "path": "fruits-vegetables/pod.svg"
-    },
-    {
-      "word": "mushroom",
-      "cat": "Fruits & Vegetables",
-      "code": "1F344-200D-1F7EB",
-      "path": "fruits-vegetables/mushroom.svg"
-    },
-    {
-      "word": "vegetable",
-      "cat": "Fruits & Vegetables",
-      "code": "1FADC",
-      "path": "fruits-vegetables/vegetable.svg"
-    },
-    {
-      "word": "done",
-      "cat": "Household Items",
-      "code": "231B",
-      "path": "household-items/done.svg"
-    },
-    {
-      "word": "done",
-      "cat": "Household Items",
-      "code": "23F3",
-      "path": "household-items/done-u23f3.svg"
-    },
-    {
-      "word": "watch",
-      "cat": "Household Items",
-      "code": "231A",
-      "path": "household-items/watch.svg"
-    },
-    {
-      "word": "clock",
-      "cat": "Household Items",
-      "code": "23F0",
-      "path": "household-items/clock.svg"
-    },
-    {
-      "word": "stopwatch",
-      "cat": "Household Items",
-      "code": "23F1",
-      "path": "household-items/stopwatch.svg"
-    },
-    {
-      "word": "clock",
-      "cat": "Household Items",
-      "code": "23F2",
-      "path": "household-items/clock-u23f2.svg"
-    },
-    {
-      "word": "clock",
-      "cat": "Household Items",
-      "code": "1F570",
-      "path": "household-items/clock-u1f570.svg"
-    },
-    {
-      "word": "o’clock",
-      "cat": "Household Items",
-      "code": "1F55B",
-      "path": "household-items/clock-u1f55b.svg"
-    },
-    {
-      "word": "twelve-thirty",
-      "cat": "Household Items",
-      "code": "1F567",
-      "path": "household-items/thirty.svg"
-    },
-    {
-      "word": "o’clock",
-      "cat": "Household Items",
-      "code": "1F550",
-      "path": "household-items/clock-u1f550.svg"
-    },
-    {
-      "word": "one-thirty",
-      "cat": "Household Items",
-      "code": "1F55C",
-      "path": "household-items/thirty-u1f55c.svg"
-    },
-    {
-      "word": "o’clock",
-      "cat": "Household Items",
-      "code": "1F551",
-      "path": "household-items/clock-u1f551.svg"
-    },
-    {
-      "word": "two-thirty",
-      "cat": "Household Items",
-      "code": "1F55D",
-      "path": "household-items/thirty-u1f55d.svg"
-    },
-    {
-      "word": "o’clock",
-      "cat": "Household Items",
-      "code": "1F552",
-      "path": "household-items/clock-u1f552.svg"
-    },
-    {
-      "word": "three-thirty",
-      "cat": "Household Items",
-      "code": "1F55E",
-      "path": "household-items/thirty-u1f55e.svg"
-    },
-    {
-      "word": "o’clock",
-      "cat": "Household Items",
-      "code": "1F553",
-      "path": "household-items/clock-u1f553.svg"
-    },
-    {
-      "word": "four-thirty",
-      "cat": "Household Items",
-      "code": "1F55F",
-      "path": "household-items/thirty-u1f55f.svg"
-    },
-    {
-      "word": "o’clock",
-      "cat": "Household Items",
-      "code": "1F554",
-      "path": "household-items/clock-u1f554.svg"
-    },
-    {
-      "word": "five-thirty",
-      "cat": "Household Items",
-      "code": "1F560",
-      "path": "household-items/thirty-u1f560.svg"
-    },
-    {
-      "word": "o’clock",
-      "cat": "Household Items",
-      "code": "1F555",
-      "path": "household-items/clock-u1f555.svg"
-    },
-    {
-      "word": "six-thirty",
-      "cat": "Household Items",
-      "code": "1F561",
-      "path": "household-items/thirty-u1f561.svg"
-    },
-    {
-      "word": "o’clock",
-      "cat": "Household Items",
-      "code": "1F556",
-      "path": "household-items/clock-u1f556.svg"
-    },
-    {
-      "word": "seven-thirty",
-      "cat": "Household Items",
-      "code": "1F562",
-      "path": "household-items/thirty-u1f562.svg"
-    },
-    {
-      "word": "o’clock",
-      "cat": "Household Items",
-      "code": "1F557",
-      "path": "household-items/clock-u1f557.svg"
-    },
-    {
-      "word": "eight-thirty",
-      "cat": "Household Items",
-      "code": "1F563",
-      "path": "household-items/thirty-u1f563.svg"
-    },
-    {
-      "word": "o’clock",
-      "cat": "Household Items",
-      "code": "1F558",
-      "path": "household-items/clock-u1f558.svg"
-    },
-    {
-      "word": "nine-thirty",
-      "cat": "Household Items",
-      "code": "1F564",
-      "path": "household-items/thirty-u1f564.svg"
-    },
-    {
-      "word": "o’clock",
-      "cat": "Household Items",
-      "code": "1F559",
-      "path": "household-items/clock-u1f559.svg"
-    },
-    {
-      "word": "ten-thirty",
-      "cat": "Household Items",
-      "code": "1F565",
-      "path": "household-items/thirty-u1f565.svg"
-    },
-    {
-      "word": "o’clock",
-      "cat": "Household Items",
-      "code": "1F55A",
-      "path": "household-items/clock-u1f55a.svg"
-    },
-    {
-      "word": "eleven-thirty",
-      "cat": "Household Items",
-      "code": "1F566",
-      "path": "household-items/thirty-u1f566.svg"
-    },
-    {
-      "word": "envelope",
-      "cat": "Household Items",
-      "code": "2709",
-      "path": "household-items/envelope.svg"
-    },
-    {
-      "word": "e-mail",
-      "cat": "Household Items",
-      "code": "1F4E7",
-      "path": "household-items/mail.svg"
-    },
-    {
-      "word": "envelope",
-      "cat": "Household Items",
-      "code": "1F4E8",
-      "path": "household-items/envelope-u1f4e8.svg"
-    },
-    {
-      "word": "arrow",
-      "cat": "Household Items",
-      "code": "1F4E9",
-      "path": "household-items/arrow.svg"
-    },
-    {
-      "word": "tray",
-      "cat": "Household Items",
-      "code": "1F4E4",
-      "path": "household-items/tray.svg"
-    },
-    {
-      "word": "tray",
-      "cat": "Household Items",
-      "code": "1F4E5",
-      "path": "household-items/tray-u1f4e5.svg"
-    },
-    {
-      "word": "package",
-      "cat": "Household Items",
-      "code": "1F4E6",
-      "path": "household-items/package.svg"
-    },
-    {
-      "word": "flag",
-      "cat": "Household Items",
-      "code": "1F4EB",
-      "path": "household-items/flag.svg"
-    },
-    {
-      "word": "flag",
-      "cat": "Household Items",
-      "code": "1F4EA",
-      "path": "household-items/flag-u1f4ea.svg"
-    },
-    {
-      "word": "flag",
-      "cat": "Household Items",
-      "code": "1F4EC",
-      "path": "household-items/flag-u1f4ec.svg"
-    },
-    {
-      "word": "flag",
-      "cat": "Household Items",
-      "code": "1F4ED",
-      "path": "household-items/flag-u1f4ed.svg"
-    },
-    {
-      "word": "postbox",
-      "cat": "Household Items",
-      "code": "1F4EE",
-      "path": "household-items/postbox.svg"
-    },
-    {
-      "word": "ballot",
-      "cat": "Household Items",
-      "code": "1F5F3",
-      "path": "household-items/ballot.svg"
-    },
-    {
-      "word": "locked",
-      "cat": "Household Items",
-      "code": "1F512",
-      "path": "household-items/locked.svg"
-    },
-    {
-      "word": "unlocked",
-      "cat": "Household Items",
-      "code": "1F513",
-      "path": "household-items/unlocked.svg"
-    },
-    {
-      "word": "pen",
-      "cat": "Household Items",
-      "code": "1F50F",
-      "path": "household-items/pen.svg"
-    },
-    {
-      "word": "key",
-      "cat": "Household Items",
-      "code": "1F510",
-      "path": "household-items/key-u1f510.svg"
-    },
-    {
-      "word": "key",
-      "cat": "Household Items",
-      "code": "1F511",
-      "path": "household-items/key.svg"
-    },
-    {
-      "word": "key",
-      "cat": "Household Items",
-      "code": "1F5DD",
-      "path": "household-items/key-u1f5dd.svg"
-    },
-    {
-      "word": "door",
-      "cat": "Household Items",
-      "code": "1F6AA",
-      "path": "household-items/door.svg"
-    },
-    {
-      "word": "elevator",
-      "cat": "Household Items",
-      "code": "1F6D7",
-      "path": "household-items/elevator.svg"
-    },
-    {
-      "word": "mirror",
-      "cat": "Household Items",
-      "code": "1FA9E",
-      "path": "household-items/mirror.svg"
-    },
-    {
-      "word": "window",
-      "cat": "Household Items",
-      "code": "1FA9F",
-      "path": "household-items/window.svg"
-    },
-    {
-      "word": "bed",
-      "cat": "Household Items",
-      "code": "1F6CF",
-      "path": "household-items/bed.svg"
-    },
-    {
-      "word": "lamp",
-      "cat": "Household Items",
-      "code": "1F6CB",
-      "path": "household-items/lamp.svg"
-    },
-    {
-      "word": "chair",
-      "cat": "Household Items",
-      "code": "1FA91",
-      "path": "household-items/chair.svg"
-    },
-    {
-      "word": "toilet",
-      "cat": "Household Items",
-      "code": "1F6BD",
-      "path": "household-items/toilet.svg"
-    },
-    {
-      "word": "plunger",
-      "cat": "Household Items",
-      "code": "1FAA0",
-      "path": "household-items/plunger.svg"
-    },
-    {
-      "word": "shower",
-      "cat": "Household Items",
-      "code": "1F6BF",
-      "path": "household-items/shower.svg"
-    },
-    {
-      "word": "bathtub",
-      "cat": "Household Items",
-      "code": "1F6C1",
-      "path": "household-items/bathtub.svg"
-    },
-    {
-      "word": "trap",
-      "cat": "Household Items",
-      "code": "1FAA4",
-      "path": "household-items/trap.svg"
-    },
-    {
-      "word": "razor",
-      "cat": "Household Items",
-      "code": "1FA92",
-      "path": "household-items/razor.svg"
-    },
-    {
-      "word": "bottle",
-      "cat": "Household Items",
-      "code": "1F9F4",
-      "path": "household-items/bottle.svg"
-    },
-    {
-      "word": "pin",
-      "cat": "Household Items",
-      "code": "1F9F7",
-      "path": "household-items/pin.svg"
-    },
-    {
-      "word": "broom",
-      "cat": "Household Items",
-      "code": "1F9F9",
-      "path": "household-items/broom.svg"
-    },
-    {
-      "word": "basket",
-      "cat": "Household Items",
-      "code": "1F9FA",
-      "path": "household-items/basket.svg"
-    },
-    {
-      "word": "paper",
-      "cat": "Household Items",
-      "code": "1F9FB",
-      "path": "household-items/paper.svg"
-    },
-    {
-      "word": "bucket",
-      "cat": "Household Items",
-      "code": "1FAA3",
-      "path": "household-items/bucket.svg"
-    },
-    {
-      "word": "soap",
-      "cat": "Household Items",
-      "code": "1F9FC",
-      "path": "household-items/soap.svg"
-    },
-    {
-      "word": "bubbles",
-      "cat": "Household Items",
-      "code": "1FAE7",
-      "path": "household-items/bubbles.svg"
-    },
-    {
-      "word": "toothbrush",
-      "cat": "Household Items",
-      "code": "1FAA5",
-      "path": "household-items/toothbrush.svg"
-    },
-    {
-      "word": "sponge",
-      "cat": "Household Items",
-      "code": "1F9FD",
-      "path": "household-items/sponge.svg"
-    },
-    {
-      "word": "extinguisher",
-      "cat": "Household Items",
-      "code": "1F9EF",
-      "path": "household-items/extinguisher.svg"
-    },
-    {
-      "word": "cart",
-      "cat": "Household Items",
-      "code": "1F6D2",
-      "path": "household-items/cart.svg"
-    },
-    {
-      "word": "cover",
-      "cat": "School & Learning",
-      "code": "1F4D4",
-      "path": "school-learning/cover.svg"
-    },
-    {
-      "word": "book",
-      "cat": "School & Learning",
-      "code": "1F4D5",
-      "path": "school-learning/book-u1f4d5.svg"
-    },
-    {
-      "word": "book",
-      "cat": "School & Learning",
-      "code": "1F4D6",
-      "path": "school-learning/book-u1f4d6.svg"
-    },
-    {
-      "word": "book",
-      "cat": "School & Learning",
-      "code": "1F4D7",
-      "path": "school-learning/book.svg"
-    },
-    {
-      "word": "books",
-      "cat": "School & Learning",
-      "code": "1F4DA",
-      "path": "school-learning/books.svg"
-    },
-    {
-      "word": "notebook",
-      "cat": "School & Learning",
-      "code": "1F4D3",
-      "path": "school-learning/notebook.svg"
-    },
-    {
-      "word": "ledger",
-      "cat": "School & Learning",
-      "code": "1F4D2",
-      "path": "school-learning/ledger.svg"
-    },
-    {
-      "word": "curl",
-      "cat": "School & Learning",
-      "code": "1F4C3",
-      "path": "school-learning/curl.svg"
-    },
-    {
-      "word": "scroll",
-      "cat": "School & Learning",
-      "code": "1F4DC",
-      "path": "school-learning/scroll.svg"
-    },
-    {
-      "word": "up",
-      "cat": "School & Learning",
-      "code": "1F4C4",
-      "path": "school-learning/up.svg"
-    },
-    {
-      "word": "newspaper",
-      "cat": "School & Learning",
-      "code": "1F4F0",
-      "path": "school-learning/newspaper.svg"
-    },
-    {
-      "word": "newspaper",
-      "cat": "School & Learning",
-      "code": "1F5DE",
-      "path": "school-learning/newspaper-u1f5de.svg"
-    },
-    {
-      "word": "tabs",
-      "cat": "School & Learning",
-      "code": "1F4D1",
-      "path": "school-learning/tabs.svg"
-    },
-    {
-      "word": "bookmark",
-      "cat": "School & Learning",
-      "code": "1F516",
-      "path": "school-learning/bookmark.svg"
-    },
-    {
-      "word": "label",
-      "cat": "School & Learning",
-      "code": "1F3F7",
-      "path": "school-learning/label.svg"
-    },
-    {
-      "word": "pencil",
-      "cat": "School & Learning",
-      "code": "270F",
-      "path": "school-learning/pencil.svg"
-    },
-    {
-      "word": "nib",
-      "cat": "School & Learning",
-      "code": "2712",
-      "path": "school-learning/nib.svg"
-    },
-    {
-      "word": "pen",
-      "cat": "School & Learning",
-      "code": "1F58B",
-      "path": "school-learning/pen-u1f58b.svg"
-    },
-    {
-      "word": "pen",
-      "cat": "School & Learning",
-      "code": "1F58A",
-      "path": "school-learning/pen.svg"
-    },
-    {
-      "word": "paintbrush",
-      "cat": "School & Learning",
-      "code": "1F58C",
-      "path": "school-learning/paintbrush.svg"
-    },
-    {
-      "word": "crayon",
-      "cat": "School & Learning",
-      "code": "1F58D",
-      "path": "school-learning/crayon.svg"
-    },
-    {
-      "word": "memo",
-      "cat": "School & Learning",
-      "code": "1F4DD",
-      "path": "school-learning/memo.svg"
-    },
-    {
-      "word": "briefcase",
-      "cat": "School & Learning",
-      "code": "1F4BC",
-      "path": "school-learning/briefcase.svg"
-    },
-    {
-      "word": "folder",
-      "cat": "School & Learning",
-      "code": "1F4C1",
-      "path": "school-learning/folder.svg"
-    },
-    {
-      "word": "folder",
-      "cat": "School & Learning",
-      "code": "1F4C2",
-      "path": "school-learning/folder-u1f4c2.svg"
-    },
-    {
-      "word": "dividers",
-      "cat": "School & Learning",
-      "code": "1F5C2",
-      "path": "school-learning/dividers.svg"
-    },
-    {
-      "word": "calendar",
-      "cat": "School & Learning",
-      "code": "1F4C5",
-      "path": "school-learning/calendar.svg"
-    },
-    {
-      "word": "calendar",
-      "cat": "School & Learning",
-      "code": "1F4C6",
-      "path": "school-learning/calendar-u1f4c6.svg"
-    },
-    {
-      "word": "notepad",
-      "cat": "School & Learning",
-      "code": "1F5D2",
-      "path": "school-learning/notepad.svg"
-    },
-    {
-      "word": "calendar",
-      "cat": "School & Learning",
-      "code": "1F5D3",
-      "path": "school-learning/calendar-u1f5d3.svg"
-    },
-    {
-      "word": "index",
-      "cat": "School & Learning",
-      "code": "1F4C7",
-      "path": "school-learning/index.svg"
-    },
-    {
-      "word": "increasing",
-      "cat": "School & Learning",
-      "code": "1F4C8",
-      "path": "school-learning/increasing.svg"
-    },
-    {
-      "word": "decreasing",
-      "cat": "School & Learning",
-      "code": "1F4C9",
-      "path": "school-learning/decreasing.svg"
-    },
-    {
-      "word": "chart",
-      "cat": "School & Learning",
-      "code": "1F4CA",
-      "path": "school-learning/chart.svg"
-    },
-    {
-      "word": "clipboard",
-      "cat": "School & Learning",
-      "code": "1F4CB",
-      "path": "school-learning/clipboard.svg"
-    },
-    {
-      "word": "pushpin",
-      "cat": "School & Learning",
-      "code": "1F4CC",
-      "path": "school-learning/pushpin.svg"
-    },
-    {
-      "word": "pushpin",
-      "cat": "School & Learning",
-      "code": "1F4CD",
-      "path": "school-learning/pushpin-u1f4cd.svg"
-    },
-    {
-      "word": "paperclip",
-      "cat": "School & Learning",
-      "code": "1F4CE",
-      "path": "school-learning/paperclip.svg"
-    },
-    {
-      "word": "paperclips",
-      "cat": "School & Learning",
-      "code": "1F587",
-      "path": "school-learning/paperclips.svg"
-    },
-    {
-      "word": "ruler",
-      "cat": "School & Learning",
-      "code": "1F4CF",
-      "path": "school-learning/ruler.svg"
-    },
-    {
-      "word": "ruler",
-      "cat": "School & Learning",
-      "code": "1F4D0",
-      "path": "school-learning/ruler-u1f4d0.svg"
-    },
-    {
-      "word": "scissors",
-      "cat": "School & Learning",
-      "code": "2702",
-      "path": "school-learning/scissors.svg"
-    },
-    {
-      "word": "box",
-      "cat": "School & Learning",
-      "code": "1F5C3",
-      "path": "school-learning/box.svg"
-    },
-    {
-      "word": "cabinet",
-      "cat": "School & Learning",
-      "code": "1F5C4",
-      "path": "school-learning/cabinet.svg"
-    },
-    {
-      "word": "wastebasket",
-      "cat": "School & Learning",
-      "code": "1F5D1",
-      "path": "school-learning/wastebasket.svg"
-    },
-    {
-      "word": "alembic",
-      "cat": "School & Learning",
-      "code": "2697",
-      "path": "school-learning/alembic.svg"
-    },
-    {
-      "word": "tube",
-      "cat": "School & Learning",
-      "code": "1F9EA",
-      "path": "school-learning/tube.svg"
-    },
-    {
-      "word": "dish",
-      "cat": "School & Learning",
-      "code": "1F9EB",
-      "path": "school-learning/dish.svg"
-    },
-    {
-      "word": "dna",
-      "cat": "School & Learning",
-      "code": "1F9EC",
-      "path": "school-learning/dna.svg"
-    },
-    {
-      "word": "microscope",
-      "cat": "School & Learning",
-      "code": "1F52C",
-      "path": "school-learning/microscope.svg"
-    },
-    {
-      "word": "telescope",
-      "cat": "School & Learning",
-      "code": "1F52D",
-      "path": "school-learning/telescope.svg"
-    },
-    {
-      "word": "antenna",
-      "cat": "School & Learning",
-      "code": "1F4E1",
-      "path": "school-learning/antenna.svg"
-    },
-    {
-      "word": "jack-o-lantern",
-      "cat": "Toys & Games",
-      "code": "1F383",
-      "path": "toys-games/lantern.svg"
-    },
-    {
-      "word": "tree",
-      "cat": "Toys & Games",
-      "code": "1F384",
-      "path": "toys-games/tree.svg"
-    },
-    {
-      "word": "fireworks",
-      "cat": "Toys & Games",
-      "code": "1F386",
-      "path": "toys-games/fireworks.svg"
-    },
-    {
-      "word": "sparkler",
-      "cat": "Toys & Games",
-      "code": "1F387",
-      "path": "toys-games/sparkler.svg"
-    },
-    {
-      "word": "firecracker",
-      "cat": "Toys & Games",
-      "code": "1F9E8",
-      "path": "toys-games/firecracker.svg"
-    },
-    {
-      "word": "sparkles",
-      "cat": "Toys & Games",
-      "code": "2728",
-      "path": "toys-games/sparkles.svg"
-    },
-    {
-      "word": "balloon",
-      "cat": "Toys & Games",
-      "code": "1F388",
-      "path": "toys-games/balloon.svg"
-    },
-    {
-      "word": "popper",
-      "cat": "Toys & Games",
-      "code": "1F389",
-      "path": "toys-games/popper.svg"
-    },
-    {
-      "word": "ball",
-      "cat": "Toys & Games",
-      "code": "1F38A",
-      "path": "toys-games/ball.svg"
-    },
-    {
-      "word": "tree",
-      "cat": "Toys & Games",
-      "code": "1F38B",
-      "path": "toys-games/tree-u1f38b.svg"
-    },
-    {
-      "word": "decoration",
-      "cat": "Toys & Games",
-      "code": "1F38D",
-      "path": "toys-games/decoration.svg"
-    },
-    {
-      "word": "dolls",
-      "cat": "Toys & Games",
-      "code": "1F38E",
-      "path": "toys-games/dolls.svg"
-    },
-    {
-      "word": "streamer",
-      "cat": "Toys & Games",
-      "code": "1F38F",
-      "path": "toys-games/streamer.svg"
-    },
-    {
-      "word": "chime",
-      "cat": "Toys & Games",
-      "code": "1F390",
-      "path": "toys-games/chime.svg"
-    },
-    {
-      "word": "ceremony",
-      "cat": "Toys & Games",
-      "code": "1F391",
-      "path": "toys-games/ceremony.svg"
-    },
-    {
-      "word": "envelope",
-      "cat": "Toys & Games",
-      "code": "1F9E7",
-      "path": "toys-games/envelope.svg"
-    },
-    {
-      "word": "ribbon",
-      "cat": "Toys & Games",
-      "code": "1F380",
-      "path": "toys-games/ribbon.svg"
-    },
-    {
-      "word": "gift",
-      "cat": "Toys & Games",
-      "code": "1F381",
-      "path": "toys-games/gift.svg"
-    },
-    {
-      "word": "ribbon",
-      "cat": "Toys & Games",
-      "code": "1F397",
-      "path": "toys-games/ribbon-u1f397.svg"
-    },
-    {
-      "word": "tickets",
-      "cat": "Toys & Games",
-      "code": "1F39F",
-      "path": "toys-games/tickets.svg"
-    },
-    {
-      "word": "ticket",
-      "cat": "Toys & Games",
-      "code": "1F3AB",
-      "path": "toys-games/ticket.svg"
-    },
-    {
-      "word": "medal",
-      "cat": "Toys & Games",
-      "code": "1F396",
-      "path": "toys-games/medal.svg"
-    },
-    {
-      "word": "trophy",
-      "cat": "Toys & Games",
-      "code": "1F3C6",
-      "path": "toys-games/trophy.svg"
-    },
-    {
-      "word": "medal",
-      "cat": "Toys & Games",
-      "code": "1F3C5",
-      "path": "toys-games/medal-u1f3c5.svg"
-    },
-    {
-      "word": "medal",
-      "cat": "Toys & Games",
-      "code": "1F947",
-      "path": "toys-games/medal-u1f947.svg"
-    },
-    {
-      "word": "medal",
-      "cat": "Toys & Games",
-      "code": "1F948",
-      "path": "toys-games/medal-u1f948.svg"
-    },
-    {
-      "word": "medal",
-      "cat": "Toys & Games",
-      "code": "1F949",
-      "path": "toys-games/medal-u1f949.svg"
-    },
-    {
-      "word": "ball",
-      "cat": "Toys & Games",
-      "code": "26BD",
-      "path": "toys-games/ball-u26bd.svg"
-    },
-    {
-      "word": "baseball",
-      "cat": "Toys & Games",
-      "code": "26BE",
-      "path": "toys-games/baseball.svg"
-    },
-    {
-      "word": "softball",
-      "cat": "Toys & Games",
-      "code": "1F94E",
-      "path": "toys-games/softball.svg"
-    },
-    {
-      "word": "basketball",
-      "cat": "Toys & Games",
-      "code": "1F3C0",
-      "path": "toys-games/basketball.svg"
-    },
-    {
-      "word": "volleyball",
-      "cat": "Toys & Games",
-      "code": "1F3D0",
-      "path": "toys-games/volleyball.svg"
-    },
-    {
-      "word": "football",
-      "cat": "Toys & Games",
-      "code": "1F3C8",
-      "path": "toys-games/football.svg"
-    },
-    {
-      "word": "football",
-      "cat": "Toys & Games",
-      "code": "1F3C9",
-      "path": "toys-games/football-u1f3c9.svg"
-    },
-    {
-      "word": "tennis",
-      "cat": "Toys & Games",
-      "code": "1F3BE",
-      "path": "toys-games/tennis.svg"
-    },
-    {
-      "word": "disc",
-      "cat": "Toys & Games",
-      "code": "1F94F",
-      "path": "toys-games/disc.svg"
-    },
-    {
-      "word": "bowling",
-      "cat": "Toys & Games",
-      "code": "1F3B3",
-      "path": "toys-games/bowling.svg"
-    },
-    {
-      "word": "game",
-      "cat": "Toys & Games",
-      "code": "1F3CF",
-      "path": "toys-games/game.svg"
-    },
-    {
-      "word": "hockey",
-      "cat": "Toys & Games",
-      "code": "1F3D1",
-      "path": "toys-games/hockey.svg"
-    },
-    {
-      "word": "hockey",
-      "cat": "Toys & Games",
-      "code": "1F3D2",
-      "path": "toys-games/hockey-u1f3d2.svg"
-    },
-    {
-      "word": "lacrosse",
-      "cat": "Toys & Games",
-      "code": "1F94D",
-      "path": "toys-games/lacrosse.svg"
-    },
-    {
-      "word": "pong",
-      "cat": "Toys & Games",
-      "code": "1F3D3",
-      "path": "toys-games/pong.svg"
-    },
-    {
-      "word": "badminton",
-      "cat": "Toys & Games",
-      "code": "1F3F8",
-      "path": "toys-games/badminton.svg"
-    },
-    {
-      "word": "glove",
-      "cat": "Toys & Games",
-      "code": "1F94A",
-      "path": "toys-games/glove.svg"
-    },
-    {
-      "word": "uniform",
-      "cat": "Toys & Games",
-      "code": "1F94B",
-      "path": "toys-games/uniform.svg"
-    },
-    {
-      "word": "net",
-      "cat": "Toys & Games",
-      "code": "1F945",
-      "path": "toys-games/net.svg"
-    },
-    {
-      "word": "hole",
-      "cat": "Toys & Games",
-      "code": "26F3",
-      "path": "toys-games/hole.svg"
-    },
-    {
-      "word": "skate",
-      "cat": "Toys & Games",
-      "code": "26F8",
-      "path": "toys-games/skate.svg"
-    },
-    {
-      "word": "pole",
-      "cat": "Toys & Games",
-      "code": "1F3A3",
-      "path": "toys-games/pole.svg"
-    },
-    {
-      "word": "mask",
-      "cat": "Toys & Games",
-      "code": "1F93F",
-      "path": "toys-games/mask.svg"
-    },
-    {
-      "word": "shirt",
-      "cat": "Toys & Games",
-      "code": "1F3BD",
-      "path": "toys-games/shirt.svg"
-    },
-    {
-      "word": "skis",
-      "cat": "Toys & Games",
-      "code": "1F3BF",
-      "path": "toys-games/skis.svg"
-    },
-    {
-      "word": "sled",
-      "cat": "Toys & Games",
-      "code": "1F6F7",
-      "path": "toys-games/sled.svg"
-    },
-    {
-      "word": "stone",
-      "cat": "Toys & Games",
-      "code": "1F94C",
-      "path": "toys-games/stone.svg"
-    },
-    {
-      "word": "bullseye",
-      "cat": "Toys & Games",
-      "code": "1F3AF",
-      "path": "toys-games/bullseye.svg"
-    },
-    {
-      "word": "yoyo",
-      "cat": "Toys & Games",
-      "code": "1FA80",
-      "path": "toys-games/yoyo.svg"
-    },
-    {
-      "word": "kite",
-      "cat": "Toys & Games",
-      "code": "1FA81",
-      "path": "toys-games/kite.svg"
-    },
-    {
-      "word": "eightball",
-      "cat": "Toys & Games",
-      "code": "1F3B1",
-      "path": "toys-games/eightball.svg"
-    },
-    {
-      "word": "ball",
-      "cat": "Toys & Games",
-      "code": "1F52E",
-      "path": "toys-games/ball-u1f52e.svg"
-    },
-    {
-      "word": "wand",
-      "cat": "Toys & Games",
-      "code": "1FA84",
-      "path": "toys-games/wand.svg"
-    },
-    {
-      "word": "game",
-      "cat": "Toys & Games",
-      "code": "1F3AE",
-      "path": "toys-games/game-u1f3ae.svg"
-    },
-    {
-      "word": "joystick",
-      "cat": "Toys & Games",
-      "code": "1F579",
-      "path": "toys-games/joystick.svg"
-    },
-    {
-      "word": "machine",
-      "cat": "Toys & Games",
-      "code": "1F3B0",
-      "path": "toys-games/machine.svg"
-    },
-    {
-      "word": "die",
-      "cat": "Toys & Games",
-      "code": "1F3B2",
-      "path": "toys-games/die.svg"
-    },
-    {
-      "word": "puzzle",
-      "cat": "Toys & Games",
-      "code": "1F9E9",
-      "path": "toys-games/puzzle.svg"
-    },
-    {
-      "word": "teddy",
-      "cat": "Toys & Games",
-      "code": "1F9F8",
-      "path": "toys-games/teddy.svg"
-    },
-    {
-      "word": "piñata",
-      "cat": "Toys & Games",
-      "code": "1FA85",
-      "path": "toys-games/pinata.svg"
-    },
-    {
-      "word": "ball",
-      "cat": "Toys & Games",
-      "code": "1FAA9",
-      "path": "toys-games/ball-u1faa9.svg"
-    },
-    {
-      "word": "dolls",
-      "cat": "Toys & Games",
-      "code": "1FA86",
-      "path": "toys-games/dolls-u1fa86.svg"
-    },
-    {
-      "word": "suit",
-      "cat": "Toys & Games",
-      "code": "2660",
-      "path": "toys-games/suit.svg"
-    },
-    {
-      "word": "suit",
-      "cat": "Toys & Games",
-      "code": "2665",
-      "path": "toys-games/suit-u2665.svg"
-    },
-    {
-      "word": "suit",
-      "cat": "Toys & Games",
-      "code": "2666",
-      "path": "toys-games/suit-u2666.svg"
-    },
-    {
-      "word": "suit",
-      "cat": "Toys & Games",
-      "code": "2663",
-      "path": "toys-games/suit-u2663.svg"
-    },
-    {
-      "word": "pawn",
-      "cat": "Toys & Games",
-      "code": "265F",
-      "path": "toys-games/pawn.svg"
-    },
-    {
-      "word": "joker",
-      "cat": "Toys & Games",
-      "code": "1F0CF",
-      "path": "toys-games/joker.svg"
-    },
-    {
-      "word": "dragon",
-      "cat": "Toys & Games",
-      "code": "1F004",
-      "path": "toys-games/dragon.svg"
-    },
-    {
-      "word": "cards",
-      "cat": "Toys & Games",
-      "code": "1F3B4",
-      "path": "toys-games/cards.svg"
-    },
-    {
-      "word": "arts",
-      "cat": "Toys & Games",
-      "code": "1F3AD",
-      "path": "toys-games/arts.svg"
-    },
-    {
-      "word": "picture",
-      "cat": "Toys & Games",
-      "code": "1F5BC",
-      "path": "toys-games/picture.svg"
-    },
-    {
-      "word": "palette",
-      "cat": "Toys & Games",
-      "code": "1F3A8",
-      "path": "toys-games/palette.svg"
-    },
-    {
-      "word": "thread",
-      "cat": "Toys & Games",
-      "code": "1F9F5",
-      "path": "toys-games/thread.svg"
-    },
-    {
-      "word": "needle",
-      "cat": "Toys & Games",
-      "code": "1FAA1",
-      "path": "toys-games/needle.svg"
-    },
-    {
-      "word": "yarn",
-      "cat": "Toys & Games",
-      "code": "1F9F6",
-      "path": "toys-games/yarn.svg"
-    },
-    {
-      "word": "knot",
-      "cat": "Toys & Games",
-      "code": "1FAA2",
-      "path": "toys-games/knot.svg"
-    },
-    {
-      "word": "glasses",
-      "cat": "Clothing & Accessories",
-      "code": "1F453",
-      "path": "clothing-accessories/glasses.svg"
-    },
-    {
-      "word": "sunglasses",
-      "cat": "Clothing & Accessories",
-      "code": "1F576",
-      "path": "clothing-accessories/sunglasses.svg"
-    },
-    {
-      "word": "goggles",
-      "cat": "Clothing & Accessories",
-      "code": "1F97D",
-      "path": "clothing-accessories/goggles.svg"
-    },
-    {
-      "word": "coat",
-      "cat": "Clothing & Accessories",
-      "code": "1F97C",
-      "path": "clothing-accessories/coat-u1f97c.svg"
-    },
-    {
-      "word": "vest",
-      "cat": "Clothing & Accessories",
-      "code": "1F9BA",
-      "path": "clothing-accessories/vest.svg"
-    },
-    {
-      "word": "necktie",
-      "cat": "Clothing & Accessories",
-      "code": "1F454",
-      "path": "clothing-accessories/necktie.svg"
-    },
-    {
-      "word": "t-shirt",
-      "cat": "Clothing & Accessories",
-      "code": "1F455",
-      "path": "clothing-accessories/shirt.svg"
-    },
-    {
-      "word": "jeans",
-      "cat": "Clothing & Accessories",
-      "code": "1F456",
-      "path": "clothing-accessories/jeans.svg"
-    },
-    {
-      "word": "scarf",
-      "cat": "Clothing & Accessories",
-      "code": "1F9E3",
-      "path": "clothing-accessories/scarf.svg"
-    },
-    {
-      "word": "gloves",
-      "cat": "Clothing & Accessories",
-      "code": "1F9E4",
-      "path": "clothing-accessories/gloves.svg"
-    },
-    {
-      "word": "coat",
-      "cat": "Clothing & Accessories",
-      "code": "1F9E5",
-      "path": "clothing-accessories/coat.svg"
-    },
-    {
-      "word": "socks",
-      "cat": "Clothing & Accessories",
-      "code": "1F9E6",
-      "path": "clothing-accessories/socks.svg"
-    },
-    {
-      "word": "dress",
-      "cat": "Clothing & Accessories",
-      "code": "1F457",
-      "path": "clothing-accessories/dress.svg"
-    },
-    {
-      "word": "kimono",
-      "cat": "Clothing & Accessories",
-      "code": "1F458",
-      "path": "clothing-accessories/kimono.svg"
-    },
-    {
-      "word": "sari",
-      "cat": "Clothing & Accessories",
-      "code": "1F97B",
-      "path": "clothing-accessories/sari.svg"
-    },
-    {
-      "word": "swimsuit",
-      "cat": "Clothing & Accessories",
-      "code": "1FA71",
-      "path": "clothing-accessories/swimsuit.svg"
-    },
-    {
-      "word": "briefs",
-      "cat": "Clothing & Accessories",
-      "code": "1FA72",
-      "path": "clothing-accessories/briefs.svg"
-    },
-    {
-      "word": "shorts",
-      "cat": "Clothing & Accessories",
-      "code": "1FA73",
-      "path": "clothing-accessories/shorts.svg"
-    },
-    {
-      "word": "bikini",
-      "cat": "Clothing & Accessories",
-      "code": "1F459",
-      "path": "clothing-accessories/bikini.svg"
-    },
-    {
-      "word": "clothes",
-      "cat": "Clothing & Accessories",
-      "code": "1F45A",
-      "path": "clothing-accessories/clothes.svg"
-    },
-    {
-      "word": "fan",
-      "cat": "Clothing & Accessories",
-      "code": "1FAAD",
-      "path": "clothing-accessories/fan.svg"
-    },
-    {
-      "word": "purse",
-      "cat": "Clothing & Accessories",
-      "code": "1F45B",
-      "path": "clothing-accessories/purse.svg"
-    },
-    {
-      "word": "handbag",
-      "cat": "Clothing & Accessories",
-      "code": "1F45C",
-      "path": "clothing-accessories/handbag.svg"
-    },
-    {
-      "word": "bag",
-      "cat": "Clothing & Accessories",
-      "code": "1F45D",
-      "path": "clothing-accessories/bag.svg"
-    },
-    {
-      "word": "bags",
-      "cat": "Clothing & Accessories",
-      "code": "1F6CD",
-      "path": "clothing-accessories/bags.svg"
-    },
-    {
-      "word": "backpack",
-      "cat": "Clothing & Accessories",
-      "code": "1F392",
-      "path": "clothing-accessories/backpack.svg"
-    },
-    {
-      "word": "sandal",
-      "cat": "Clothing & Accessories",
-      "code": "1FA74",
-      "path": "clothing-accessories/sandal.svg"
-    },
-    {
-      "word": "shoe",
-      "cat": "Clothing & Accessories",
-      "code": "1F45E",
-      "path": "clothing-accessories/shoe.svg"
-    },
-    {
-      "word": "shoe",
-      "cat": "Clothing & Accessories",
-      "code": "1F45F",
-      "path": "clothing-accessories/shoe-u1f45f.svg"
-    },
-    {
-      "word": "boot",
-      "cat": "Clothing & Accessories",
-      "code": "1F97E",
-      "path": "clothing-accessories/boot.svg"
-    },
-    {
-      "word": "shoe",
-      "cat": "Clothing & Accessories",
-      "code": "1F97F",
-      "path": "clothing-accessories/shoe-u1f97f.svg"
-    },
-    {
-      "word": "shoe",
-      "cat": "Clothing & Accessories",
-      "code": "1F460",
-      "path": "clothing-accessories/shoe-u1f460.svg"
-    },
-    {
-      "word": "sandal",
-      "cat": "Clothing & Accessories",
-      "code": "1F461",
-      "path": "clothing-accessories/sandal-u1f461.svg"
-    },
-    {
-      "word": "shoes",
-      "cat": "Clothing & Accessories",
-      "code": "1FA70",
-      "path": "clothing-accessories/shoes.svg"
-    },
-    {
-      "word": "boot",
-      "cat": "Clothing & Accessories",
-      "code": "1F462",
-      "path": "clothing-accessories/boot-u1f462.svg"
-    },
-    {
-      "word": "pick",
-      "cat": "Clothing & Accessories",
-      "code": "1FAAE",
-      "path": "clothing-accessories/pick.svg"
-    },
-    {
-      "word": "crown",
-      "cat": "Clothing & Accessories",
-      "code": "1F451",
-      "path": "clothing-accessories/crown.svg"
-    },
-    {
-      "word": "hat",
-      "cat": "Clothing & Accessories",
-      "code": "1F452",
-      "path": "clothing-accessories/hat.svg"
-    },
-    {
-      "word": "hat",
-      "cat": "Clothing & Accessories",
-      "code": "1F3A9",
-      "path": "clothing-accessories/hat-u1f3a9.svg"
-    },
-    {
-      "word": "cap",
-      "cat": "Clothing & Accessories",
-      "code": "1F393",
-      "path": "clothing-accessories/cap.svg"
-    },
-    {
-      "word": "billed",
-      "cat": "Clothing & Accessories",
-      "code": "1F9E2",
-      "path": "clothing-accessories/billed.svg"
-    },
-    {
-      "word": "helmet",
-      "cat": "Clothing & Accessories",
-      "code": "1FA96",
-      "path": "clothing-accessories/helmet.svg"
-    },
-    {
-      "word": "helmet",
-      "cat": "Clothing & Accessories",
-      "code": "26D1",
-      "path": "clothing-accessories/helmet-u26d1.svg"
-    },
-    {
-      "word": "beads",
-      "cat": "Clothing & Accessories",
-      "code": "1F4FF",
-      "path": "clothing-accessories/beads.svg"
-    },
-    {
-      "word": "lipstick",
-      "cat": "Clothing & Accessories",
-      "code": "1F484",
-      "path": "clothing-accessories/lipstick.svg"
-    },
-    {
-      "word": "ring",
-      "cat": "Clothing & Accessories",
-      "code": "1F48D",
-      "path": "clothing-accessories/ring.svg"
-    },
-    {
-      "word": "stone",
-      "cat": "Clothing & Accessories",
-      "code": "1F48E",
-      "path": "clothing-accessories/stone.svg"
-    },
-    {
-      "word": "bouquet",
-      "cat": "Nature & Plants",
-      "code": "1F490",
-      "path": "nature-plants/bouquet.svg"
-    },
-    {
-      "word": "blossom",
-      "cat": "Nature & Plants",
-      "code": "1F338",
-      "path": "nature-plants/blossom-u1f338.svg"
-    },
-    {
-      "word": "flower",
-      "cat": "Nature & Plants",
-      "code": "1F4AE",
-      "path": "nature-plants/flower.svg"
-    },
-    {
-      "word": "lotus",
-      "cat": "Nature & Plants",
-      "code": "1FAB7",
-      "path": "nature-plants/lotus.svg"
-    },
-    {
-      "word": "rosette",
-      "cat": "Nature & Plants",
-      "code": "1F3F5",
-      "path": "nature-plants/rosette.svg"
-    },
-    {
-      "word": "rose",
-      "cat": "Nature & Plants",
-      "code": "1F339",
-      "path": "nature-plants/rose.svg"
-    },
-    {
-      "word": "flower",
-      "cat": "Nature & Plants",
-      "code": "1F940",
-      "path": "nature-plants/flower-u1f940.svg"
-    },
-    {
-      "word": "hibiscus",
-      "cat": "Nature & Plants",
-      "code": "1F33A",
-      "path": "nature-plants/hibiscus.svg"
-    },
-    {
-      "word": "sunflower",
-      "cat": "Nature & Plants",
-      "code": "1F33B",
-      "path": "nature-plants/sunflower.svg"
-    },
-    {
-      "word": "blossom",
-      "cat": "Nature & Plants",
-      "code": "1F33C",
-      "path": "nature-plants/blossom.svg"
-    },
-    {
-      "word": "tulip",
-      "cat": "Nature & Plants",
-      "code": "1F337",
-      "path": "nature-plants/tulip.svg"
-    },
-    {
-      "word": "hyacinth",
-      "cat": "Nature & Plants",
-      "code": "1FABB",
-      "path": "nature-plants/hyacinth.svg"
-    },
-    {
-      "word": "seedling",
-      "cat": "Nature & Plants",
-      "code": "1F331",
-      "path": "nature-plants/seedling.svg"
-    },
-    {
-      "word": "plant",
-      "cat": "Nature & Plants",
-      "code": "1FAB4",
-      "path": "nature-plants/plant.svg"
-    },
-    {
-      "word": "tree",
-      "cat": "Nature & Plants",
-      "code": "1F332",
-      "path": "nature-plants/tree.svg"
-    },
-    {
-      "word": "tree",
-      "cat": "Nature & Plants",
-      "code": "1F333",
-      "path": "nature-plants/tree-u1f333.svg"
-    },
-    {
-      "word": "tree",
-      "cat": "Nature & Plants",
-      "code": "1F334",
-      "path": "nature-plants/tree-u1f334.svg"
-    },
-    {
-      "word": "cactus",
-      "cat": "Nature & Plants",
-      "code": "1F335",
-      "path": "nature-plants/cactus.svg"
-    },
-    {
-      "word": "rice",
-      "cat": "Nature & Plants",
-      "code": "1F33E",
-      "path": "nature-plants/rice.svg"
-    },
-    {
-      "word": "herb",
-      "cat": "Nature & Plants",
-      "code": "1F33F",
-      "path": "nature-plants/herb.svg"
-    },
-    {
-      "word": "shamrock",
-      "cat": "Nature & Plants",
-      "code": "2618",
-      "path": "nature-plants/shamrock.svg"
-    },
-    {
-      "word": "clover",
-      "cat": "Nature & Plants",
-      "code": "1F340",
-      "path": "nature-plants/clover.svg"
-    },
-    {
-      "word": "leaf",
-      "cat": "Nature & Plants",
-      "code": "1F341",
-      "path": "nature-plants/leaf.svg"
-    },
-    {
-      "word": "leaf",
-      "cat": "Nature & Plants",
-      "code": "1F342",
-      "path": "nature-plants/leaf-u1f342.svg"
-    },
-    {
-      "word": "wind",
-      "cat": "Nature & Plants",
-      "code": "1F343",
-      "path": "nature-plants/wind.svg"
-    },
-    {
-      "word": "nest",
-      "cat": "Nature & Plants",
-      "code": "1FAB9",
-      "path": "nature-plants/nest.svg"
-    },
-    {
-      "word": "eggs",
-      "cat": "Nature & Plants",
-      "code": "1FABA",
-      "path": "nature-plants/eggs.svg"
-    },
-    {
-      "word": "mushroom",
-      "cat": "Nature & Plants",
-      "code": "1F344",
-      "path": "nature-plants/mushroom.svg"
-    },
-    {
-      "word": "tree",
-      "cat": "Nature & Plants",
-      "code": "1FABE",
-      "path": "nature-plants/tree-u1fabe.svg"
-    },
-    {
-      "word": "moon",
-      "cat": "Weather",
-      "code": "1F311",
-      "path": "weather/moon.svg"
-    },
-    {
-      "word": "moon",
-      "cat": "Weather",
-      "code": "1F312",
-      "path": "weather/moon-u1f312.svg"
-    },
-    {
-      "word": "moon",
-      "cat": "Weather",
-      "code": "1F313",
-      "path": "weather/moon-u1f313.svg"
-    },
-    {
-      "word": "moon",
-      "cat": "Weather",
-      "code": "1F314",
-      "path": "weather/moon-u1f314.svg"
-    },
-    {
-      "word": "moon",
-      "cat": "Weather",
-      "code": "1F315",
-      "path": "weather/moon-u1f315.svg"
-    },
-    {
-      "word": "moon",
-      "cat": "Weather",
-      "code": "1F316",
-      "path": "weather/moon-u1f316.svg"
-    },
-    {
-      "word": "moon",
-      "cat": "Weather",
-      "code": "1F317",
-      "path": "weather/moon-u1f317.svg"
-    },
-    {
-      "word": "moon",
-      "cat": "Weather",
-      "code": "1F318",
-      "path": "weather/moon-u1f318.svg"
-    },
-    {
-      "word": "moon",
-      "cat": "Weather",
-      "code": "1F319",
-      "path": "weather/moon-u1f319.svg"
-    },
-    {
-      "word": "thermometer",
-      "cat": "Weather",
-      "code": "1F321",
-      "path": "weather/thermometer.svg"
-    },
-    {
-      "word": "sun",
-      "cat": "Weather",
-      "code": "2600",
-      "path": "weather/sun.svg"
-    },
-    {
-      "word": "face",
-      "cat": "Weather",
-      "code": "1F31E",
-      "path": "weather/face.svg"
-    },
-    {
-      "word": "planet",
-      "cat": "Weather",
-      "code": "1FA90",
-      "path": "weather/planet.svg"
-    },
-    {
-      "word": "star",
-      "cat": "Weather",
-      "code": "2B50",
-      "path": "weather/star.svg"
-    },
-    {
-      "word": "star",
-      "cat": "Weather",
-      "code": "1F31F",
-      "path": "weather/star-u1f31f.svg"
-    },
-    {
-      "word": "star",
-      "cat": "Weather",
-      "code": "1F320",
-      "path": "weather/star-u1f320.svg"
-    },
-    {
-      "word": "way",
-      "cat": "Weather",
-      "code": "1F30C",
-      "path": "weather/way.svg"
-    },
-    {
-      "word": "cloud",
-      "cat": "Weather",
-      "code": "2601",
-      "path": "weather/cloud.svg"
-    },
-    {
-      "word": "cloud",
-      "cat": "Weather",
-      "code": "26C5",
-      "path": "weather/cloud-u26c5.svg"
-    },
-    {
-      "word": "rain",
-      "cat": "Weather",
-      "code": "26C8",
-      "path": "weather/rain.svg"
-    },
-    {
-      "word": "cloud",
-      "cat": "Weather",
-      "code": "1F324",
-      "path": "weather/cloud-u1f324.svg"
-    },
-    {
-      "word": "cloud",
-      "cat": "Weather",
-      "code": "1F325",
-      "path": "weather/cloud-u1f325.svg"
-    },
-    {
-      "word": "cloud",
-      "cat": "Weather",
-      "code": "1F326",
-      "path": "weather/cloud-u1f326.svg"
-    },
-    {
-      "word": "rain",
-      "cat": "Weather",
-      "code": "1F327",
-      "path": "weather/rain-u1f327.svg"
-    },
-    {
-      "word": "snow",
-      "cat": "Weather",
-      "code": "1F328",
-      "path": "weather/snow.svg"
-    },
-    {
-      "word": "lightning",
-      "cat": "Weather",
-      "code": "1F329",
-      "path": "weather/lightning.svg"
-    },
-    {
-      "word": "tornado",
-      "cat": "Weather",
-      "code": "1F32A",
-      "path": "weather/tornado.svg"
-    },
-    {
-      "word": "fog",
-      "cat": "Weather",
-      "code": "1F32B",
-      "path": "weather/fog.svg"
-    },
-    {
-      "word": "face",
-      "cat": "Weather",
-      "code": "1F32C",
-      "path": "weather/face-u1f32c.svg"
-    },
-    {
-      "word": "cyclone",
-      "cat": "Weather",
-      "code": "1F300",
-      "path": "weather/cyclone.svg"
-    },
-    {
-      "word": "rainbow",
-      "cat": "Weather",
-      "code": "1F308",
-      "path": "weather/rainbow.svg"
-    },
-    {
-      "word": "umbrella",
-      "cat": "Weather",
-      "code": "1F302",
-      "path": "weather/umbrella-u1f302.svg"
-    },
-    {
-      "word": "umbrella",
-      "cat": "Weather",
-      "code": "2602",
-      "path": "weather/umbrella.svg"
-    },
-    {
-      "word": "drops",
-      "cat": "Weather",
-      "code": "2614",
-      "path": "weather/drops.svg"
-    },
-    {
-      "word": "ground",
-      "cat": "Weather",
-      "code": "26F1",
-      "path": "weather/ground.svg"
-    },
-    {
-      "word": "voltage",
-      "cat": "Weather",
-      "code": "26A1",
-      "path": "weather/voltage.svg"
-    },
-    {
-      "word": "snowflake",
-      "cat": "Weather",
-      "code": "2744",
-      "path": "weather/snowflake.svg"
-    },
-    {
-      "word": "snowman",
-      "cat": "Weather",
-      "code": "2603",
-      "path": "weather/snowman.svg"
-    },
-    {
-      "word": "snow",
-      "cat": "Weather",
-      "code": "26C4",
-      "path": "weather/snow-u26c4.svg"
-    },
-    {
-      "word": "comet",
-      "cat": "Weather",
-      "code": "2604",
-      "path": "weather/comet.svg"
-    },
-    {
-      "word": "fire",
-      "cat": "Weather",
-      "code": "1F525",
-      "path": "weather/fire.svg"
-    },
-    {
-      "word": "droplet",
-      "cat": "Weather",
-      "code": "1F4A7",
-      "path": "weather/droplet.svg"
-    },
-    {
-      "word": "wave",
-      "cat": "Weather",
-      "code": "1F30A",
-      "path": "weather/wave.svg"
-    },
-    {
-      "word": "locomotive",
-      "cat": "Vehicles & Transportation",
-      "code": "1F682",
-      "path": "vehicles-transportation/locomotive.svg"
-    },
-    {
-      "word": "car",
-      "cat": "Vehicles & Transportation",
-      "code": "1F683",
-      "path": "vehicles-transportation/car.svg"
-    },
-    {
-      "word": "train",
-      "cat": "Vehicles & Transportation",
-      "code": "1F684",
-      "path": "vehicles-transportation/train-u1f684.svg"
-    },
-    {
-      "word": "train",
-      "cat": "Vehicles & Transportation",
-      "code": "1F685",
-      "path": "vehicles-transportation/train-u1f685.svg"
-    },
-    {
-      "word": "train",
-      "cat": "Vehicles & Transportation",
-      "code": "1F686",
-      "path": "vehicles-transportation/train.svg"
-    },
-    {
-      "word": "metro",
-      "cat": "Vehicles & Transportation",
-      "code": "1F687",
-      "path": "vehicles-transportation/metro.svg"
-    },
-    {
-      "word": "rail",
-      "cat": "Vehicles & Transportation",
-      "code": "1F688",
-      "path": "vehicles-transportation/rail.svg"
-    },
-    {
-      "word": "station",
-      "cat": "Vehicles & Transportation",
-      "code": "1F689",
-      "path": "vehicles-transportation/station.svg"
-    },
-    {
-      "word": "tram",
-      "cat": "Vehicles & Transportation",
-      "code": "1F68A",
-      "path": "vehicles-transportation/tram.svg"
-    },
-    {
-      "word": "monorail",
-      "cat": "Vehicles & Transportation",
-      "code": "1F69D",
-      "path": "vehicles-transportation/monorail.svg"
-    },
-    {
-      "word": "railway",
-      "cat": "Vehicles & Transportation",
-      "code": "1F69E",
-      "path": "vehicles-transportation/railway.svg"
-    },
-    {
-      "word": "car",
-      "cat": "Vehicles & Transportation",
-      "code": "1F68B",
-      "path": "vehicles-transportation/car-u1f68b.svg"
-    },
-    {
-      "word": "bus",
-      "cat": "Vehicles & Transportation",
-      "code": "1F68C",
-      "path": "vehicles-transportation/bus.svg"
-    },
-    {
-      "word": "bus",
-      "cat": "Vehicles & Transportation",
-      "code": "1F68D",
-      "path": "vehicles-transportation/bus-u1f68d.svg"
-    },
-    {
-      "word": "trolleybus",
-      "cat": "Vehicles & Transportation",
-      "code": "1F68E",
-      "path": "vehicles-transportation/trolleybus.svg"
-    },
-    {
-      "word": "minibus",
-      "cat": "Vehicles & Transportation",
-      "code": "1F690",
-      "path": "vehicles-transportation/minibus.svg"
-    },
-    {
-      "word": "ambulance",
-      "cat": "Vehicles & Transportation",
-      "code": "1F691",
-      "path": "vehicles-transportation/ambulance.svg"
-    },
-    {
-      "word": "engine",
-      "cat": "Vehicles & Transportation",
-      "code": "1F692",
-      "path": "vehicles-transportation/engine.svg"
-    },
-    {
-      "word": "car",
-      "cat": "Vehicles & Transportation",
-      "code": "1F693",
-      "path": "vehicles-transportation/car-u1f693.svg"
-    },
-    {
-      "word": "car",
-      "cat": "Vehicles & Transportation",
-      "code": "1F694",
-      "path": "vehicles-transportation/car-u1f694.svg"
-    },
-    {
-      "word": "taxi",
-      "cat": "Vehicles & Transportation",
-      "code": "1F695",
-      "path": "vehicles-transportation/taxi.svg"
-    },
-    {
-      "word": "taxi",
-      "cat": "Vehicles & Transportation",
-      "code": "1F696",
-      "path": "vehicles-transportation/taxi-u1f696.svg"
-    },
-    {
-      "word": "automobile",
-      "cat": "Vehicles & Transportation",
-      "code": "1F697",
-      "path": "vehicles-transportation/automobile.svg"
-    },
-    {
-      "word": "automobile",
-      "cat": "Vehicles & Transportation",
-      "code": "1F698",
-      "path": "vehicles-transportation/automobile-u1f698.svg"
-    },
-    {
-      "word": "vehicle",
-      "cat": "Vehicles & Transportation",
-      "code": "1F699",
-      "path": "vehicles-transportation/vehicle.svg"
-    },
-    {
-      "word": "truck",
-      "cat": "Vehicles & Transportation",
-      "code": "1F6FB",
-      "path": "vehicles-transportation/truck.svg"
-    },
-    {
-      "word": "truck",
-      "cat": "Vehicles & Transportation",
-      "code": "1F69A",
-      "path": "vehicles-transportation/truck-u1f69a.svg"
-    },
-    {
-      "word": "lorry",
-      "cat": "Vehicles & Transportation",
-      "code": "1F69B",
-      "path": "vehicles-transportation/lorry.svg"
-    },
-    {
-      "word": "tractor",
-      "cat": "Vehicles & Transportation",
-      "code": "1F69C",
-      "path": "vehicles-transportation/tractor.svg"
-    },
-    {
-      "word": "car",
-      "cat": "Vehicles & Transportation",
-      "code": "1F3CE",
-      "path": "vehicles-transportation/car-u1f3ce.svg"
-    },
-    {
-      "word": "motorcycle",
-      "cat": "Vehicles & Transportation",
-      "code": "1F3CD",
-      "path": "vehicles-transportation/motorcycle.svg"
-    },
-    {
-      "word": "scooter",
-      "cat": "Vehicles & Transportation",
-      "code": "1F6F5",
-      "path": "vehicles-transportation/scooter.svg"
-    },
-    {
-      "word": "wheelchair",
-      "cat": "Vehicles & Transportation",
-      "code": "1F9BD",
-      "path": "vehicles-transportation/wheelchair.svg"
-    },
-    {
-      "word": "wheelchair",
-      "cat": "Vehicles & Transportation",
-      "code": "1F9BC",
-      "path": "vehicles-transportation/wheelchair-u1f9bc.svg"
-    },
-    {
-      "word": "rickshaw",
-      "cat": "Vehicles & Transportation",
-      "code": "1F6FA",
-      "path": "vehicles-transportation/rickshaw.svg"
-    },
-    {
-      "word": "bicycle",
-      "cat": "Vehicles & Transportation",
-      "code": "1F6B2",
-      "path": "vehicles-transportation/bicycle.svg"
-    },
-    {
-      "word": "scooter",
-      "cat": "Vehicles & Transportation",
-      "code": "1F6F4",
-      "path": "vehicles-transportation/scooter-u1f6f4.svg"
-    },
-    {
-      "word": "skateboard",
-      "cat": "Vehicles & Transportation",
-      "code": "1F6F9",
-      "path": "vehicles-transportation/skateboard.svg"
-    },
-    {
-      "word": "skate",
-      "cat": "Vehicles & Transportation",
-      "code": "1F6FC",
-      "path": "vehicles-transportation/skate.svg"
-    },
-    {
-      "word": "stop",
-      "cat": "Vehicles & Transportation",
-      "code": "1F68F",
-      "path": "vehicles-transportation/stop.svg"
-    },
-    {
-      "word": "motorway",
-      "cat": "Vehicles & Transportation",
-      "code": "1F6E3",
-      "path": "vehicles-transportation/motorway.svg"
-    },
-    {
-      "word": "track",
-      "cat": "Vehicles & Transportation",
-      "code": "1F6E4",
-      "path": "vehicles-transportation/track.svg"
-    },
-    {
-      "word": "drum",
-      "cat": "Vehicles & Transportation",
-      "code": "1F6E2",
-      "path": "vehicles-transportation/drum.svg"
-    },
-    {
-      "word": "pump",
-      "cat": "Vehicles & Transportation",
-      "code": "26FD",
-      "path": "vehicles-transportation/pump.svg"
-    },
-    {
-      "word": "wheel",
-      "cat": "Vehicles & Transportation",
-      "code": "1F6DE",
-      "path": "vehicles-transportation/wheel.svg"
-    },
-    {
-      "word": "car",
-      "cat": "Vehicles & Transportation",
-      "code": "1F6A8",
-      "path": "vehicles-transportation/car-u1f6a8.svg"
-    },
-    {
-      "word": "traffic",
-      "cat": "Vehicles & Transportation",
-      "code": "1F6A5",
-      "path": "vehicles-transportation/traffic.svg"
-    },
-    {
-      "word": "traffic",
-      "cat": "Vehicles & Transportation",
-      "code": "1F6A6",
-      "path": "vehicles-transportation/traffic-u1f6a6.svg"
-    },
-    {
-      "word": "sign",
-      "cat": "Vehicles & Transportation",
-      "code": "1F6D1",
-      "path": "vehicles-transportation/sign.svg"
-    },
-    {
-      "word": "construction",
-      "cat": "Vehicles & Transportation",
-      "code": "1F6A7",
-      "path": "vehicles-transportation/construction.svg"
-    },
-    {
-      "word": "anchor",
-      "cat": "Vehicles & Transportation",
-      "code": "2693",
-      "path": "vehicles-transportation/anchor.svg"
-    },
-    {
-      "word": "buoy",
-      "cat": "Vehicles & Transportation",
-      "code": "1F6DF",
-      "path": "vehicles-transportation/buoy.svg"
-    },
-    {
-      "word": "sailboat",
-      "cat": "Vehicles & Transportation",
-      "code": "26F5",
-      "path": "vehicles-transportation/sailboat.svg"
-    },
-    {
-      "word": "canoe",
-      "cat": "Vehicles & Transportation",
-      "code": "1F6F6",
-      "path": "vehicles-transportation/canoe.svg"
-    },
-    {
-      "word": "speedboat",
-      "cat": "Vehicles & Transportation",
-      "code": "1F6A4",
-      "path": "vehicles-transportation/speedboat.svg"
-    },
-    {
-      "word": "ship",
-      "cat": "Vehicles & Transportation",
-      "code": "1F6F3",
-      "path": "vehicles-transportation/ship-u1f6f3.svg"
-    },
-    {
-      "word": "ferry",
-      "cat": "Vehicles & Transportation",
-      "code": "26F4",
-      "path": "vehicles-transportation/ferry.svg"
-    },
-    {
-      "word": "boat",
-      "cat": "Vehicles & Transportation",
-      "code": "1F6E5",
-      "path": "vehicles-transportation/boat.svg"
-    },
-    {
-      "word": "ship",
-      "cat": "Vehicles & Transportation",
-      "code": "1F6A2",
-      "path": "vehicles-transportation/ship.svg"
-    },
-    {
-      "word": "airplane",
-      "cat": "Vehicles & Transportation",
-      "code": "2708",
-      "path": "vehicles-transportation/airplane.svg"
-    },
-    {
-      "word": "airplane",
-      "cat": "Vehicles & Transportation",
-      "code": "1F6E9",
-      "path": "vehicles-transportation/airplane-u1f6e9.svg"
-    },
-    {
-      "word": "departure",
-      "cat": "Vehicles & Transportation",
-      "code": "1F6EB",
-      "path": "vehicles-transportation/departure.svg"
-    },
-    {
-      "word": "arrival",
-      "cat": "Vehicles & Transportation",
-      "code": "1F6EC",
-      "path": "vehicles-transportation/arrival.svg"
-    },
-    {
-      "word": "parachute",
-      "cat": "Vehicles & Transportation",
-      "code": "1FA82",
-      "path": "vehicles-transportation/parachute.svg"
-    },
-    {
-      "word": "seat",
-      "cat": "Vehicles & Transportation",
-      "code": "1F4BA",
-      "path": "vehicles-transportation/seat.svg"
-    },
-    {
-      "word": "helicopter",
-      "cat": "Vehicles & Transportation",
-      "code": "1F681",
-      "path": "vehicles-transportation/helicopter.svg"
-    },
-    {
-      "word": "railway",
-      "cat": "Vehicles & Transportation",
-      "code": "1F69F",
-      "path": "vehicles-transportation/railway-u1f69f.svg"
-    },
-    {
-      "word": "cableway",
-      "cat": "Vehicles & Transportation",
-      "code": "1F6A0",
-      "path": "vehicles-transportation/cableway.svg"
-    },
-    {
-      "word": "tramway",
-      "cat": "Vehicles & Transportation",
-      "code": "1F6A1",
-      "path": "vehicles-transportation/tramway.svg"
-    },
-    {
-      "word": "satellite",
-      "cat": "Vehicles & Transportation",
-      "code": "1F6F0",
-      "path": "vehicles-transportation/satellite.svg"
-    },
-    {
-      "word": "rocket",
-      "cat": "Vehicles & Transportation",
-      "code": "1F680",
-      "path": "vehicles-transportation/rocket.svg"
-    },
-    {
-      "word": "saucer",
-      "cat": "Vehicles & Transportation",
-      "code": "1F6F8",
-      "path": "vehicles-transportation/saucer.svg"
-    },
-    {
-      "word": "europe-africa",
-      "cat": "Places & Buildings",
-      "code": "1F30D",
-      "path": "places-buildings/africa.svg"
-    },
-    {
-      "word": "americas",
-      "cat": "Places & Buildings",
-      "code": "1F30E",
-      "path": "places-buildings/americas.svg"
-    },
-    {
-      "word": "asia-australia",
-      "cat": "Places & Buildings",
-      "code": "1F30F",
-      "path": "places-buildings/australia.svg"
-    },
-    {
-      "word": "meridians",
-      "cat": "Places & Buildings",
-      "code": "1F310",
-      "path": "places-buildings/meridians.svg"
-    },
-    {
-      "word": "map",
-      "cat": "Places & Buildings",
-      "code": "1F5FA",
-      "path": "places-buildings/map.svg"
-    },
-    {
-      "word": "japan",
-      "cat": "Places & Buildings",
-      "code": "1F5FE",
-      "path": "places-buildings/japan.svg"
-    },
-    {
-      "word": "compass",
-      "cat": "Places & Buildings",
-      "code": "1F9ED",
-      "path": "places-buildings/compass.svg"
-    },
-    {
-      "word": "mountain",
-      "cat": "Places & Buildings",
-      "code": "1F3D4",
-      "path": "places-buildings/mountain-u1f3d4.svg"
-    },
-    {
-      "word": "mountain",
-      "cat": "Places & Buildings",
-      "code": "26F0",
-      "path": "places-buildings/mountain.svg"
-    },
-    {
-      "word": "volcano",
-      "cat": "Places & Buildings",
-      "code": "1F30B",
-      "path": "places-buildings/volcano.svg"
-    },
-    {
-      "word": "fuji",
-      "cat": "Places & Buildings",
-      "code": "1F5FB",
-      "path": "places-buildings/fuji.svg"
-    },
-    {
-      "word": "camping",
-      "cat": "Places & Buildings",
-      "code": "1F3D5",
-      "path": "places-buildings/camping.svg"
-    },
-    {
-      "word": "umbrella",
-      "cat": "Places & Buildings",
-      "code": "1F3D6",
-      "path": "places-buildings/umbrella.svg"
-    },
-    {
-      "word": "desert",
-      "cat": "Places & Buildings",
-      "code": "1F3DC",
-      "path": "places-buildings/desert.svg"
-    },
-    {
-      "word": "island",
-      "cat": "Places & Buildings",
-      "code": "1F3DD",
-      "path": "places-buildings/island.svg"
-    },
-    {
-      "word": "park",
-      "cat": "Places & Buildings",
-      "code": "1F3DE",
-      "path": "places-buildings/park.svg"
-    },
-    {
-      "word": "stadium",
-      "cat": "Places & Buildings",
-      "code": "1F3DF",
-      "path": "places-buildings/stadium.svg"
-    },
-    {
-      "word": "building",
-      "cat": "Places & Buildings",
-      "code": "1F3DB",
-      "path": "places-buildings/building.svg"
-    },
-    {
-      "word": "construction",
-      "cat": "Places & Buildings",
-      "code": "1F3D7",
-      "path": "places-buildings/construction.svg"
-    },
-    {
-      "word": "brick",
-      "cat": "Places & Buildings",
-      "code": "1F9F1",
-      "path": "places-buildings/brick.svg"
-    },
-    {
-      "word": "rock",
-      "cat": "Places & Buildings",
-      "code": "1FAA8",
-      "path": "places-buildings/rock.svg"
-    },
-    {
-      "word": "wood",
-      "cat": "Places & Buildings",
-      "code": "1FAB5",
-      "path": "places-buildings/wood.svg"
-    },
-    {
-      "word": "hut",
-      "cat": "Places & Buildings",
-      "code": "1F6D6",
-      "path": "places-buildings/hut.svg"
-    },
-    {
-      "word": "houses",
-      "cat": "Places & Buildings",
-      "code": "1F3D8",
-      "path": "places-buildings/houses.svg"
-    },
-    {
-      "word": "house",
-      "cat": "Places & Buildings",
-      "code": "1F3DA",
-      "path": "places-buildings/house-u1f3da.svg"
-    },
-    {
-      "word": "house",
-      "cat": "Places & Buildings",
-      "code": "1F3E0",
-      "path": "places-buildings/house.svg"
-    },
-    {
-      "word": "garden",
-      "cat": "Places & Buildings",
-      "code": "1F3E1",
-      "path": "places-buildings/garden.svg"
-    },
-    {
-      "word": "building",
-      "cat": "Places & Buildings",
-      "code": "1F3E2",
-      "path": "places-buildings/building-u1f3e2.svg"
-    },
-    {
-      "word": "office",
-      "cat": "Places & Buildings",
-      "code": "1F3E3",
-      "path": "places-buildings/office.svg"
-    },
-    {
-      "word": "office",
-      "cat": "Places & Buildings",
-      "code": "1F3E4",
-      "path": "places-buildings/office-u1f3e4.svg"
-    },
-    {
-      "word": "hospital",
-      "cat": "Places & Buildings",
-      "code": "1F3E5",
-      "path": "places-buildings/hospital.svg"
-    },
-    {
-      "word": "bank",
-      "cat": "Places & Buildings",
-      "code": "1F3E6",
-      "path": "places-buildings/bank.svg"
-    },
-    {
-      "word": "hotel",
-      "cat": "Places & Buildings",
-      "code": "1F3E8",
-      "path": "places-buildings/hotel.svg"
-    },
-    {
-      "word": "hotel",
-      "cat": "Places & Buildings",
-      "code": "1F3E9",
-      "path": "places-buildings/hotel-u1f3e9.svg"
-    },
-    {
-      "word": "store",
-      "cat": "Places & Buildings",
-      "code": "1F3EA",
-      "path": "places-buildings/store.svg"
-    },
-    {
-      "word": "school",
-      "cat": "Places & Buildings",
-      "code": "1F3EB",
-      "path": "places-buildings/school.svg"
-    },
-    {
-      "word": "store",
-      "cat": "Places & Buildings",
-      "code": "1F3EC",
-      "path": "places-buildings/store-u1f3ec.svg"
-    },
-    {
-      "word": "factory",
-      "cat": "Places & Buildings",
-      "code": "1F3ED",
-      "path": "places-buildings/factory.svg"
-    },
-    {
-      "word": "castle",
-      "cat": "Places & Buildings",
-      "code": "1F3EF",
-      "path": "places-buildings/castle-u1f3ef.svg"
-    },
-    {
-      "word": "castle",
-      "cat": "Places & Buildings",
-      "code": "1F3F0",
-      "path": "places-buildings/castle.svg"
-    },
-    {
-      "word": "wedding",
-      "cat": "Places & Buildings",
-      "code": "1F492",
-      "path": "places-buildings/wedding.svg"
-    },
-    {
-      "word": "tower",
-      "cat": "Places & Buildings",
-      "code": "1F5FC",
-      "path": "places-buildings/tower.svg"
-    },
-    {
-      "word": "liberty",
-      "cat": "Places & Buildings",
-      "code": "1F5FD",
-      "path": "places-buildings/liberty.svg"
-    },
-    {
-      "word": "fountain",
-      "cat": "Places & Buildings",
-      "code": "26F2",
-      "path": "places-buildings/fountain.svg"
-    },
-    {
-      "word": "tent",
-      "cat": "Places & Buildings",
-      "code": "26FA",
-      "path": "places-buildings/tent.svg"
-    },
-    {
-      "word": "foggy",
-      "cat": "Places & Buildings",
-      "code": "1F301",
-      "path": "places-buildings/foggy.svg"
-    },
-    {
-      "word": "stars",
-      "cat": "Places & Buildings",
-      "code": "1F303",
-      "path": "places-buildings/stars.svg"
-    },
-    {
-      "word": "cityscape",
-      "cat": "Places & Buildings",
-      "code": "1F3D9",
-      "path": "places-buildings/cityscape.svg"
-    },
-    {
-      "word": "mountains",
-      "cat": "Places & Buildings",
-      "code": "1F304",
-      "path": "places-buildings/mountains.svg"
-    },
-    {
-      "word": "sunrise",
-      "cat": "Places & Buildings",
-      "code": "1F305",
-      "path": "places-buildings/sunrise.svg"
-    },
-    {
-      "word": "dusk",
-      "cat": "Places & Buildings",
-      "code": "1F306",
-      "path": "places-buildings/dusk.svg"
-    },
-    {
-      "word": "sunset",
-      "cat": "Places & Buildings",
-      "code": "1F307",
-      "path": "places-buildings/sunset.svg"
-    },
-    {
-      "word": "night",
-      "cat": "Places & Buildings",
-      "code": "1F309",
-      "path": "places-buildings/night.svg"
-    },
-    {
-      "word": "springs",
-      "cat": "Places & Buildings",
-      "code": "2668",
-      "path": "places-buildings/springs.svg"
-    },
-    {
-      "word": "horse",
-      "cat": "Places & Buildings",
-      "code": "1F3A0",
-      "path": "places-buildings/horse.svg"
-    },
-    {
-      "word": "slide",
-      "cat": "Places & Buildings",
-      "code": "1F6DD",
-      "path": "places-buildings/slide.svg"
-    },
-    {
-      "word": "wheel",
-      "cat": "Places & Buildings",
-      "code": "1F3A1",
-      "path": "places-buildings/wheel.svg"
-    },
-    {
-      "word": "coaster",
-      "cat": "Places & Buildings",
-      "code": "1F3A2",
-      "path": "places-buildings/coaster.svg"
-    },
-    {
-      "word": "pole",
-      "cat": "Places & Buildings",
-      "code": "1F488",
-      "path": "places-buildings/pole.svg"
-    },
-    {
-      "word": "tent",
-      "cat": "Places & Buildings",
-      "code": "1F3AA",
-      "path": "places-buildings/tent-u1f3aa.svg"
-    },
-    {
-      "word": "speaker",
-      "cat": "Electronics & Tools",
-      "code": "1F507",
-      "path": "electronics-tools/speaker.svg"
-    },
-    {
-      "word": "volume",
-      "cat": "Electronics & Tools",
-      "code": "1F508",
-      "path": "electronics-tools/volume.svg"
-    },
-    {
-      "word": "volume",
-      "cat": "Electronics & Tools",
-      "code": "1F509",
-      "path": "electronics-tools/volume-u1f509.svg"
-    },
-    {
-      "word": "volume",
-      "cat": "Electronics & Tools",
-      "code": "1F50A",
-      "path": "electronics-tools/volume-u1f50a.svg"
-    },
-    {
-      "word": "loudspeaker",
-      "cat": "Electronics & Tools",
-      "code": "1F4E2",
-      "path": "electronics-tools/loudspeaker.svg"
-    },
-    {
-      "word": "megaphone",
-      "cat": "Electronics & Tools",
-      "code": "1F4E3",
-      "path": "electronics-tools/megaphone.svg"
-    },
-    {
-      "word": "horn",
-      "cat": "Electronics & Tools",
-      "code": "1F4EF",
-      "path": "electronics-tools/horn.svg"
-    },
-    {
-      "word": "bell",
-      "cat": "Electronics & Tools",
-      "code": "1F514",
-      "path": "electronics-tools/bell.svg"
-    },
-    {
-      "word": "slash",
-      "cat": "Electronics & Tools",
-      "code": "1F515",
-      "path": "electronics-tools/slash.svg"
-    },
-    {
-      "word": "phone",
-      "cat": "Electronics & Tools",
-      "code": "1F4F1",
-      "path": "electronics-tools/phone.svg"
-    },
-    {
-      "word": "arrow",
-      "cat": "Electronics & Tools",
-      "code": "1F4F2",
-      "path": "electronics-tools/arrow.svg"
-    },
-    {
-      "word": "telephone",
-      "cat": "Electronics & Tools",
-      "code": "260E",
-      "path": "electronics-tools/telephone.svg"
-    },
-    {
-      "word": "receiver",
-      "cat": "Electronics & Tools",
-      "code": "1F4DE",
-      "path": "electronics-tools/receiver.svg"
-    },
-    {
-      "word": "pager",
-      "cat": "Electronics & Tools",
-      "code": "1F4DF",
-      "path": "electronics-tools/pager.svg"
-    },
-    {
-      "word": "machine",
-      "cat": "Electronics & Tools",
-      "code": "1F4E0",
-      "path": "electronics-tools/machine.svg"
-    },
-    {
-      "word": "battery",
-      "cat": "Electronics & Tools",
-      "code": "1F50B",
-      "path": "electronics-tools/battery.svg"
-    },
-    {
-      "word": "battery",
-      "cat": "Electronics & Tools",
-      "code": "1FAAB",
-      "path": "electronics-tools/battery-u1faab.svg"
-    },
-    {
-      "word": "plug",
-      "cat": "Electronics & Tools",
-      "code": "1F50C",
-      "path": "electronics-tools/plug.svg"
-    },
-    {
-      "word": "laptop",
-      "cat": "Electronics & Tools",
-      "code": "1F4BB",
-      "path": "electronics-tools/laptop.svg"
-    },
-    {
-      "word": "computer",
-      "cat": "Electronics & Tools",
-      "code": "1F5A5",
-      "path": "electronics-tools/computer.svg"
-    },
-    {
-      "word": "printer",
-      "cat": "Electronics & Tools",
-      "code": "1F5A8",
-      "path": "electronics-tools/printer.svg"
-    },
-    {
-      "word": "keyboard",
-      "cat": "Electronics & Tools",
-      "code": "2328",
-      "path": "electronics-tools/keyboard.svg"
-    },
-    {
-      "word": "mouse",
-      "cat": "Electronics & Tools",
-      "code": "1F5B1",
-      "path": "electronics-tools/mouse.svg"
-    },
-    {
-      "word": "trackball",
-      "cat": "Electronics & Tools",
-      "code": "1F5B2",
-      "path": "electronics-tools/trackball.svg"
-    },
-    {
-      "word": "disk",
-      "cat": "Electronics & Tools",
-      "code": "1F4BD",
-      "path": "electronics-tools/disk.svg"
-    },
-    {
-      "word": "disk",
-      "cat": "Electronics & Tools",
-      "code": "1F4BE",
-      "path": "electronics-tools/disk-u1f4be.svg"
-    },
-    {
-      "word": "disk",
-      "cat": "Electronics & Tools",
-      "code": "1F4BF",
-      "path": "electronics-tools/disk-u1f4bf.svg"
-    },
-    {
-      "word": "dvd",
-      "cat": "Electronics & Tools",
-      "code": "1F4C0",
-      "path": "electronics-tools/dvd.svg"
-    },
-    {
-      "word": "abacus",
-      "cat": "Electronics & Tools",
-      "code": "1F9EE",
-      "path": "electronics-tools/abacus.svg"
-    },
-    {
-      "word": "camera",
-      "cat": "Electronics & Tools",
-      "code": "1F3A5",
-      "path": "electronics-tools/camera-u1f3a5.svg"
-    },
-    {
-      "word": "frames",
-      "cat": "Electronics & Tools",
-      "code": "1F39E",
-      "path": "electronics-tools/frames.svg"
-    },
-    {
-      "word": "projector",
-      "cat": "Electronics & Tools",
-      "code": "1F4FD",
-      "path": "electronics-tools/projector.svg"
-    },
-    {
-      "word": "board",
-      "cat": "Electronics & Tools",
-      "code": "1F3AC",
-      "path": "electronics-tools/board.svg"
-    },
-    {
-      "word": "television",
-      "cat": "Electronics & Tools",
-      "code": "1F4FA",
-      "path": "electronics-tools/television.svg"
-    },
-    {
-      "word": "camera",
-      "cat": "Electronics & Tools",
-      "code": "1F4F7",
-      "path": "electronics-tools/camera.svg"
-    },
-    {
-      "word": "flash",
-      "cat": "Electronics & Tools",
-      "code": "1F4F8",
-      "path": "electronics-tools/flash.svg"
-    },
-    {
-      "word": "camera",
-      "cat": "Electronics & Tools",
-      "code": "1F4F9",
-      "path": "electronics-tools/camera-u1f4f9.svg"
-    },
-    {
-      "word": "videocassette",
-      "cat": "Electronics & Tools",
-      "code": "1F4FC",
-      "path": "electronics-tools/videocassette.svg"
-    },
-    {
-      "word": "left",
-      "cat": "Electronics & Tools",
-      "code": "1F50D",
-      "path": "electronics-tools/left.svg"
-    },
-    {
-      "word": "right",
-      "cat": "Electronics & Tools",
-      "code": "1F50E",
-      "path": "electronics-tools/right.svg"
-    },
-    {
-      "word": "candle",
-      "cat": "Electronics & Tools",
-      "code": "1F56F",
-      "path": "electronics-tools/candle.svg"
-    },
-    {
-      "word": "bulb",
-      "cat": "Electronics & Tools",
-      "code": "1F4A1",
-      "path": "electronics-tools/bulb.svg"
-    },
-    {
-      "word": "flashlight",
-      "cat": "Electronics & Tools",
-      "code": "1F526",
-      "path": "electronics-tools/flashlight.svg"
-    },
-    {
-      "word": "lantern",
-      "cat": "Electronics & Tools",
-      "code": "1F3EE",
-      "path": "electronics-tools/lantern.svg"
-    },
-    {
-      "word": "lamp",
-      "cat": "Electronics & Tools",
-      "code": "1FA94",
-      "path": "electronics-tools/lamp.svg"
-    },
-    {
-      "word": "hammer",
-      "cat": "Electronics & Tools",
-      "code": "1F528",
-      "path": "electronics-tools/hammer.svg"
-    },
-    {
-      "word": "axe",
-      "cat": "Electronics & Tools",
-      "code": "1FA93",
-      "path": "electronics-tools/axe.svg"
-    },
-    {
-      "word": "pick",
-      "cat": "Electronics & Tools",
-      "code": "26CF",
-      "path": "electronics-tools/pick.svg"
-    },
-    {
-      "word": "pick",
-      "cat": "Electronics & Tools",
-      "code": "2692",
-      "path": "electronics-tools/pick-u2692.svg"
-    },
-    {
-      "word": "wrench",
-      "cat": "Electronics & Tools",
-      "code": "1F6E0",
-      "path": "electronics-tools/wrench-u1f6e0.svg"
-    },
-    {
-      "word": "saw",
-      "cat": "Electronics & Tools",
-      "code": "1FA9A",
-      "path": "electronics-tools/saw.svg"
-    },
-    {
-      "word": "wrench",
-      "cat": "Electronics & Tools",
-      "code": "1F527",
-      "path": "electronics-tools/wrench.svg"
-    },
-    {
-      "word": "screwdriver",
-      "cat": "Electronics & Tools",
-      "code": "1FA9B",
-      "path": "electronics-tools/screwdriver.svg"
-    },
-    {
-      "word": "bolt",
-      "cat": "Electronics & Tools",
-      "code": "1F529",
-      "path": "electronics-tools/bolt.svg"
-    },
-    {
-      "word": "gear",
-      "cat": "Electronics & Tools",
-      "code": "2699",
-      "path": "electronics-tools/gear.svg"
-    },
-    {
-      "word": "clamp",
-      "cat": "Electronics & Tools",
-      "code": "1F5DC",
-      "path": "electronics-tools/clamp.svg"
-    },
-    {
-      "word": "scale",
-      "cat": "Electronics & Tools",
-      "code": "2696",
-      "path": "electronics-tools/scale.svg"
-    },
-    {
-      "word": "cane",
-      "cat": "Electronics & Tools",
-      "code": "1F9AF",
-      "path": "electronics-tools/cane.svg"
-    },
-    {
-      "word": "link",
-      "cat": "Electronics & Tools",
-      "code": "1F517",
-      "path": "electronics-tools/link.svg"
-    },
-    {
-      "word": "chain",
-      "cat": "Electronics & Tools",
-      "code": "26D3-FE0F-200D-1F4A5",
-      "path": "electronics-tools/chain.svg"
-    },
-    {
-      "word": "chains",
-      "cat": "Electronics & Tools",
-      "code": "26D3",
-      "path": "electronics-tools/chains.svg"
-    },
-    {
-      "word": "hook",
-      "cat": "Electronics & Tools",
-      "code": "1FA9D",
-      "path": "electronics-tools/hook.svg"
-    },
-    {
-      "word": "toolbox",
-      "cat": "Electronics & Tools",
-      "code": "1F9F0",
-      "path": "electronics-tools/toolbox.svg"
-    },
-    {
-      "word": "magnet",
-      "cat": "Electronics & Tools",
-      "code": "1F9F2",
-      "path": "electronics-tools/magnet.svg"
-    },
-    {
-      "word": "ladder",
-      "cat": "Electronics & Tools",
-      "code": "1FA9C",
-      "path": "electronics-tools/ladder.svg"
-    },
-    {
-      "word": "shovel",
-      "cat": "Electronics & Tools",
-      "code": "1FA8F",
-      "path": "electronics-tools/shovel.svg"
-    },
-    {
-      "word": "bandage",
-      "cat": "Electronics & Tools",
-      "code": "1FA79",
-      "path": "electronics-tools/bandage.svg"
-    },
-    {
-      "word": "crutch",
-      "cat": "Electronics & Tools",
-      "code": "1FA7C",
-      "path": "electronics-tools/crutch.svg"
-    },
-    {
-      "word": "stethoscope",
-      "cat": "Electronics & Tools",
-      "code": "1FA7A",
-      "path": "electronics-tools/stethoscope.svg"
-    },
-    {
-      "word": "x-ray",
-      "cat": "Electronics & Tools",
-      "code": "1FA7B",
-      "path": "electronics-tools/ray.svg"
-    },
-    {
-      "word": "circle",
-      "cat": "Colors & Shapes",
-      "code": "1F534",
-      "path": "colors-shapes/circle.svg"
-    },
-    {
-      "word": "square",
-      "cat": "Colors & Shapes",
-      "code": "1F7E5",
-      "path": "colors-shapes/square.svg"
-    },
-    {
-      "word": "square",
-      "cat": "Colors & Shapes",
-      "code": "2B1B",
-      "path": "colors-shapes/square-u2b1b.svg"
-    },
-    {
-      "word": "square",
-      "cat": "Colors & Shapes",
-      "code": "25FC",
-      "path": "colors-shapes/square-u25fc.svg"
-    },
-    {
-      "word": "square",
-      "cat": "Colors & Shapes",
-      "code": "25FE",
-      "path": "colors-shapes/square-u25fe.svg"
-    },
-    {
-      "word": "square",
-      "cat": "Colors & Shapes",
-      "code": "25AA",
-      "path": "colors-shapes/square-u25aa.svg"
-    },
-    {
-      "word": "diamond",
-      "cat": "Colors & Shapes",
-      "code": "1F536",
-      "path": "colors-shapes/diamond.svg"
-    },
-    {
-      "word": "diamond",
-      "cat": "Colors & Shapes",
-      "code": "1F537",
-      "path": "colors-shapes/diamond-u1f537.svg"
-    },
-    {
-      "word": "diamond",
-      "cat": "Colors & Shapes",
-      "code": "1F538",
-      "path": "colors-shapes/diamond-u1f538.svg"
-    },
-    {
-      "word": "diamond",
-      "cat": "Colors & Shapes",
-      "code": "1F539",
-      "path": "colors-shapes/diamond-u1f539.svg"
-    },
-    {
-      "word": "up",
-      "cat": "Colors & Shapes",
-      "code": "1F53A",
-      "path": "colors-shapes/up.svg"
-    },
-    {
-      "word": "down",
-      "cat": "Colors & Shapes",
-      "code": "1F53B",
-      "path": "colors-shapes/down.svg"
-    },
-    {
-      "word": "dot",
-      "cat": "Colors & Shapes",
-      "code": "1F4A0",
-      "path": "colors-shapes/dot.svg"
-    },
-    {
-      "word": "button",
-      "cat": "Colors & Shapes",
-      "code": "1F518",
-      "path": "colors-shapes/button.svg"
-    },
-    {
-      "word": "button",
-      "cat": "Colors & Shapes",
-      "code": "1F533",
-      "path": "colors-shapes/button-u1f533.svg"
-    },
-    {
-      "word": "biceps",
-      "cat": "Body Parts",
-      "code": "1F4AA",
-      "path": "body-parts/biceps.svg"
-    },
-    {
-      "word": "tone",
-      "cat": "Body Parts",
-      "code": "1F4AA-1F3FB",
-      "path": "body-parts/tone.svg"
-    },
-    {
-      "word": "tone",
-      "cat": "Body Parts",
-      "code": "1F4AA-1F3FC",
-      "path": "body-parts/tone-u1f4aa-1f3fc.svg"
-    },
-    {
-      "word": "tone",
-      "cat": "Body Parts",
-      "code": "1F4AA-1F3FD",
-      "path": "body-parts/tone-u1f4aa-1f3fd.svg"
-    },
-    {
-      "word": "tone",
-      "cat": "Body Parts",
-      "code": "1F4AA-1F3FE",
-      "path": "body-parts/tone-u1f4aa-1f3fe.svg"
-    },
-    {
-      "word": "tone",
-      "cat": "Body Parts",
-      "code": "1F4AA-1F3FF",
-      "path": "body-parts/tone-u1f4aa-1f3ff.svg"
-    },
-    {
-      "word": "arm",
-      "cat": "Body Parts",
-      "code": "1F9BE",
-      "path": "body-parts/arm.svg"
-    },
-    {
-      "word": "leg",
-      "cat": "Body Parts",
-      "code": "1F9BF",
-      "path": "body-parts/leg-u1f9bf.svg"
-    },
-    {
-      "word": "leg",
-      "cat": "Body Parts",
-      "code": "1F9B5",
-      "path": "body-parts/leg.svg"
-    },
-    {
-      "word": "tone",
-      "cat": "Body Parts",
-      "code": "1F9B5-1F3FB",
-      "path": "body-parts/tone-u1f9b5-1f3fb.svg"
-    },
-    {
-      "word": "tone",
-      "cat": "Body Parts",
-      "code": "1F9B5-1F3FC",
-      "path": "body-parts/tone-u1f9b5-1f3fc.svg"
-    },
-    {
-      "word": "tone",
-      "cat": "Body Parts",
-      "code": "1F9B5-1F3FD",
-      "path": "body-parts/tone-u1f9b5-1f3fd.svg"
-    },
-    {
-      "word": "tone",
-      "cat": "Body Parts",
-      "code": "1F9B5-1F3FE",
-      "path": "body-parts/tone-u1f9b5-1f3fe.svg"
-    },
-    {
-      "word": "tone",
-      "cat": "Body Parts",
-      "code": "1F9B5-1F3FF",
-      "path": "body-parts/tone-u1f9b5-1f3ff.svg"
-    },
-    {
-      "word": "foot",
-      "cat": "Body Parts",
-      "code": "1F9B6",
-      "path": "body-parts/foot.svg"
-    },
-    {
-      "word": "tone",
-      "cat": "Body Parts",
-      "code": "1F9B6-1F3FB",
-      "path": "body-parts/tone-u1f9b6-1f3fb.svg"
-    },
-    {
-      "word": "tone",
-      "cat": "Body Parts",
-      "code": "1F9B6-1F3FC",
-      "path": "body-parts/tone-u1f9b6-1f3fc.svg"
-    },
-    {
-      "word": "tone",
-      "cat": "Body Parts",
-      "code": "1F9B6-1F3FD",
-      "path": "body-parts/tone-u1f9b6-1f3fd.svg"
-    },
-    {
-      "word": "tone",
-      "cat": "Body Parts",
-      "code": "1F9B6-1F3FE",
-      "path": "body-parts/tone-u1f9b6-1f3fe.svg"
-    },
-    {
-      "word": "tone",
-      "cat": "Body Parts",
-      "code": "1F9B6-1F3FF",
-      "path": "body-parts/tone-u1f9b6-1f3ff.svg"
-    },
-    {
-      "word": "ear",
-      "cat": "Body Parts",
-      "code": "1F442",
-      "path": "body-parts/ear.svg"
-    },
-    {
-      "word": "tone",
-      "cat": "Body Parts",
-      "code": "1F442-1F3FB",
-      "path": "body-parts/tone-u1f442-1f3fb.svg"
-    },
-    {
-      "word": "tone",
-      "cat": "Body Parts",
-      "code": "1F442-1F3FC",
-      "path": "body-parts/tone-u1f442-1f3fc.svg"
-    },
-    {
-      "word": "tone",
-      "cat": "Body Parts",
-      "code": "1F442-1F3FD",
-      "path": "body-parts/tone-u1f442-1f3fd.svg"
-    },
-    {
-      "word": "tone",
-      "cat": "Body Parts",
-      "code": "1F442-1F3FE",
-      "path": "body-parts/tone-u1f442-1f3fe.svg"
-    },
-    {
-      "word": "tone",
-      "cat": "Body Parts",
-      "code": "1F442-1F3FF",
-      "path": "body-parts/tone-u1f442-1f3ff.svg"
-    },
-    {
-      "word": "aid",
-      "cat": "Body Parts",
-      "code": "1F9BB",
-      "path": "body-parts/aid.svg"
-    },
-    {
-      "word": "tone",
-      "cat": "Body Parts",
-      "code": "1F9BB-1F3FB",
-      "path": "body-parts/tone-u1f9bb-1f3fb.svg"
-    },
-    {
-      "word": "tone",
-      "cat": "Body Parts",
-      "code": "1F9BB-1F3FC",
-      "path": "body-parts/tone-u1f9bb-1f3fc.svg"
-    },
-    {
-      "word": "tone",
-      "cat": "Body Parts",
-      "code": "1F9BB-1F3FD",
-      "path": "body-parts/tone-u1f9bb-1f3fd.svg"
-    },
-    {
-      "word": "tone",
-      "cat": "Body Parts",
-      "code": "1F9BB-1F3FE",
-      "path": "body-parts/tone-u1f9bb-1f3fe.svg"
-    },
-    {
-      "word": "tone",
-      "cat": "Body Parts",
-      "code": "1F9BB-1F3FF",
-      "path": "body-parts/tone-u1f9bb-1f3ff.svg"
-    },
-    {
-      "word": "nose",
-      "cat": "Body Parts",
-      "code": "1F443",
-      "path": "body-parts/nose.svg"
-    },
-    {
-      "word": "tone",
-      "cat": "Body Parts",
-      "code": "1F443-1F3FB",
-      "path": "body-parts/tone-u1f443-1f3fb.svg"
-    },
-    {
-      "word": "tone",
-      "cat": "Body Parts",
-      "code": "1F443-1F3FC",
-      "path": "body-parts/tone-u1f443-1f3fc.svg"
-    },
-    {
-      "word": "tone",
-      "cat": "Body Parts",
-      "code": "1F443-1F3FD",
-      "path": "body-parts/tone-u1f443-1f3fd.svg"
-    },
-    {
-      "word": "tone",
-      "cat": "Body Parts",
-      "code": "1F443-1F3FE",
-      "path": "body-parts/tone-u1f443-1f3fe.svg"
-    },
-    {
-      "word": "tone",
-      "cat": "Body Parts",
-      "code": "1F443-1F3FF",
-      "path": "body-parts/tone-u1f443-1f3ff.svg"
-    },
-    {
-      "word": "brain",
-      "cat": "Body Parts",
-      "code": "1F9E0",
-      "path": "body-parts/brain.svg"
-    },
-    {
-      "word": "heart",
-      "cat": "Body Parts",
-      "code": "1FAC0",
-      "path": "body-parts/heart.svg"
-    },
-    {
-      "word": "lungs",
-      "cat": "Body Parts",
-      "code": "1FAC1",
-      "path": "body-parts/lungs.svg"
-    },
-    {
-      "word": "tooth",
-      "cat": "Body Parts",
-      "code": "1F9B7",
-      "path": "body-parts/tooth.svg"
-    },
-    {
-      "word": "bone",
-      "cat": "Body Parts",
-      "code": "1F9B4",
-      "path": "body-parts/bone.svg"
-    },
-    {
-      "word": "eyes",
-      "cat": "Body Parts",
-      "code": "1F440",
-      "path": "body-parts/eyes.svg"
-    },
-    {
-      "word": "eye",
-      "cat": "Body Parts",
-      "code": "1F441",
-      "path": "body-parts/eye.svg"
-    },
-    {
-      "word": "tongue",
-      "cat": "Body Parts",
-      "code": "1F445",
-      "path": "body-parts/tongue.svg"
-    },
-    {
-      "word": "mouth",
-      "cat": "Body Parts",
-      "code": "1F444",
-      "path": "body-parts/mouth.svg"
-    },
-    {
-      "word": "lip",
-      "cat": "Body Parts",
-      "code": "1FAE6",
-      "path": "body-parts/lip.svg"
-    }
-  ]
-}
+[
+  "adjectives/big.svg",
+  "adjectives/cheap.svg",
+  "adjectives/cold.svg",
+  "adjectives/correct.svg",
+  "adjectives/dark.svg",
+  "adjectives/difficult.svg",
+  "adjectives/easy.svg",
+  "adjectives/expensive.svg",
+  "adjectives/fast.svg",
+  "adjectives/heavy.svg",
+  "adjectives/hot.svg",
+  "adjectives/incorrect.svg",
+  "adjectives/light.svg",
+  "adjectives/long.svg",
+  "adjectives/new.svg",
+  "adjectives/old.svg",
+  "adjectives/salty.svg",
+  "adjectives/short.svg",
+  "adjectives/slow.svg",
+  "adjectives/small.svg",
+  "adjectives/sour.svg",
+  "adjectives/spicy.svg",
+  "adjectives/sweet.svg",
+  "adjectives/tall.svg",
+  "adjectives/young.svg",
+  "animals/ant.svg",
+  "animals/badger.svg",
+  "animals/bat.svg",
+  "animals/bear.svg",
+  "animals/beaver.svg",
+  "animals/bee.svg",
+  "animals/beetle.svg",
+  "animals/bird.svg",
+  "animals/bison.svg",
+  "animals/black_cat.svg",
+  "animals/boar.svg",
+  "animals/butterfly.svg",
+  "animals/camel.svg",
+  "animals/cat.svg",
+  "animals/caterpillar.svg",
+  "animals/chicken.svg",
+  "animals/cow.svg",
+  "animals/crab.svg",
+  "animals/cricket.svg",
+  "animals/crocodile.svg",
+  "animals/deer.svg",
+  "animals/dodo.svg",
+  "animals/dog.svg",
+  "animals/dolphin.svg",
+  "animals/dragon.svg",
+  "animals/duck.svg",
+  "animals/elephant.svg",
+  "animals/fish.svg",
+  "animals/flamingo.svg",
+  "animals/fly.svg",
+  "animals/fox.svg",
+  "animals/frog.svg",
+  "animals/giraffe.svg",
+  "animals/goat.svg",
+  "animals/gorilla.svg",
+  "animals/hamster.svg",
+  "animals/hedgehog.svg",
+  "animals/hippopotamus.svg",
+  "animals/horse.svg",
+  "animals/image.svg",
+  "animals/kangaroo.svg",
+  "animals/koala.svg",
+  "animals/ladybug.svg",
+  "animals/leopard.svg",
+  "animals/lion.svg",
+  "animals/lizard.svg",
+  "animals/llama.svg",
+  "animals/lobster.svg",
+  "animals/mammoth.svg",
+  "animals/microbe.svg",
+  "animals/monkey.svg",
+  "animals/mosquito.svg",
+  "animals/mouse.svg",
+  "animals/octopus.svg",
+  "animals/orangutan.svg",
+  "animals/otter.svg",
+  "animals/owl.svg",
+  "animals/ox.svg",
+  "animals/panda.svg",
+  "animals/parrot.svg",
+  "animals/peacock.svg",
+  "animals/penguin.svg",
+  "animals/pig.svg",
+  "animals/polar_bear.svg",
+  "animals/poodle.svg",
+  "animals/rabbit.svg",
+  "animals/raccoon.svg",
+  "animals/rat.svg",
+  "animals/rhinoceros.svg",
+  "animals/scorpion.svg",
+  "animals/seal.svg",
+  "animals/shark.svg",
+  "animals/sheep.svg",
+  "animals/shrimp.svg",
+  "animals/skunk.svg",
+  "animals/sloth.svg",
+  "animals/snail.svg",
+  "animals/snake.svg",
+  "animals/spider.svg",
+  "animals/squid.svg",
+  "animals/squirrel.svg",
+  "animals/swan.svg",
+  "animals/tiger.svg",
+  "animals/tortoise.svg",
+  "animals/turkey.svg",
+  "animals/unicorn.svg",
+  "animals/whale.svg",
+  "animals/wolf.svg",
+  "animals/worm.svg",
+  "animals/zebra.svg",
+  "clothes/bikini.svg",
+  "clothes/boot.svg",
+  "clothes/cap.svg",
+  "clothes/clutch.svg",
+  "clothes/crown.svg",
+  "clothes/dress.svg",
+  "clothes/glasses.svg",
+  "clothes/gloves.svg",
+  "clothes/handbag.svg",
+  "clothes/hat.svg",
+  "clothes/high-heels.svg",
+  "clothes/hiking_boot.svg",
+  "clothes/jacket.svg",
+  "clothes/jersey.svg",
+  "clothes/kimono.svg",
+  "clothes/pants.svg",
+  "clothes/purse.svg",
+  "clothes/ring.svg",
+  "clothes/sandal.svg",
+  "clothes/sari.svg",
+  "clothes/scarf.svg",
+  "clothes/shirt.svg",
+  "clothes/shirt_and_tie.svg",
+  "clothes/shoe.svg",
+  "clothes/shorts.svg",
+  "clothes/sneaker.svg",
+  "clothes/socks.svg",
+  "clothes/sunglasses.svg",
+  "clothes/swimsuit.svg",
+  "clothes/T-shirt.svg",
+  "clothes/top_hat.svg",
+  "clothes/umbrella.svg",
+  "colors/black.svg",
+  "colors/blue.svg",
+  "colors/blue_green.svg",
+  "colors/brown.svg",
+  "colors/dark_green.svg",
+  "colors/gold.svg",
+  "colors/gray.svg",
+  "colors/green.svg",
+  "colors/light_green.svg",
+  "colors/orange.svg",
+  "colors/peach.svg",
+  "colors/pink.svg",
+  "colors/purple.svg",
+  "colors/red.svg",
+  "colors/silver.svg",
+  "colors/sky_blue.svg",
+  "colors/white.svg",
+  "colors/yellow.svg",
+  "countries/Afghanistan.svg",
+  "countries/Albania.svg",
+  "countries/Algeria.svg",
+  "countries/America.svg",
+  "countries/Andorra.svg",
+  "countries/Angola.svg",
+  "countries/Antarctica.svg",
+  "countries/Antigua_and_Barbuda.svg",
+  "countries/Argentina.svg",
+  "countries/Armenia.svg",
+  "countries/Aruba.svg",
+  "countries/Australia.svg",
+  "countries/Austria.svg",
+  "countries/Azerbaijan.svg",
+  "countries/Bahamas.svg",
+  "countries/Bahrain.svg",
+  "countries/Bangladesh.svg",
+  "countries/Barbados.svg",
+  "countries/Belarus.svg",
+  "countries/Belgium.svg",
+  "countries/Belize.svg",
+  "countries/Benin.svg",
+  "countries/Bermuda.svg",
+  "countries/Bhutan.svg",
+  "countries/Bolivia.svg",
+  "countries/Bosnia_and_Herzegovina.svg",
+  "countries/Botswana.svg",
+  "countries/Brazil.svg",
+  "countries/British_Virgin_Islands.svg",
+  "countries/Brunei_Darussalam.svg",
+  "countries/Bulgaria.svg",
+  "countries/Burkina_Faso.svg",
+  "countries/Burundi.svg",
+  "countries/Cabo_Verde.svg",
+  "countries/Cambodia.svg",
+  "countries/Cameroon.svg",
+  "countries/Canada.svg",
+  "countries/Cayman_Islands.svg",
+  "countries/Central_African_Republic.svg",
+  "countries/Chad.svg",
+  "countries/Chile.svg",
+  "countries/China.svg",
+  "countries/Columbia.svg",
+  "countries/Comoros.svg",
+  "countries/Congo,_Democratic_Republic_of_the.svg",
+  "countries/Congo,_Republic_of.svg",
+  "countries/Cook_Islands.svg",
+  "countries/Costa_Rica.svg",
+  "countries/Croatia.svg",
+  "countries/Cuba.svg",
+  "countries/Cyprus.svg",
+  "countries/Czech_Republic.svg",
+  "countries/Côte_D'Ivoire.svg",
+  "countries/Denmark.svg",
+  "countries/Djibouti.svg",
+  "countries/Dominica.svg",
+  "countries/Dominican_Republic.svg",
+  "countries/East_Timor.svg",
+  "countries/Ecuador.svg",
+  "countries/Egypt.svg",
+  "countries/El_Salvador.svg",
+  "countries/England.svg",
+  "countries/Equatorial_Guinea.svg",
+  "countries/Eritrea.svg",
+  "countries/Estonia.svg",
+  "countries/Ethiopia.svg",
+  "countries/Fiji.svg",
+  "countries/Finland.svg",
+  "countries/France.svg",
+  "countries/Gabon.svg",
+  "countries/Gambia.svg",
+  "countries/Georgia.svg",
+  "countries/Germany.svg",
+  "countries/Ghana.svg",
+  "countries/Greece.svg",
+  "countries/Greenland.svg",
+  "countries/Grenada.svg",
+  "countries/Guam.svg",
+  "countries/Guatemala.svg",
+  "countries/Guinea-Bissau.svg",
+  "countries/Guinea.svg",
+  "countries/Guyana.svg",
+  "countries/Haiti.svg",
+  "countries/Honduras.svg",
+  "countries/Hungary.svg",
+  "countries/Iceland.svg",
+  "countries/India.svg",
+  "countries/Indonesia.svg",
+  "countries/Iran.svg",
+  "countries/Iraq.svg",
+  "countries/Ireland.svg",
+  "countries/Israel.svg",
+  "countries/Italy.svg",
+  "countries/Jamaica.svg",
+  "countries/Japan.svg",
+  "countries/Jordan.svg",
+  "countries/Kazakhstan.svg",
+  "countries/Kenya.svg",
+  "countries/Kiribati.svg",
+  "countries/Kosovo.svg",
+  "countries/Kuwait.svg",
+  "countries/Kyrgyzstan.svg",
+  "countries/Laos.svg",
+  "countries/Latvia.svg",
+  "countries/Lebanon.svg",
+  "countries/Lesotho.svg",
+  "countries/Liberia.svg",
+  "countries/Libya.svg",
+  "countries/Liechtenstein.svg",
+  "countries/Lithuania.svg",
+  "countries/Luxembourg.svg",
+  "countries/Madagascar.svg",
+  "countries/Malawi.svg",
+  "countries/Malaysia.svg",
+  "countries/Maldives.svg",
+  "countries/Mali.svg",
+  "countries/Malta.svg",
+  "countries/Marshall_Islands.svg",
+  "countries/Mauritania.svg",
+  "countries/Mauritius.svg",
+  "countries/Mexico.svg",
+  "countries/Micronesia.svg",
+  "countries/Moldova.svg",
+  "countries/Monaco.svg",
+  "countries/Mongolia.svg",
+  "countries/Montenegro.svg",
+  "countries/Morocco.svg",
+  "countries/Mozambique.svg",
+  "countries/Myanmar.svg",
+  "countries/Namibia.svg",
+  "countries/Nauru.svg",
+  "countries/Nepal.svg",
+  "countries/New_Zealand.svg",
+  "countries/Nicaragua.svg",
+  "countries/Niger.svg",
+  "countries/Nigeria.svg",
+  "countries/North_Korea.svg",
+  "countries/North_Macedonia.svg",
+  "countries/Norway.svg",
+  "countries/Oman.svg",
+  "countries/Pakistan.svg",
+  "countries/Palau.svg",
+  "countries/Palestine.svg",
+  "countries/Panama.svg",
+  "countries/Papua_New_Guinea.svg",
+  "countries/Paraguay.svg",
+  "countries/Peru.svg",
+  "countries/Philippines.svg",
+  "countries/Poland.svg",
+  "countries/Portugal.svg",
+  "countries/Puerto_Rico.svg",
+  "countries/Qatar.svg",
+  "countries/Romania.svg",
+  "countries/Russia.svg",
+  "countries/Rwanda.svg",
+  "countries/Saint_Kitts_and_Nevis.svg",
+  "countries/Saint_Lucia.svg",
+  "countries/Saint_Pierre_and_Miquelon.svg",
+  "countries/Saint_Vincent_and_The_Grenadines.svg",
+  "countries/Samoa.svg",
+  "countries/San_Marino.svg",
+  "countries/Sao_Tome_and_Principe.svg",
+  "countries/Saudi_Arabia.svg",
+  "countries/Scotland.svg",
+  "countries/Senegal.svg",
+  "countries/Serbia.svg",
+  "countries/Seychelles.svg",
+  "countries/Sierra_Leone.svg",
+  "countries/Singapore.svg",
+  "countries/Sint_Maarten.svg",
+  "countries/Slovakia.svg",
+  "countries/Slovenia.svg",
+  "countries/Solomon_Islands.svg",
+  "countries/Somalia.svg",
+  "countries/South_Africa.svg",
+  "countries/South_Korea.svg",
+  "countries/South_Sudan.svg",
+  "countries/Spain.svg",
+  "countries/Sri_Lanka.svg",
+  "countries/Sudan.svg",
+  "countries/Suriname.svg",
+  "countries/Swaziland.svg",
+  "countries/Sweden.svg",
+  "countries/Switzerland.svg",
+  "countries/Syria.svg",
+  "countries/Taiwan.svg",
+  "countries/Tajikistan.svg",
+  "countries/Tanzania.svg",
+  "countries/Thailand.svg",
+  "countries/the_Netherlands.svg",
+  "countries/the_U.K..svg",
+  "countries/Togo.svg",
+  "countries/Tonga.svg",
+  "countries/Trinidad_and_Tobago.svg",
+  "countries/Tunisia.svg",
+  "countries/Turkey.svg",
+  "countries/Turkmenistan.svg",
+  "countries/Tuvalu.svg",
+  "countries/Uganda.svg",
+  "countries/Ukraine.svg",
+  "countries/United_Arab_Emirates.svg",
+  "countries/Uruguay.svg",
+  "countries/Uzbekistan.svg",
+  "countries/Vanuatu.svg",
+  "countries/Vatican_City.svg",
+  "countries/Venezuela.svg",
+  "countries/Vietnam.svg",
+  "countries/Wales.svg",
+  "countries/Yemen.svg",
+  "countries/Zambia.svg",
+  "countries/Zimbabwe.svg",
+  "daily-routine/brush_my_teeth.svg",
+  "daily-routine/go_home.svg",
+  "daily-routine/go_to_school.svg",
+  "daily-routine/go_to_sleep.svg",
+  "daily-routine/have_breakfast.svg",
+  "daily-routine/have_dinner.svg",
+  "daily-routine/have_lunch.svg",
+  "daily-routine/take_a_bath.svg",
+  "daily-routine/wake_up.svg",
+  "family/brother.svg",
+  "family/family.svg",
+  "family/father.svg",
+  "family/grandfather.svg",
+  "family/grandmother.svg",
+  "family/mother.svg",
+  "family/sister.svg",
+  "feelings/angelic.svg",
+  "feelings/angry.svg",
+  "feelings/annoyed.svg",
+  "feelings/anxious.svg",
+  "feelings/bittersweet.svg",
+  "feelings/celebratory.svg",
+  "feelings/cold.svg",
+  "feelings/content.svg",
+  "feelings/cool.svg",
+  "feelings/crazy.svg",
+  "feelings/devilish.svg",
+  "feelings/disguised.svg",
+  "feelings/embarrased.svg",
+  "feelings/excited.svg",
+  "feelings/exhausted.svg",
+  "feelings/feeling_down.svg",
+  "feelings/feverish.svg",
+  "feelings/fine.svg",
+  "feelings/furious.svg",
+  "feelings/geeky.svg",
+  "feelings/grumpy.svg",
+  "feelings/happy.svg",
+  "feelings/hot.svg",
+  "feelings/hungry.svg",
+  "feelings/hysterical.svg",
+  "feelings/injured.svg",
+  "feelings/in_love.svg",
+  "feelings/in_tears.svg",
+  "feelings/lost_for_words.svg",
+  "feelings/meh.svg",
+  "feelings/mind_blown.svg",
+  "feelings/moved.svg",
+  "feelings/nauseous.svg",
+  "feelings/ok.svg",
+  "feelings/playful.svg",
+  "feelings/puzzled.svg",
+  "feelings/questioning.svg",
+  "feelings/rich.svg",
+  "feelings/sad.svg",
+  "feelings/saddened.svg",
+  "feelings/scared.svg",
+  "feelings/secretive.svg",
+  "feelings/shocked.svg",
+  "feelings/sick.svg",
+  "feelings/silent.svg",
+  "feelings/sleepy.svg",
+  "feelings/star_struck.svg",
+  "feelings/surprised.svg",
+  "feelings/suspicious.svg",
+  "feelings/unhappy.svg",
+  "feelings/woozy.svg",
+  "feelings/worried.svg",
+  "food/apple.svg",
+  "food/avocado.svg",
+  "food/bacon.svg",
+  "food/bagel.svg",
+  "food/banana.svg",
+  "food/beans.svg",
+  "food/bell_pepper.svg",
+  "food/birthday_cake.svg",
+  "food/blueberries.svg",
+  "food/bread.svg",
+  "food/broccoli.svg",
+  "food/bubble_tea.svg",
+  "food/burrito.svg",
+  "food/butter.svg",
+  "food/cake.svg",
+  "food/candy.svg",
+  "food/carrot.svg",
+  "food/cheese.svg",
+  "food/cherries.svg",
+  "food/chestnut.svg",
+  "food/chicken.svg",
+  "food/chili.svg",
+  "food/chocolate.svg",
+  "food/coconut.svg",
+  "food/coffee.svg",
+  "food/cookie.svg",
+  "food/corn.svg",
+  "food/croissant.svg",
+  "food/cucumber.svg",
+  "food/cupcake.svg",
+  "food/curry_and_rice.svg",
+  "food/dango.svg",
+  "food/doughnut.svg",
+  "food/dumpling.svg",
+  "food/egg.svg",
+  "food/eggplant.svg",
+  "food/falafel.svg",
+  "food/fish_cake.svg",
+  "food/flatbread.svg",
+  "food/fondue.svg",
+  "food/fortune_cookie.svg",
+  "food/french_bread.svg",
+  "food/french_fries.svg",
+  "food/fried_egg.svg",
+  "food/fried_shrimp.svg",
+  "food/garlic.svg",
+  "food/grapes.svg",
+  "food/green_tea.svg",
+  "food/gyro.svg",
+  "food/hamburger.svg",
+  "food/honey.svg",
+  "food/hot_dog.svg",
+  "food/ice.svg",
+  "food/ice_cream.svg",
+  "food/juice.svg",
+  "food/kiwi.svg",
+  "food/lemon.svg",
+  "food/lettuce.svg",
+  "food/lollipop.svg",
+  "food/mango.svg",
+  "food/maté.svg",
+  "food/meat.svg",
+  "food/milk.svg",
+  "food/mooncake.svg",
+  "food/mushroom.svg",
+  "food/oden.svg",
+  "food/olives.svg",
+  "food/onion.svg",
+  "food/orange.svg",
+  "food/pancakes.svg",
+  "food/peach.svg",
+  "food/peanut.svg",
+  "food/pear.svg",
+  "food/pineapple.svg",
+  "food/pizza.svg",
+  "food/popcorn.svg",
+  "food/potato.svg",
+  "food/pretzel.svg",
+  "food/ramen.svg",
+  "food/rice.svg",
+  "food/rice_ball.svg",
+  "food/rice_cracker.svg",
+  "food/salad.svg",
+  "food/salt.svg",
+  "food/sandwich.svg",
+  "food/shaved_ice.svg",
+  "food/spaghetti.svg",
+  "food/steak.svg",
+  "food/strawberry.svg",
+  "food/sushi.svg",
+  "food/taco.svg",
+  "food/tamale.svg",
+  "food/tomato.svg",
+  "food/waffle.svg",
+  "food/water.svg",
+  "food/watermelon.svg",
+  "food/yam.svg",
+  "gestures/a_little.svg",
+  "gestures/down.svg",
+  "gestures/good.svg",
+  "gestures/good_luck.svg",
+  "gestures/hello.svg",
+  "gestures/I_don't_know.svg",
+  "gestures/left.svg",
+  "gestures/no_good.svg",
+  "gestures/ok.svg",
+  "gestures/peace.svg",
+  "gestures/right.svg",
+  "gestures/shake_hands.svg",
+  "gestures/up.svg",
+  "gestures/well_done.svg",
+  "hobbies/acting.svg",
+  "hobbies/art.svg",
+  "hobbies/astronomy.svg",
+  "hobbies/ballet.svg",
+  "hobbies/boomerang.svg",
+  "hobbies/bowling.svg",
+  "hobbies/camping.svg",
+  "hobbies/cards.svg",
+  "hobbies/chess.svg",
+  "hobbies/cooking.svg",
+  "hobbies/cycling.svg",
+  "hobbies/dancing.svg",
+  "hobbies/darts.svg",
+  "hobbies/hiking.svg",
+  "hobbies/juggling.svg",
+  "hobbies/kites.svg",
+  "hobbies/knitting.svg",
+  "hobbies/magic.svg",
+  "hobbies/movies.svg",
+  "hobbies/parachuting.svg",
+  "hobbies/photography.svg",
+  "hobbies/pool.svg",
+  "hobbies/reading.svg",
+  "hobbies/roller_skating.svg",
+  "hobbies/rowing_a_boat.svg",
+  "hobbies/shopping.svg",
+  "hobbies/singing.svg",
+  "hobbies/snorkeling.svg",
+  "hobbies/sports.svg",
+  "hobbies/traveling.svg",
+  "hobbies/video_games.svg",
+  "hobbies/working_out.svg",
+  "hobbies/yoyo.svg",
+  "holidays/angel.svg",
+  "holidays/bat.svg",
+  "holidays/bell.svg",
+  "holidays/candle.svg",
+  "holidays/candy.svg",
+  "holidays/Christmas.svg",
+  "holidays/Dracula.svg",
+  "holidays/Easter.svg",
+  "holidays/ghost.svg",
+  "holidays/Halloween.svg",
+  "holidays/jack-o'-lantern.svg",
+  "holidays/owl.svg",
+  "holidays/present.svg",
+  "holidays/Santa_Claus.svg",
+  "holidays/skull.svg",
+  "holidays/snowflake.svg",
+  "holidays/snowman.svg",
+  "holidays/spider.svg",
+  "holidays/spider_web.svg",
+  "holidays/star.svg",
+  "holidays/Valentine's_Day.svg",
+  "holidays/witch.svg",
+  "holidays/zombie.svg",
+  "home/ball_of_wool.svg",
+  "home/basket.svg",
+  "home/bath.svg",
+  "home/bed.svg",
+  "home/bowl_and_spoon.svg",
+  "home/broom.svg",
+  "home/bucket.svg",
+  "home/camera.svg",
+  "home/CD.svg",
+  "home/chair.svg",
+  "home/chopsticks.svg",
+  "home/clock.svg",
+  "home/computer.svg",
+  "home/controller.svg",
+  "home/door.svg",
+  "home/headphones.svg",
+  "home/house_plant.svg",
+  "home/joystick.svg",
+  "home/keyboard.svg",
+  "home/knife_and_fork.svg",
+  "home/ladder.svg",
+  "home/laptop.svg",
+  "home/lightbulb.svg",
+  "home/microphone.svg",
+  "home/mirror.svg",
+  "home/mouse.svg",
+  "home/needle.svg",
+  "home/newspaper.svg",
+  "home/printer.svg",
+  "home/radio.svg",
+  "home/safety_pin.svg",
+  "home/satellite_dish.svg",
+  "home/shaver.svg",
+  "home/shower.svg",
+  "home/smartphone.svg",
+  "home/soap.svg",
+  "home/sponge.svg",
+  "home/spoon.svg",
+  "home/suitcase.svg",
+  "home/teapot.svg",
+  "home/teddy_bear.svg",
+  "home/telephone.svg",
+  "home/thread.svg",
+  "home/toilet.svg",
+  "home/toilet_roll.svg",
+  "home/toothbrush.svg",
+  "home/torch.svg",
+  "home/TV.svg",
+  "home/video_camera.svg",
+  "home/window.svg",
+  "jobs/artist.svg",
+  "jobs/astronaut.svg",
+  "jobs/chef.svg",
+  "jobs/detective.svg",
+  "jobs/doctor.svg",
+  "jobs/engineer.svg",
+  "jobs/farmer.svg",
+  "jobs/fire_fighter.svg",
+  "jobs/judge.svg",
+  "jobs/mechanic.svg",
+  "jobs/office_worker.svg",
+  "jobs/pilot.svg",
+  "jobs/police_officer.svg",
+  "jobs/scientist.svg",
+  "jobs/singer.svg",
+  "jobs/student.svg",
+  "jobs/teacher.svg",
+  "months/April.svg",
+  "months/August.svg",
+  "months/December.svg",
+  "months/February.svg",
+  "months/January.svg",
+  "months/July.svg",
+  "months/June.svg",
+  "months/March.svg",
+  "months/May.svg",
+  "months/November.svg",
+  "months/October.svg",
+  "months/September.svg",
+  "nature/cactus.svg",
+  "nature/clover.svg",
+  "nature/comet.svg",
+  "nature/crop.svg",
+  "nature/earth.svg",
+  "nature/fallen_leaves.svg",
+  "nature/fire.svg",
+  "nature/flower.svg",
+  "nature/four-leaf_clover.svg",
+  "nature/galaxy.svg",
+  "nature/herb.svg",
+  "nature/hibiscus.svg",
+  "nature/leaf.svg",
+  "nature/maple_leaf.svg",
+  "nature/moon.svg",
+  "nature/mountain.svg",
+  "nature/mushroom.svg",
+  "nature/palm_tree.svg",
+  "nature/planet.svg",
+  "nature/rainbow.svg",
+  "nature/rock.svg",
+  "nature/rose.svg",
+  "nature/seedling.svg",
+  "nature/snowflake.svg",
+  "nature/star.svg",
+  "nature/sun.svg",
+  "nature/sunflower.svg",
+  "nature/tree.svg",
+  "nature/tulip.svg",
+  "nature/volcano.svg",
+  "nature/water.svg",
+  "nature/wave.svg",
+  "numbers/eight.svg",
+  "numbers/eighteen.svg",
+  "numbers/eighty.svg",
+  "numbers/eleven.svg",
+  "numbers/fifteen.svg",
+  "numbers/fifty.svg",
+  "numbers/five.svg",
+  "numbers/forty.svg",
+  "numbers/four.svg",
+  "numbers/fourteen.svg",
+  "numbers/nine.svg",
+  "numbers/nineteen.svg",
+  "numbers/ninety.svg",
+  "numbers/one.svg",
+  "numbers/one_hundred.svg",
+  "numbers/seven.svg",
+  "numbers/seventeen.svg",
+  "numbers/seventy.svg",
+  "numbers/six.svg",
+  "numbers/sixteen.svg",
+  "numbers/sixty.svg",
+  "numbers/ten.svg",
+  "numbers/thirteen.svg",
+  "numbers/thirty.svg",
+  "numbers/three.svg",
+  "numbers/twelve.svg",
+  "numbers/twenty.svg",
+  "numbers/twenty_eight.svg",
+  "numbers/twenty_five.svg",
+  "numbers/twenty_four.svg",
+  "numbers/twenty_nine.svg",
+  "numbers/twenty_one.svg",
+  "numbers/twenty_seven.svg",
+  "numbers/twenty_six.svg",
+  "numbers/twenty_three.svg",
+  "numbers/twenty_two.svg",
+  "numbers/two.svg",
+  "numbers/zero.svg",
+  "parts-of-the-body/arm.svg",
+  "parts-of-the-body/bone.svg",
+  "parts-of-the-body/ear.svg",
+  "parts-of-the-body/eye.svg",
+  "parts-of-the-body/eyes.svg",
+  "parts-of-the-body/foot.svg",
+  "parts-of-the-body/hand.svg",
+  "parts-of-the-body/head.svg",
+  "parts-of-the-body/heart.svg",
+  "parts-of-the-body/leg.svg",
+  "parts-of-the-body/lungs.svg",
+  "parts-of-the-body/mouth.svg",
+  "parts-of-the-body/nose.svg",
+  "parts-of-the-body/tongue.svg",
+  "parts-of-the-body/tooth.svg",
+  "places-in-a-town/airport.svg",
+  "places-in-a-town/amusement_park.svg",
+  "places-in-a-town/ATM.svg",
+  "places-in-a-town/bank.svg",
+  "places-in-a-town/bar.svg",
+  "places-in-a-town/barber_shop.svg",
+  "places-in-a-town/beach.svg",
+  "places-in-a-town/bowling_alley.svg",
+  "places-in-a-town/bus_stop.svg",
+  "places-in-a-town/café.svg",
+  "places-in-a-town/campsite.svg",
+  "places-in-a-town/castle.svg",
+  "places-in-a-town/church.svg",
+  "places-in-a-town/circus.svg",
+  "places-in-a-town/college.svg",
+  "places-in-a-town/convenience_store.svg",
+  "places-in-a-town/department_store.svg",
+  "places-in-a-town/factory.svg",
+  "places-in-a-town/Ferris_wheel.svg",
+  "places-in-a-town/fountain.svg",
+  "places-in-a-town/gas_station.svg",
+  "places-in-a-town/golf_course.svg",
+  "places-in-a-town/highway.svg",
+  "places-in-a-town/hospital.svg",
+  "places-in-a-town/hotel.svg",
+  "places-in-a-town/house.svg",
+  "places-in-a-town/izakaya.svg",
+  "places-in-a-town/Japanese_castle.svg",
+  "places-in-a-town/library.svg",
+  "places-in-a-town/mosque.svg",
+  "places-in-a-town/movie_theater.svg",
+  "places-in-a-town/office.svg",
+  "places-in-a-town/post_office.svg",
+  "places-in-a-town/public_bathroom.svg",
+  "places-in-a-town/restaurant.svg",
+  "places-in-a-town/school.svg",
+  "places-in-a-town/shrine.svg",
+  "places-in-a-town/stadium.svg",
+  "places-in-a-town/supermarket.svg",
+  "places-in-a-town/synagogue.svg",
+  "places-in-a-town/temple.svg",
+  "places-in-a-town/theater.svg",
+  "places-in-a-town/train_station.svg",
+  "school-things/abacus.svg",
+  "school-things/accordion.svg",
+  "school-things/bag.svg",
+  "school-things/book.svg",
+  "school-things/broom.svg",
+  "school-things/calendar.svg",
+  "school-things/CD.svg",
+  "school-things/clock.svg",
+  "school-things/compass.svg",
+  "school-things/computer.svg",
+  "school-things/crayon.svg",
+  "school-things/drum.svg",
+  "school-things/guitar.svg",
+  "school-things/key.svg",
+  "school-things/lab_coat.svg",
+  "school-things/magnet.svg",
+  "school-things/megaphone.svg",
+  "school-things/microscope.svg",
+  "school-things/notebook.svg",
+  "school-things/notepad.svg",
+  "school-things/paint_brush.svg",
+  "school-things/paper_clip.svg",
+  "school-things/pen.svg",
+  "school-things/pencil.svg",
+  "school-things/petri_dish.svg",
+  "school-things/piano.svg",
+  "school-things/picture.svg",
+  "school-things/ruler.svg",
+  "school-things/safety_goggles.svg",
+  "school-things/saxophone.svg",
+  "school-things/scissors.svg",
+  "school-things/telescope.svg",
+  "school-things/test_tube.svg",
+  "school-things/trash_can.svg",
+  "school-things/triangle_ruler.svg",
+  "school-things/trumpet.svg",
+  "school-things/violin.svg",
+  "school-things/world_map.svg",
+  "seasons/apple.svg",
+  "seasons/beach.svg",
+  "seasons/bee.svg",
+  "seasons/butterfly.svg",
+  "seasons/cherry_blossom.svg",
+  "seasons/chestnut.svg",
+  "seasons/chick.svg",
+  "seasons/coat.svg",
+  "seasons/corn.svg",
+  "seasons/daisy.svg",
+  "seasons/Fall.svg",
+  "seasons/falling_leaves.svg",
+  "seasons/fireworks.svg",
+  "seasons/frisbee.svg",
+  "seasons/gloves.svg",
+  "seasons/grass.svg",
+  "seasons/hedgehog.svg",
+  "seasons/ice.svg",
+  "seasons/ice_cream.svg",
+  "seasons/ice_skating.svg",
+  "seasons/jack-o'-lantern.svg",
+  "seasons/kite.svg",
+  "seasons/ladybug.svg",
+  "seasons/maple_leaf.svg",
+  "seasons/mushroom.svg",
+  "seasons/rain.svg",
+  "seasons/rainbow.svg",
+  "seasons/scarf.svg",
+  "seasons/shaved_ice.svg",
+  "seasons/skiiing.svg",
+  "seasons/sledge.svg",
+  "seasons/snowman.svg",
+  "seasons/Spring.svg",
+  "seasons/squirrel.svg",
+  "seasons/Summer.svg",
+  "seasons/summer_hat.svg",
+  "seasons/sun.svg",
+  "seasons/sunglasses.svg",
+  "seasons/sun_lotion.svg",
+  "seasons/sun_umbrella.svg",
+  "seasons/surfing.svg",
+  "seasons/sweet_potato.svg",
+  "seasons/swimming.svg",
+  "seasons/swimshorts.svg",
+  "seasons/swimsuit.svg",
+  "seasons/tulip.svg",
+  "seasons/umbrella.svg",
+  "seasons/water.svg",
+  "seasons/watermelon.svg",
+  "seasons/waves.svg",
+  "seasons/Winter.svg",
+  "shapes/circle.svg",
+  "shapes/diamond.svg",
+  "shapes/heart.svg",
+  "shapes/rectangle.svg",
+  "shapes/square.svg",
+  "shapes/star.svg",
+  "shapes/triangle.svg",
+  "sports/badminton.svg",
+  "sports/baseball.svg",
+  "sports/basketball.svg",
+  "sports/bowling.svg",
+  "sports/boxing.svg",
+  "sports/cricket.svg",
+  "sports/curling.svg",
+  "sports/cycling.svg",
+  "sports/darts.svg",
+  "sports/dodgeball.svg",
+  "sports/fencing.svg",
+  "sports/field_hockey.svg",
+  "sports/fishing.svg",
+  "sports/football.svg",
+  "sports/golf.svg",
+  "sports/gymnastics.svg",
+  "sports/hockey.svg",
+  "sports/lacrosse.svg",
+  "sports/martial_arts.svg",
+  "sports/motor_sports.svg",
+  "sports/ping_pong.svg",
+  "sports/rugby.svg",
+  "sports/running.svg",
+  "sports/sailing.svg",
+  "sports/skateboarding.svg",
+  "sports/skiing.svg",
+  "sports/snowboarding.svg",
+  "sports/soccer.svg",
+  "sports/softball.svg",
+  "sports/sports.svg",
+  "sports/surfing.svg",
+  "sports/swimming.svg",
+  "sports/tennis.svg",
+  "sports/volleyball.svg",
+  "sports/weightlifting.svg",
+  "sports/wrestling.svg",
+  "time/eight_o'clock.svg",
+  "time/eight_thirty.svg",
+  "time/eleven_o'clock.svg",
+  "time/eleven_thirty.svg",
+  "time/five_o'clock.svg",
+  "time/five_thirty.svg",
+  "time/four_o'clock.svg",
+  "time/four_thirty.svg",
+  "time/nine_o'clock.svg",
+  "time/nine_thirty.svg",
+  "time/one_o'clock.svg",
+  "time/one_thirty.svg",
+  "time/seven_o'clock.svg",
+  "time/seven_thirty.svg",
+  "time/six_o'clock.svg",
+  "time/six_thirty.svg",
+  "time/ten_o'clock.svg",
+  "time/ten_thirty.svg",
+  "time/three_o'clock.svg",
+  "time/three_thirty.svg",
+  "time/twelve.svg",
+  "time/twelve_thirty.svg",
+  "time/two_o'clock.svg",
+  "time/two_thirty.svg",
+  "transport/airplane.svg",
+  "transport/ambulance.svg",
+  "transport/bicycle.svg",
+  "transport/boat.svg",
+  "transport/bullet_train.svg",
+  "transport/bus.svg",
+  "transport/cable_car.svg",
+  "transport/car.svg",
+  "transport/ferry.svg",
+  "transport/fire_truck.svg",
+  "transport/helicopter.svg",
+  "transport/jeep.svg",
+  "transport/light_aircraft.svg",
+  "transport/monorail.svg",
+  "transport/motorcycle.svg",
+  "transport/police_car.svg",
+  "transport/racing_car.svg",
+  "transport/rocket.svg",
+  "transport/RV.svg",
+  "transport/sailboat.svg",
+  "transport/scooter.svg",
+  "transport/ship.svg",
+  "transport/sled.svg",
+  "transport/spaceship.svg",
+  "transport/speedboat.svg",
+  "transport/steam_engine.svg",
+  "transport/street_car.svg",
+  "transport/taxi.svg",
+  "transport/tractor.svg",
+  "transport/train.svg",
+  "transport/truck.svg",
+  "verbs-ing/cartwheel.svg",
+  "verbs-ing/cleaning.svg",
+  "verbs-ing/climbing.svg",
+  "verbs-ing/cooking.svg",
+  "verbs-ing/counting.svg",
+  "verbs-ing/crying.svg",
+  "verbs-ing/cutting_hair.svg",
+  "verbs-ing/cycling.svg",
+  "verbs-ing/dancing.svg",
+  "verbs-ing/drawing.svg",
+  "verbs-ing/drinking.svg",
+  "verbs-ing/eating.svg",
+  "verbs-ing/flying.svg",
+  "verbs-ing/juggling.svg",
+  "verbs-ing/laughing.svg",
+  "verbs-ing/lifting_weights.svg",
+  "verbs-ing/listening_to_music.svg",
+  "verbs-ing/meditating.svg",
+  "verbs-ing/painting_nails.svg",
+  "verbs-ing/playing_basketball.svg",
+  "verbs-ing/playing_the_guitar.svg",
+  "verbs-ing/raising_a_hand.svg",
+  "verbs-ing/reading.svg",
+  "verbs-ing/riding_a_horse.svg",
+  "verbs-ing/rollercoaster.svg",
+  "verbs-ing/rowing.svg",
+  "verbs-ing/running.svg",
+  "verbs-ing/sailing.svg",
+  "verbs-ing/singing.svg",
+  "verbs-ing/skiing.svg",
+  "verbs-ing/sleeping.svg",
+  "verbs-ing/snowboarding.svg",
+  "verbs-ing/speaking.svg",
+  "verbs-ing/studying.svg",
+  "verbs-ing/surfing.svg",
+  "verbs-ing/swimming.svg",
+  "verbs-ing/taking_a_bath.svg",
+  "verbs-ing/taking_a_selfie.svg",
+  "verbs-ing/teaching.svg",
+  "verbs-ing/throwing_a_ball.svg",
+  "verbs-ing/walking.svg",
+  "verbs-ing/watching_TV.svg",
+  "verbs-ing/writing.svg",
+  "weather/cloudy.svg",
+  "weather/cold.svg",
+  "weather/foggy.svg",
+  "weather/hot.svg",
+  "weather/lightning.svg",
+  "weather/partly_cloudy.svg",
+  "weather/rainbow.svg",
+  "weather/rainy.svg",
+  "weather/snowy.svg",
+  "weather/stormy.svg",
+  "weather/sunny.svg",
+  "weather/tornado.svg",
+  "weather/windy.svg"
+]
