@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { GameContext } from "../../contexts/GameContext";
 import { HoopProvider, useHoop } from "../../contexts/HoopContext";
 import { SoundProvider, useSound } from "../../contexts/SoundContext";
+import { useAnalytics } from "../../hooks/useAnalytics";
 import { useGameEngine } from "../../hooks/useGameEngine";
 import { useHoopPositioning } from "../../hooks/useHoopPositioning";
 import { usePreloadImages } from "../../hooks/usePreloadImages";
@@ -20,6 +21,7 @@ export default function Game() {
   const { round, answer, loading, gameOver } = engine;
   const boardRef = useRef<HTMLDivElement>(null!);
   const hoopPosition = useHoopPositioning(boardRef);
+  const { trackPageView } = useAnalytics();
 
   // Splash state: show at least 2s and until initial resources are ready
   const [imageReady, setImageReady] = useState(false);
@@ -68,6 +70,11 @@ export default function Game() {
     const id = window.setInterval(check, 50);
     return () => window.clearInterval(id);
   }, [loading, imageReady, staticReady]);
+
+  // Track page view when component mounts
+  useEffect(() => {
+    trackPageView("Vocaballary - Kids Vocabulary Basketball Game");
+  }, [trackPageView]);
 
   return (
     <HoopProvider>

@@ -1,5 +1,7 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
+import { GAME_CATEGORIES } from "../config/analytics";
 import type { Round, WordItem, WordsDB } from "../types";
+import { useAnalytics } from "./useAnalytics";
 import { useRoundController } from "./useRoundController";
 
 export function useGameEngine() {
@@ -10,6 +12,16 @@ export function useGameEngine() {
   const [roundKey, setRoundKey] = useState(0);
   const [gameOver, setGameOver] = useState(false);
   const [roundCat, setRoundCat] = useState("");
+  const [gameStartTime, setGameStartTime] = useState<number>(0);
+
+  // Analytics
+  const {
+    trackGameStart,
+    trackScore,
+    trackGameOver,
+    trackHighScore,
+    trackRoundComplete,
+  } = useAnalytics();
   const [highScore, setHighScore] = useState(() => {
     try {
       const v = localStorage.getItem("vocaballary:highScore");
@@ -69,8 +81,21 @@ export function useGameEngine() {
     (index: 0 | 1) => {
       if (gameOver || !round) return;
       const isCorrect = index === round.correctIndex;
+      const newScore = isCorrect ? score + 1 : score;
+
+      // Track the answer attempt
+      trackScore(newScore, roundKey + 1, isCorrect);
+
+      // Track round completion with word details
+      trackRoundComplete(
+        roundKey + 1,
+        roundCat,
+        round.target.word,
+        round.options[index].word
+      );
+
       if (isCorrect) {
-        setScore((s) => s + 1);
+        setScore(newScore);
         setRoundKey((k) => k + 1);
       } else {
         setStrikes((st) => {
@@ -84,7 +109,7 @@ export function useGameEngine() {
         });
       }
     },
-    [gameOver, round]
+    [gameOver, round, score, roundKey, roundCat, trackScore, trackRoundComplete]
   );
 
   const restart = useCallback(() => {
@@ -92,10 +117,18 @@ export function useGameEngine() {
     setStrikes(0);
     setGameOver(false);
     setRoundKey((k) => k + 1);
-  }, []);
+    setGameStartTime(Date.now());
+
+    // Track new game start
+    trackGameStart(GAME_CATEGORIES.VOCABALLARY);
+  }, [trackGameStart]);
 
   useMemo(() => {
     if (gameOver) {
+      // Track game over with duration
+      const gameDuration = gameStartTime > 0 ? Date.now() - gameStartTime : 0;
+      trackGameOver(score, highScore, strikes, gameDuration);
+
       setHighScore((prev) => {
         const next = Math.max(prev, score);
         try {
@@ -104,10 +137,24 @@ export function useGameEngine() {
           // ignore storage write failures (e.g., private mode permissions)
           void 0;
         }
+
+        // Track new high score if achieved
+        if (next > prev) {
+          trackHighScore(next);
+        }
+
         return next;
       });
     }
-  }, [gameOver, score]);
+  }, [
+    gameOver,
+    score,
+    highScore,
+    strikes,
+    gameStartTime,
+    trackGameOver,
+    trackHighScore,
+  ]);
 
   return {
     // state
