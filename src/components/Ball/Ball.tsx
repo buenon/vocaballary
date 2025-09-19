@@ -1,6 +1,7 @@
 import { useBallAnimation } from "../../hooks/useBallAnimation";
 import type { WordItem } from "../../types";
 import * as S from "./Ball.styled";
+import { DynamicLabel } from "./DynamicLabel";
 
 type BallProps = {
   word: WordItem;
@@ -46,7 +47,7 @@ export default function Ball({
         <S.Img src={"/vocaballary/assets/basketball.svg"} alt="basketball" />
       </S.Layer>
       <S.Layer>
-        <S.Label>{word.word.toUpperCase()}</S.Label>
+        <DynamicLabel>{word.word.toUpperCase()}</DynamicLabel>
       </S.Layer>
     </S.Root>
   );
