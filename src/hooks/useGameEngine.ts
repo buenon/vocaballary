@@ -30,7 +30,7 @@ export function useGameEngine() {
         const normalized: WordsDB = rawItems.reduce(
           (acc: WordsDB, it: string) => {
             const parts = it.split("/");
-            const word = parts[1].split(".")[0].replace("_", " ");
+            const word = parts[1].split(".")[0].replaceAll("_", " ");
             const cat = parts[0];
             const item: WordItem = {
               word: word,
