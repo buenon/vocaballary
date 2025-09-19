@@ -11,6 +11,7 @@ import BasketballBoard from "../BasketballBoard/BasketballBoard";
 import Hoop from "../BasketballBoard/Hoop";
 import HUD from "../HUD/HUD";
 import Layout from "../Layout/Layout";
+import Settings from "../Settings/Settings";
 import Splash from "../Splash/Splash";
 import WordImage from "../WordImage/WordImage";
 import * as S from "./Game.styled";
@@ -91,7 +92,7 @@ export default function Game() {
             />
             <MusicStarterAfterStart active={!showSplash && initialSplashDone} />
             <S.CourtLayer>
-              <SoundControls />
+              <Settings />
               <HUD
                 score={engine.score}
                 strikes={engine.strikes}
@@ -190,35 +191,4 @@ function MusicStarterAfterStart({ active }: { active: boolean }) {
     startMusic();
   }, [active, startMusic, musicMuted]);
   return null;
-}
-
-function SoundControls() {
-  const { musicMuted, sfxMuted, toggleMusicMuted, toggleSfxMuted, startMusic } =
-    useSound();
-  return (
-    <S.SoundToggles>
-      <S.SoundBtn
-        onClick={() => {
-          const willBeMuted = !musicMuted;
-          toggleMusicMuted();
-          if (!willBeMuted) {
-            startMusic();
-          }
-        }}
-        data-off={musicMuted}
-        aria-pressed={musicMuted}
-        aria-label="Toggle music"
-      >
-        <img src="/vocaballary/assets/music.svg" alt="music" />
-      </S.SoundBtn>
-      <S.SoundBtn
-        onClick={toggleSfxMuted}
-        data-off={sfxMuted}
-        aria-pressed={sfxMuted}
-        aria-label="Toggle sound effects"
-      >
-        <img src="/vocaballary/assets/sfx.svg" alt="sfx" />
-      </S.SoundBtn>
-    </S.SoundToggles>
-  );
 }
